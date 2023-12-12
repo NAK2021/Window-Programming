@@ -1,0 +1,39 @@
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\The amazing of numbers.exe.config
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\The amazing of numbers.exe
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\The amazing of numbers.pdb
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.AssemblyReference.cache
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Properties.Resources.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.GenerateResource.cache
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CoreCompileInputs.cache
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The amazing of numbers.exe
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The amazing of numbers.pdb
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CopyComplete
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form2.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\aa-DJ\The amazing of numbers.resources.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\aa\The amazing of numbers.resources.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.aa-DJ.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.aa.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\aa-DJ\The amazing of numbers.resources.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\aa\The amazing of numbers.resources.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Register.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\AForge.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\AForge.Video.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\zxing.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\zxing.presentation.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\AForge.xml
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\AForge.Video.xml
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\zxing.xml
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\zxing.presentation.xml
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Login.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.CustomControl.TextBox.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\bin\Debug\Guna.UI2.dll
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.PINLogin.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.QRLogin.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Admin.View.AdminMainForm.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AcademicAffairMainForm.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LecturerMainForm.resources
+C:\Users\NAK\source\repos\The amazing of numbers\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentMainForm.resources
