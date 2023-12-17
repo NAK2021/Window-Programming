@@ -59,6 +59,7 @@ namespace The_amazing_of_numbers
             pictureBox.Visible = true;
             pictureBox.Enabled = true;
             captureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
+         
             captureDevice.NewFrame += CaptureDevice_NewFrame;
             captureDevice.Start();
             timer1.Start();

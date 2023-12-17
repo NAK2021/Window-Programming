@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using The_amazing_of_numbers.Area.Admin.View;
+using The_amazing_of_numbers.Area.Lecturer.View;
+using The_amazing_of_numbers.Area.Student.View;
 
 namespace The_amazing_of_numbers
 {
@@ -17,7 +19,7 @@ namespace The_amazing_of_numbers
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new StudentMainForm());
         }
     }
 }

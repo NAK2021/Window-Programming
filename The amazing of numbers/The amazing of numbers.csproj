@@ -96,7 +96,79 @@
     <Compile Include="Area\Lecturer\View\LecturerMainForm.Designer.cs">
       <DependentUpon>LecturerMainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_course.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_course.Designer.cs">
+      <DependentUpon>Teacher_course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_Fee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_Fee.Designer.cs">
+      <DependentUpon>Teacher_Fee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_profile.Designer.cs">
+      <DependentUpon>Teacher_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_TeaClas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\Teacher_TeaClas.Designer.cs">
+      <DependentUpon>Teacher_TeaClas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\Student\Controllers\StudentController.cs" />
+    <Compile Include="Area\Student\View\AlreadyhaveClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\AlreadyhaveClass.Designer.cs">
+      <DependentUpon>AlreadyhaveClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\ProfileEdition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\ProfileEdition.Designer.cs">
+      <DependentUpon>ProfileEdition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\RegisterSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\RegisterSchedule.Designer.cs">
+      <DependentUpon>RegisterSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentAchievements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentAchievements.Designer.cs">
+      <DependentUpon>StudentAchievements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_CourseButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_CourseButton.Designer.cs">
+      <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_Progess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_Progess.Designer.cs">
+      <DependentUpon>StudentForm_Progess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_StudentFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_StudentFee.Designer.cs">
+      <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_StudentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentForm_StudentProfile.Designer.cs">
+      <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\Student\View\StudentMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +181,11 @@
     </Compile>
     <Compile Include="CustomControl\TextBox.Designer.cs">
       <DependentUpon>TextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBUniversityDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -162,6 +239,30 @@
     <EmbeddedResource Include="Area\Lecturer\View\LecturerMainForm.resx">
       <DependentUpon>LecturerMainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\AlreadyhaveClass.resx">
+      <DependentUpon>AlreadyhaveClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\ProfileEdition.resx">
+      <DependentUpon>ProfileEdition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\RegisterSchedule.resx">
+      <DependentUpon>RegisterSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\StudentAchievements.resx">
+      <DependentUpon>StudentAchievements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\StudentForm_CourseButton.resx">
+      <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\StudentForm_Progess.resx">
+      <DependentUpon>StudentForm_Progess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\StudentForm_StudentFee.resx">
+      <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\StudentForm_StudentProfile.resx">
+      <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\Student\View\StudentMainForm.resx">
       <DependentUpon>StudentMainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +295,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="View\QRLogin.resx">
       <DependentUpon>QRLogin.cs</DependentUpon>
@@ -201,6 +303,17 @@
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DBUniversityDataSet.xsc">
+      <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBUniversityDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBUniversityDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBUniversityDataSet.xss">
+      <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Model\dbUniversity.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>dbUniversity.designer.cs</LastGenOutput>
@@ -223,9 +336,50 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icons8-menu.gif" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-course-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macbook-money-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-diploma-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-user.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

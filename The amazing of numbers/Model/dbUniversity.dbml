@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="University" Class="dbUniversityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-JM228I7\MSSQLSERVER2022;Initial Catalog=University;Integrated Security=True" SettingsObjectName="The_amazing_of_numbers.Properties.Settings" SettingsPropertyName="UniversityConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBUniversity" Class="dbUniversityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-DSDAVID\SQLEXPRESS;Initial Catalog=DBUniversity;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="The_amazing_of_numbers.Properties.Settings" SettingsPropertyName="dbUniversitydata" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Academic_Affair" Member="Academic_Affairs">
     <Type Name="Academic_Affair">
       <Column Name="id" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -12,6 +12,16 @@
       <Column Name="picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
       <Association Name="Department_Academic_Affair" Member="Department" ThisKey="department_id" OtherKey="department_id" Type="Department" IsForeignKey="true" />
       <Association Name="User_Academic_Affair" Member="User" ThisKey="id" OtherKey="id" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Violate" Member="Violates">
+    <Type Name="Violate">
+      <Column Name="rules_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="rules_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="rules_punishment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="object_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Violate_LectureVio" Member="LectureVios" ThisKey="rules_id" OtherKey="rules_id" Type="LectureVio" />
+      <Association Name="Violate_StudentVio" Member="StudentVios" ThisKey="rules_id" OtherKey="rules_id" Type="StudentVio" />
     </Type>
   </Table>
   <Table Name="dbo.Admin" Member="Admins">
@@ -94,8 +104,8 @@
       <Column Name="rules_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="status_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="date_" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
-      <Association Name="Lecture_LectureVio" Member="Lecture" ThisKey="id" OtherKey="id" Type="Lecture" IsForeignKey="true" />
       <Association Name="Violate_LectureVio" Member="Violate" ThisKey="rules_id" OtherKey="rules_id" Type="Violate" IsForeignKey="true" />
+      <Association Name="Lecture_LectureVio" Member="Lecture" ThisKey="id" OtherKey="id" Type="Lecture" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.OpenClass" Member="OpenClasses">
@@ -140,8 +150,8 @@
       <Column Name="rules_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="status_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="date_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Association Name="Student_StudentVio" Member="Student" ThisKey="id" OtherKey="id" Type="Student" IsForeignKey="true" />
       <Association Name="Violate_StudentVio" Member="Violate" ThisKey="rules_id" OtherKey="rules_id" Type="Violate" IsForeignKey="true" />
+      <Association Name="Student_StudentVio" Member="Student" ThisKey="id" OtherKey="id" Type="Student" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.Subject_" Member="Subject_s">
@@ -165,16 +175,6 @@
       <Association Name="User_Admin" Member="Admin" ThisKey="id" OtherKey="id" Type="Admin" Cardinality="One" />
       <Association Name="User_Lecture" Member="Lecture" ThisKey="id" OtherKey="id" Type="Lecture" Cardinality="One" />
       <Association Name="User_Student" Member="Student" ThisKey="id" OtherKey="id" Type="Student" Cardinality="One" />
-    </Type>
-  </Table>
-  <Table Name="dbo.Violate" Member="Violates">
-    <Type Name="Violate">
-      <Column Name="rules_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="rules_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="rules_punishment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="object_" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Association Name="Violate_LectureVio" Member="LectureVios" ThisKey="rules_id" OtherKey="rules_id" Type="LectureVio" />
-      <Association Name="Violate_StudentVio" Member="StudentVios" ThisKey="rules_id" OtherKey="rules_id" Type="StudentVio" />
     </Type>
   </Table>
 </Database>

@@ -1,0 +1,54 @@
+Sinh Viên:
+--> Home
+	==> Đăng Notifications tùm lum tùm là gì đó cho phù
+		hợp với sinh viên
+--> Profile
+	+) info
+	==> Họ và Tên
+	==> Ngày Tháng Năm Sinh
+	==> id
+	==> Năm Start - Năm End 
+	==>  School Year
+	==> Phone Num
+	==> Department
+	==> Status
+		==> Có bị đuổi hay ko
+		==> Có bị phạt ko?
+	==> Các Lỗi đã vi phạm
+	==> Avatar --> SelfFie
+	+) Edit info
+	==> Tạo mã QR
+	==> Tạo mã Pin
+	==> Thay Đổi Pass
+	==> Edit info ( !chờ giáo vụ duyệt )
+--> Course
+==> Chia làm 2 tab
+		==> Schedule 
+		==> ĐK Môn
+		==> Môn đã đăng ký
+
+--> Progress
+==> chia làm 3 tab
+		==> chia điểm rèn luyện
+		==> Điểm học tập
+		==> Achievments
+
+Giảng Viên:
+
+		
+--> Your class
+	==> chia làm 2 tab
+		==> View các class mà GV đang dạy
+			* khi chọn vào lớp 
+			==> Xem được danh sách của lớp đó
+				*View
+				-- ID
+				-- Name
+				-- Sex
+				-- School Year
+				-- Dob
+		==> Chấm Điểm
+			* __ Đợi giáo vụ duyệt
+ 	
+		==> ( Nếu được*) Lớp đã được đăng ký bao nhiêu
+			người

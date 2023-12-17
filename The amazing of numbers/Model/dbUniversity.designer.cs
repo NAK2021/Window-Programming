@@ -22,7 +22,7 @@ namespace The_amazing_of_numbers.Model
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="University")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="DBUniversity")]
 	public partial class dbUniversityDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -33,6 +33,9 @@ namespace The_amazing_of_numbers.Model
     partial void InsertAcademic_Affair(Academic_Affair instance);
     partial void UpdateAcademic_Affair(Academic_Affair instance);
     partial void DeleteAcademic_Affair(Academic_Affair instance);
+    partial void InsertViolate(Violate instance);
+    partial void UpdateViolate(Violate instance);
+    partial void DeleteViolate(Violate instance);
     partial void InsertAdmin(Admin instance);
     partial void UpdateAdmin(Admin instance);
     partial void DeleteAdmin(Admin instance);
@@ -69,13 +72,10 @@ namespace The_amazing_of_numbers.Model
     partial void InsertUser(User instance);
     partial void UpdateUser(User instance);
     partial void DeleteUser(User instance);
-    partial void InsertViolate(Violate instance);
-    partial void UpdateViolate(Violate instance);
-    partial void DeleteViolate(Violate instance);
     #endregion
 		
 		public dbUniversityDataContext() : 
-				base(global::The_amazing_of_numbers.Properties.Settings.Default.UniversityConnectionString, mappingSource)
+				base(global::The_amazing_of_numbers.Properties.Settings.Default.dbUniversitydata, mappingSource)
 		{
 			OnCreated();
 		}
@@ -109,6 +109,14 @@ namespace The_amazing_of_numbers.Model
 			get
 			{
 				return this.GetTable<Academic_Affair>();
+			}
+		}
+		
+		public System.Data.Linq.Table<Violate> Violates
+		{
+			get
+			{
+				return this.GetTable<Violate>();
 			}
 		}
 		
@@ -213,14 +221,6 @@ namespace The_amazing_of_numbers.Model
 			get
 			{
 				return this.GetTable<User>();
-			}
-		}
-		
-		public System.Data.Linq.Table<Violate> Violates
-		{
-			get
-			{
-				return this.GetTable<Violate>();
 			}
 		}
 	}
@@ -534,6 +534,196 @@ namespace The_amazing_of_numbers.Model
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Violate")]
+	public partial class Violate : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _rules_id;
+		
+		private string _rules_name;
+		
+		private string _rules_punishment;
+		
+		private string _object_;
+		
+		private EntitySet<LectureVio> _LectureVios;
+		
+		private EntitySet<StudentVio> _StudentVios;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void Onrules_idChanging(int value);
+    partial void Onrules_idChanged();
+    partial void Onrules_nameChanging(string value);
+    partial void Onrules_nameChanged();
+    partial void Onrules_punishmentChanging(string value);
+    partial void Onrules_punishmentChanged();
+    partial void Onobject_Changing(string value);
+    partial void Onobject_Changed();
+    #endregion
+		
+		public Violate()
+		{
+			this._LectureVios = new EntitySet<LectureVio>(new Action<LectureVio>(this.attach_LectureVios), new Action<LectureVio>(this.detach_LectureVios));
+			this._StudentVios = new EntitySet<StudentVio>(new Action<StudentVio>(this.attach_StudentVios), new Action<StudentVio>(this.detach_StudentVios));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rules_id", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		public int rules_id
+		{
+			get
+			{
+				return this._rules_id;
+			}
+			set
+			{
+				if ((this._rules_id != value))
+				{
+					this.Onrules_idChanging(value);
+					this.SendPropertyChanging();
+					this._rules_id = value;
+					this.SendPropertyChanged("rules_id");
+					this.Onrules_idChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rules_name", DbType="NVarChar(50)")]
+		public string rules_name
+		{
+			get
+			{
+				return this._rules_name;
+			}
+			set
+			{
+				if ((this._rules_name != value))
+				{
+					this.Onrules_nameChanging(value);
+					this.SendPropertyChanging();
+					this._rules_name = value;
+					this.SendPropertyChanged("rules_name");
+					this.Onrules_nameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rules_punishment", DbType="NVarChar(50)")]
+		public string rules_punishment
+		{
+			get
+			{
+				return this._rules_punishment;
+			}
+			set
+			{
+				if ((this._rules_punishment != value))
+				{
+					this.Onrules_punishmentChanging(value);
+					this.SendPropertyChanging();
+					this._rules_punishment = value;
+					this.SendPropertyChanged("rules_punishment");
+					this.Onrules_punishmentChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_object_", DbType="NVarChar(50)")]
+		public string object_
+		{
+			get
+			{
+				return this._object_;
+			}
+			set
+			{
+				if ((this._object_ != value))
+				{
+					this.Onobject_Changing(value);
+					this.SendPropertyChanging();
+					this._object_ = value;
+					this.SendPropertyChanged("object_");
+					this.Onobject_Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Violate_LectureVio", Storage="_LectureVios", ThisKey="rules_id", OtherKey="rules_id")]
+		public EntitySet<LectureVio> LectureVios
+		{
+			get
+			{
+				return this._LectureVios;
+			}
+			set
+			{
+				this._LectureVios.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Violate_StudentVio", Storage="_StudentVios", ThisKey="rules_id", OtherKey="rules_id")]
+		public EntitySet<StudentVio> StudentVios
+		{
+			get
+			{
+				return this._StudentVios;
+			}
+			set
+			{
+				this._StudentVios.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_LectureVios(LectureVio entity)
+		{
+			this.SendPropertyChanging();
+			entity.Violate = this;
+		}
+		
+		private void detach_LectureVios(LectureVio entity)
+		{
+			this.SendPropertyChanging();
+			entity.Violate = null;
+		}
+		
+		private void attach_StudentVios(StudentVio entity)
+		{
+			this.SendPropertyChanging();
+			entity.Violate = this;
+		}
+		
+		private void detach_StudentVios(StudentVio entity)
+		{
+			this.SendPropertyChanging();
+			entity.Violate = null;
 		}
 	}
 	
@@ -2014,9 +2204,9 @@ namespace The_amazing_of_numbers.Model
 		
 		private string _date_;
 		
-		private EntityRef<Lecture> _Lecture;
-		
 		private EntityRef<Violate> _Violate;
+		
+		private EntityRef<Lecture> _Lecture;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -2034,8 +2224,8 @@ namespace The_amazing_of_numbers.Model
 		
 		public LectureVio()
 		{
-			this._Lecture = default(EntityRef<Lecture>);
 			this._Violate = default(EntityRef<Violate>);
+			this._Lecture = default(EntityRef<Lecture>);
 			OnCreated();
 		}
 		
@@ -2127,40 +2317,6 @@ namespace The_amazing_of_numbers.Model
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Lecture_LectureVio", Storage="_Lecture", ThisKey="id", OtherKey="id", IsForeignKey=true)]
-		public Lecture Lecture
-		{
-			get
-			{
-				return this._Lecture.Entity;
-			}
-			set
-			{
-				Lecture previousValue = this._Lecture.Entity;
-				if (((previousValue != value) 
-							|| (this._Lecture.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._Lecture.Entity = null;
-						previousValue.LectureVios.Remove(this);
-					}
-					this._Lecture.Entity = value;
-					if ((value != null))
-					{
-						value.LectureVios.Add(this);
-						this._id = value.id;
-					}
-					else
-					{
-						this._id = default(string);
-					}
-					this.SendPropertyChanged("Lecture");
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Violate_LectureVio", Storage="_Violate", ThisKey="rules_id", OtherKey="rules_id", IsForeignKey=true)]
 		public Violate Violate
 		{
@@ -2191,6 +2347,40 @@ namespace The_amazing_of_numbers.Model
 						this._rules_id = default(int);
 					}
 					this.SendPropertyChanged("Violate");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Lecture_LectureVio", Storage="_Lecture", ThisKey="id", OtherKey="id", IsForeignKey=true)]
+		public Lecture Lecture
+		{
+			get
+			{
+				return this._Lecture.Entity;
+			}
+			set
+			{
+				Lecture previousValue = this._Lecture.Entity;
+				if (((previousValue != value) 
+							|| (this._Lecture.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._Lecture.Entity = null;
+						previousValue.LectureVios.Remove(this);
+					}
+					this._Lecture.Entity = value;
+					if ((value != null))
+					{
+						value.LectureVios.Add(this);
+						this._id = value.id;
+					}
+					else
+					{
+						this._id = default(string);
+					}
+					this.SendPropertyChanged("Lecture");
 				}
 			}
 		}
@@ -3030,9 +3220,9 @@ namespace The_amazing_of_numbers.Model
 		
 		private string _date_;
 		
-		private EntityRef<Student> _Student;
-		
 		private EntityRef<Violate> _Violate;
+		
+		private EntityRef<Student> _Student;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3050,8 +3240,8 @@ namespace The_amazing_of_numbers.Model
 		
 		public StudentVio()
 		{
-			this._Student = default(EntityRef<Student>);
 			this._Violate = default(EntityRef<Violate>);
+			this._Student = default(EntityRef<Student>);
 			OnCreated();
 		}
 		
@@ -3143,40 +3333,6 @@ namespace The_amazing_of_numbers.Model
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Student_StudentVio", Storage="_Student", ThisKey="id", OtherKey="id", IsForeignKey=true)]
-		public Student Student
-		{
-			get
-			{
-				return this._Student.Entity;
-			}
-			set
-			{
-				Student previousValue = this._Student.Entity;
-				if (((previousValue != value) 
-							|| (this._Student.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._Student.Entity = null;
-						previousValue.StudentVios.Remove(this);
-					}
-					this._Student.Entity = value;
-					if ((value != null))
-					{
-						value.StudentVios.Add(this);
-						this._id = value.id;
-					}
-					else
-					{
-						this._id = default(string);
-					}
-					this.SendPropertyChanged("Student");
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Violate_StudentVio", Storage="_Violate", ThisKey="rules_id", OtherKey="rules_id", IsForeignKey=true)]
 		public Violate Violate
 		{
@@ -3207,6 +3363,40 @@ namespace The_amazing_of_numbers.Model
 						this._rules_id = default(int);
 					}
 					this.SendPropertyChanged("Violate");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Student_StudentVio", Storage="_Student", ThisKey="id", OtherKey="id", IsForeignKey=true)]
+		public Student Student
+		{
+			get
+			{
+				return this._Student.Entity;
+			}
+			set
+			{
+				Student previousValue = this._Student.Entity;
+				if (((previousValue != value) 
+							|| (this._Student.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._Student.Entity = null;
+						previousValue.StudentVios.Remove(this);
+					}
+					this._Student.Entity = value;
+					if ((value != null))
+					{
+						value.StudentVios.Add(this);
+						this._id = value.id;
+					}
+					else
+					{
+						this._id = default(string);
+					}
+					this.SendPropertyChanged("Student");
 				}
 			}
 		}
@@ -3718,196 +3908,6 @@ namespace The_amazing_of_numbers.Model
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Violate")]
-	public partial class Violate : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _rules_id;
-		
-		private string _rules_name;
-		
-		private string _rules_punishment;
-		
-		private string _object_;
-		
-		private EntitySet<LectureVio> _LectureVios;
-		
-		private EntitySet<StudentVio> _StudentVios;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void Onrules_idChanging(int value);
-    partial void Onrules_idChanged();
-    partial void Onrules_nameChanging(string value);
-    partial void Onrules_nameChanged();
-    partial void Onrules_punishmentChanging(string value);
-    partial void Onrules_punishmentChanged();
-    partial void Onobject_Changing(string value);
-    partial void Onobject_Changed();
-    #endregion
-		
-		public Violate()
-		{
-			this._LectureVios = new EntitySet<LectureVio>(new Action<LectureVio>(this.attach_LectureVios), new Action<LectureVio>(this.detach_LectureVios));
-			this._StudentVios = new EntitySet<StudentVio>(new Action<StudentVio>(this.attach_StudentVios), new Action<StudentVio>(this.detach_StudentVios));
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rules_id", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int rules_id
-		{
-			get
-			{
-				return this._rules_id;
-			}
-			set
-			{
-				if ((this._rules_id != value))
-				{
-					this.Onrules_idChanging(value);
-					this.SendPropertyChanging();
-					this._rules_id = value;
-					this.SendPropertyChanged("rules_id");
-					this.Onrules_idChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rules_name", DbType="NVarChar(50)")]
-		public string rules_name
-		{
-			get
-			{
-				return this._rules_name;
-			}
-			set
-			{
-				if ((this._rules_name != value))
-				{
-					this.Onrules_nameChanging(value);
-					this.SendPropertyChanging();
-					this._rules_name = value;
-					this.SendPropertyChanged("rules_name");
-					this.Onrules_nameChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_rules_punishment", DbType="NVarChar(50)")]
-		public string rules_punishment
-		{
-			get
-			{
-				return this._rules_punishment;
-			}
-			set
-			{
-				if ((this._rules_punishment != value))
-				{
-					this.Onrules_punishmentChanging(value);
-					this.SendPropertyChanging();
-					this._rules_punishment = value;
-					this.SendPropertyChanged("rules_punishment");
-					this.Onrules_punishmentChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_object_", DbType="NVarChar(50)")]
-		public string object_
-		{
-			get
-			{
-				return this._object_;
-			}
-			set
-			{
-				if ((this._object_ != value))
-				{
-					this.Onobject_Changing(value);
-					this.SendPropertyChanging();
-					this._object_ = value;
-					this.SendPropertyChanged("object_");
-					this.Onobject_Changed();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Violate_LectureVio", Storage="_LectureVios", ThisKey="rules_id", OtherKey="rules_id")]
-		public EntitySet<LectureVio> LectureVios
-		{
-			get
-			{
-				return this._LectureVios;
-			}
-			set
-			{
-				this._LectureVios.Assign(value);
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Violate_StudentVio", Storage="_StudentVios", ThisKey="rules_id", OtherKey="rules_id")]
-		public EntitySet<StudentVio> StudentVios
-		{
-			get
-			{
-				return this._StudentVios;
-			}
-			set
-			{
-				this._StudentVios.Assign(value);
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_LectureVios(LectureVio entity)
-		{
-			this.SendPropertyChanging();
-			entity.Violate = this;
-		}
-		
-		private void detach_LectureVios(LectureVio entity)
-		{
-			this.SendPropertyChanging();
-			entity.Violate = null;
-		}
-		
-		private void attach_StudentVios(StudentVio entity)
-		{
-			this.SendPropertyChanging();
-			entity.Violate = this;
-		}
-		
-		private void detach_StudentVios(StudentVio entity)
-		{
-			this.SendPropertyChanging();
-			entity.Violate = null;
 		}
 	}
 }
