@@ -84,3 +84,5 @@ D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Pro
 D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.RegisterSchedule.resources
 D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.AlreadyhaveClass.resources
 D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentAchievements.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\bin\Debug\MetroFramework.dll
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\bin\Debug\MetroFramework.Fonts.dll

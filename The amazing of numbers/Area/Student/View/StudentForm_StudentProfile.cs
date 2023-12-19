@@ -42,16 +42,30 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
             OpenChildForm ( new ProfileEdition());
         }
+   
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
-
-        }
+        
+    }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-      
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserPhone_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
