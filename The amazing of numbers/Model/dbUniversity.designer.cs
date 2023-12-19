@@ -75,7 +75,7 @@ namespace The_amazing_of_numbers.Model
     #endregion
 		
 		public dbUniversityDataContext() : 
-				base(global::The_amazing_of_numbers.Properties.Settings.Default.dbUniversitydata, mappingSource)
+				base(global::The_amazing_of_numbers.Properties.Settings.Default.DBUniversityConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}

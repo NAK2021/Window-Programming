@@ -36,7 +36,22 @@ namespace The_amazing_of_numbers.Area.Student.View
         }
         private void EditInfoBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();    
+            this.Close();  
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
