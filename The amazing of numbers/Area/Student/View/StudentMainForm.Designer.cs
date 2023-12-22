@@ -157,66 +157,66 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(106, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 33);
+            this.label1.Size = new System.Drawing.Size(77, 29);
             this.label1.TabIndex = 31;
             this.label1.Text = "Menu";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Location = new System.Drawing.Point(96, 389);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(114, 33);
+            this.label7.Size = new System.Drawing.Size(119, 29);
             this.label7.TabIndex = 36;
             this.label7.Text = "Progress";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(106, 322);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 33);
+            this.label6.Size = new System.Drawing.Size(59, 29);
             this.label6.TabIndex = 35;
             this.label6.Text = "Fee";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(101, 261);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 33);
+            this.label4.Size = new System.Drawing.Size(97, 29);
             this.label4.TabIndex = 34;
             this.label4.Text = "Course";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(101, 194);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 33);
+            this.label3.Size = new System.Drawing.Size(90, 29);
             this.label3.TabIndex = 33;
             this.label3.Text = "Profile";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(101, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 33);
+            this.label2.Size = new System.Drawing.Size(82, 29);
             this.label2.TabIndex = 32;
             this.label2.Text = "Home";
             // 
@@ -404,10 +404,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Nunito", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(42, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 44);
+            this.label5.Size = new System.Drawing.Size(219, 37);
             this.label5.TabIndex = 30;
             this.label5.Tag = "";
             this.label5.Text = "DASHBOARD";
@@ -423,7 +423,7 @@
             this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button7.FillColor = System.Drawing.Color.RoyalBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Nunito Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button7.Location = new System.Drawing.Point(954, 22);
@@ -436,13 +436,13 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Nunito", 18F);
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.comboBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(650, 19);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(223, 41);
+            this.comboBox1.Size = new System.Drawing.Size(223, 37);
             this.comboBox1.TabIndex = 28;
             this.comboBox1.Text = " Chọn ngành";
             // 
@@ -480,10 +480,10 @@
             // 
             this.Data3.AutoSize = true;
             this.Data3.BackColor = System.Drawing.Color.Transparent;
-            this.Data3.Font = new System.Drawing.Font("Nunito ExtraBold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.Data3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.Data3.Location = new System.Drawing.Point(114, 16);
             this.Data3.Name = "Data3";
-            this.Data3.Size = new System.Drawing.Size(57, 44);
+            this.Data3.Size = new System.Drawing.Size(53, 37);
             this.Data3.TabIndex = 3;
             this.Data3.Tag = "DataNumber";
             this.Data3.Text = "10";
@@ -522,10 +522,10 @@
             // 
             this.Data2.AutoSize = true;
             this.Data2.BackColor = System.Drawing.Color.Transparent;
-            this.Data2.Font = new System.Drawing.Font("Nunito ExtraBold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.Data2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.Data2.Location = new System.Drawing.Point(86, 14);
             this.Data2.Name = "Data2";
-            this.Data2.Size = new System.Drawing.Size(57, 44);
+            this.Data2.Size = new System.Drawing.Size(55, 37);
             this.Data2.TabIndex = 3;
             this.Data2.Tag = "DataNumber";
             this.Data2.Text = "20";
@@ -564,10 +564,10 @@
             // 
             this.Data1.AutoSize = true;
             this.Data1.BackColor = System.Drawing.Color.Transparent;
-            this.Data1.Font = new System.Drawing.Font("Nunito", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Data1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Data1.Location = new System.Drawing.Point(117, 16);
             this.Data1.Name = "Data1";
-            this.Data1.Size = new System.Drawing.Size(71, 33);
+            this.Data1.Size = new System.Drawing.Size(69, 29);
             this.Data1.TabIndex = 3;
             this.Data1.Tag = "DataNumber";
             this.Data1.Text = "1000";
@@ -616,12 +616,12 @@
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 56);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 46);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 39);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "Student \n";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -629,12 +629,12 @@
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 96);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(141, 46);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(141, 39);
             this.guna2HtmlLabel2.TabIndex = 3;
             this.guna2HtmlLabel2.Text = "Available";
             this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -642,12 +642,12 @@
             // guna2HtmlLabel7
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(15, 56);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(117, 46);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(120, 39);
             this.guna2HtmlLabel7.TabIndex = 3;
             this.guna2HtmlLabel7.Text = "Student \n";
             this.guna2HtmlLabel7.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -655,12 +655,12 @@
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(15, 96);
             this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(141, 46);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(141, 39);
             this.guna2HtmlLabel6.TabIndex = 3;
             this.guna2HtmlLabel6.Text = "Available";
             this.guna2HtmlLabel6.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -668,12 +668,12 @@
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(18, 56);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 46);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(116, 39);
             this.guna2HtmlLabel3.TabIndex = 3;
             this.guna2HtmlLabel3.Text = "Lecture";
             this.guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -681,12 +681,12 @@
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(18, 96);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(141, 46);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(141, 39);
             this.guna2HtmlLabel4.TabIndex = 3;
             this.guna2HtmlLabel4.Text = "Available";
             this.guna2HtmlLabel4.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -694,12 +694,12 @@
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(23, 71);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(114, 46);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(123, 39);
             this.guna2HtmlLabel5.TabIndex = 3;
             this.guna2HtmlLabel5.Text = "Classes";
             this.guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.TopCenter;

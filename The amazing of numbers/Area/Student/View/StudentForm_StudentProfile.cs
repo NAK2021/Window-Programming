@@ -45,40 +45,22 @@ namespace The_amazing_of_numbers.Area.Student.View
             OpenChildForm ( new ProfileEdition());
            
         }
-   
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-        
-    }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            OpenChildForm(new Student_Score());
         }
 
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
         }
 
-        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void UserPhone_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void User_Name_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void ProfileUser_Info_Paint(object sender, PaintEventArgs e)
-        {
-
+            OpenChildForm(new ProfileEdition());
         }
     }
 }

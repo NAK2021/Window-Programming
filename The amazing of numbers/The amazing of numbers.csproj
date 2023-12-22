@@ -149,6 +149,12 @@
     <Compile Include="Area\Student\View\RegisterSchedule.Designer.cs">
       <DependentUpon>RegisterSchedule.cs</DependentUpon>
     </Compile>
+    <Compile Include="Area\Student\View\StudentScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\StudentScore.Designer.cs">
+      <DependentUpon>StudentScore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\Student\View\StudentAchievements.cs">
       <SubType>Form</SubType>
     </Compile>
