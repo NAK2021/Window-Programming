@@ -62,5 +62,10 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
             OpenChildForm(new ProfileEdition());
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

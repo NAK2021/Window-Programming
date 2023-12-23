@@ -53,5 +53,10 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
 
         }
+
+        private void ProfileUser_Info_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

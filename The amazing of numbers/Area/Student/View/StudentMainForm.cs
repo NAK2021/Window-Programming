@@ -215,6 +215,11 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         }
 
+        private void Board1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void SideBar_Paint(object sender, PaintEventArgs e)
         {
 
