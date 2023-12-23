@@ -28,12 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Teacher_course));
+            this.panelchild = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.advancedWebClient1 = new Leaf.xNet.AdvancedWebClient();
+            this.SuspendLayout();
+            // 
+            // panelchild
+            // 
+            this.panelchild.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelchild.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelchild.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelchild.FillColor3 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelchild.FillColor4 = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelchild.Location = new System.Drawing.Point(0, 0);
+            this.panelchild.Name = "panelchild";
+            this.panelchild.Size = new System.Drawing.Size(1050, 983);
+            this.panelchild.TabIndex = 0;
+            this.panelchild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelchild_Paint);
+            // 
+            // advancedWebClient1
+            // 
+           
+            this.advancedWebClient1.BaseAddress = "";
+            this.advancedWebClient1.CachePolicy = null;
+            this.advancedWebClient1.Credentials = null;
+            this.advancedWebClient1.DecompressionMethods = ((System.Net.DecompressionMethods)((System.Net.DecompressionMethods.GZip | System.Net.DecompressionMethods.Deflate)));
+            this.advancedWebClient1.Encoding = ((System.Text.Encoding)(resources.GetObject("advancedWebClient1.Encoding")));
+            this.advancedWebClient1.Headers = ((System.Net.WebHeaderCollection)(resources.GetObject("advancedWebClient1.Headers")));
+            this.advancedWebClient1.QueryString = ((System.Collections.Specialized.NameValueCollection)(resources.GetObject("advancedWebClient1.QueryString")));
+            this.advancedWebClient1.ReadWriteTimeout = 10000;
+            this.advancedWebClient1.ServerCertificateValidation = false;
+            this.advancedWebClient1.Timeout = 10000;
+            this.advancedWebClient1.UseDefaultCredentials = false;
+            // 
+            // Teacher_course
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1050, 983);
+            this.Controls.Add(this.panelchild);
+            this.Name = "Teacher_course";
             this.Text = "Teacher_course";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel panelchild;
+        private Leaf.xNet.AdvancedWebClient advancedWebClient1;
     }
 }

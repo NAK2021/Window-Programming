@@ -31,46 +31,53 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.head_sidebar = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Data3 = new System.Windows.Forms.Label();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.Data2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Board1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Data1 = new System.Windows.Forms.Label();
             this.sidebar_timerTick = new System.Windows.Forms.Timer(this.components);
             this.SideBar = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelChild = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.HomeTool = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.UserProfile = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.CourseBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.ClassBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.CourseButton = new Guna.UI2.WinForms.Guna2Button();
             this.SystemButton = new Guna.UI2.WinForms.Guna2Button();
             this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
-            this.panelChild = new Guna.UI2.WinForms.Guna2Panel();
-            this.HomeTool = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.UserProfile = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.CourseBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.ClassBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.Picbox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Picbox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Picbox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Picbox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Tetbox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.TetBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.head_sidebar.SuspendLayout();
-            this.guna2Panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            this.Board1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SideBar.SuspendLayout();
             this.panelChild.SuspendLayout();
+            this.guna2CustomGradientPanel2.SuspendLayout();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tetbox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TetBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -100,6 +107,230 @@
             this.head_sidebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
             this.head_sidebar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
             // 
+            // sidebar_timerTick
+            // 
+            this.sidebar_timerTick.Tick += new System.EventHandler(this.sidebar_timerTick_Tick);
+            // 
+            // SideBar
+            // 
+            this.SideBar.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.SideBar.Controls.Add(this.head_sidebar);
+            this.SideBar.Controls.Add(this.guna2Button5);
+            this.SideBar.Controls.Add(this.ProfileButton);
+            this.SideBar.Controls.Add(this.guna2Button4);
+            this.SideBar.Controls.Add(this.CourseButton);
+            this.SideBar.Controls.Add(this.SystemButton);
+            this.SideBar.Controls.Add(this.HomeButton);
+            this.SideBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SideBar.FillColor = System.Drawing.SystemColors.WindowFrame;
+            this.SideBar.Location = new System.Drawing.Point(0, 0);
+            this.SideBar.MaximumSize = new System.Drawing.Size(103, 793);
+            this.SideBar.MinimumSize = new System.Drawing.Size(103, 793);
+            this.SideBar.Name = "SideBar";
+            this.SideBar.Size = new System.Drawing.Size(103, 793);
+            this.SideBar.TabIndex = 5;
+            this.SideBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
+            this.SideBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
+            // 
+            // panelChild
+            // 
+            this.panelChild.AutoScroll = true;
+            this.panelChild.AutoScrollMargin = new System.Drawing.Size(0, 200);
+            this.panelChild.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelChild.Controls.Add(this.guna2CustomGradientPanel2);
+            this.panelChild.Controls.Add(this.Tetbox1);
+            this.panelChild.Controls.Add(this.guna2PictureBox3);
+            this.panelChild.Controls.Add(this.TetBox2);
+            this.panelChild.Controls.Add(this.guna2CustomGradientPanel1);
+            this.panelChild.Location = new System.Drawing.Point(102, 0);
+            this.panelChild.Name = "panelChild";
+            this.panelChild.Size = new System.Drawing.Size(1091, 789);
+            this.panelChild.TabIndex = 6;
+            this.panelChild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChild_Paint);
+            // 
+            // guna2CustomGradientPanel2
+            // 
+            this.guna2CustomGradientPanel2.AutoScrollMargin = new System.Drawing.Size(0, 100);
+            this.guna2CustomGradientPanel2.BorderRadius = 40;
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel5);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel4);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox4);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label11);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel3);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox3);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label10);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel2);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox2);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label9);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.guna2PictureBox1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label8);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(7, 395);
+            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1041, 398);
+            this.guna2CustomGradientPanel2.TabIndex = 8;
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.BackColor = System.Drawing.Color.White;
+            this.linkLabel5.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel5.Location = new System.Drawing.Point(423, 11);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(88, 20);
+            this.linkLabel5.TabIndex = 18;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "Xem Tất Cả\r\n";
+            // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.BackColor = System.Drawing.Color.White;
+            this.linkLabel4.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Location = new System.Drawing.Point(747, 312);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(289, 34);
+            this.linkLabel4.TabIndex = 17;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "Lễ trao bằng tốt nghiệp tháng 12/2023 tại HUTECH: \r\n“Cảm ơn cha mẹ - Người không " +
+    "đứng trên thảm đỏ”";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label11.Location = new System.Drawing.Point(616, 251);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(355, 13);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "__________________________________________________________\r\n";
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.BackColor = System.Drawing.Color.White;
+            this.linkLabel3.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(747, 167);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(293, 51);
+            this.linkLabel3.TabIndex = 14;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Hội Doanh nghiệp Cựu sinh viên Viện\r\n Khoa học Ứng dụng \r\n- Nơi tiếp lửa đam mê c" +
+    "ho sinh viên chính thức ra mắt";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label10.Location = new System.Drawing.Point(616, 116);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(355, 13);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "__________________________________________________________\r\n";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.White;
+            this.linkLabel2.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Location = new System.Drawing.Point(740, 25);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(292, 68);
+            this.linkLabel2.TabIndex = 11;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "[Video] Học sinh 09 Trường THPT khu vực\r\n quận Bình Thạnh và TP. Thủ Đức sôi nổi " +
+    "tranh tài tại \r\nChung kết “Đổi mới sáng tạo\r\n cùng tiếng Nhật 2023” của VJIT";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label9.Location = new System.Drawing.Point(517, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(9, 364);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "l\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\n\r\n\r" +
+    "\n";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.White;
+            this.linkLabel1.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(25, 279);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(486, 40);
+            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Giảng viên, sinh viên Khoa Kiến trúc - Mỹ thuật tham dự Hội thảo \r\n“Sử dụng vật l" +
+    "iệu nội thất bền vững và an toàn” do Báo Tuổi Trẻ tổ chức";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(96, 10);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(165, 33);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Hutech News";
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BorderRadius = 70;
+            this.guna2CustomGradientPanel1.Controls.Add(this.label5);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(7, 12);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1027, 223);
+            this.guna2CustomGradientPanel1.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(282, 82);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(441, 31);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Lo nghỉ tết học hành đéo gì tầm này";
+            // 
+            // HomeTool
+            // 
+            this.HomeTool.AllowLinksHandling = true;
+            this.HomeTool.AutomaticDelay = 0;
+            this.HomeTool.AutoPopDelay = 0;
+            this.HomeTool.InitialDelay = 0;
+            this.HomeTool.MaximumSize = new System.Drawing.Size(0, 0);
+            this.HomeTool.ReshowDelay = 0;
+            this.HomeTool.ToolTipTitle = "Your Home";
+            this.HomeTool.UseGdiPlusTextRendering = true;
+            // 
+            // UserProfile
+            // 
+            this.UserProfile.AllowLinksHandling = true;
+            this.UserProfile.MaximumSize = new System.Drawing.Size(0, 0);
+            this.UserProfile.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.UserProfile.ToolTipTitle = "Your Profile";
+            // 
+            // CourseBtn
+            // 
+            this.CourseBtn.AllowLinksHandling = true;
+            this.CourseBtn.MaximumSize = new System.Drawing.Size(0, 0);
+            this.CourseBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.CourseBtn.ToolTipTitle = "Your Course";
+            // 
+            // ClassBtn
+            // 
+            this.ClassBtn.AllowLinksHandling = true;
+            this.ClassBtn.MaximumSize = new System.Drawing.Size(0, 0);
+            this.ClassBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.ClassBtn.ToolTipTitle = "Your Class";
+            // 
             // MenuBtn
             // 
             this.MenuBtn.Animated = true;
@@ -121,272 +352,6 @@
             this.MenuBtn.TabIndex = 19;
             this.MenuBtn.UseTransparentBackground = true;
             this.MenuBtn.Click += new System.EventHandler(this.guna2Button6_Click);
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.BorderRadius = 10;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.RoyalBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Nunito Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button7.Location = new System.Drawing.Point(867, 15);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(80, 40);
-            this.guna2Button7.TabIndex = 29;
-            this.guna2Button7.Text = "Reload";
-            this.guna2Button7.UseTransparentBackground = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Nunito", 18F);
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(603, 14);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(223, 41);
-            this.comboBox1.TabIndex = 28;
-            this.comboBox1.Text = " Chọn ngành";
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel4.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Panel4.BorderRadius = 50;
-            this.guna2Panel4.BorderThickness = 1;
-            this.guna2Panel4.Controls.Add(this.guna2PictureBox5);
-            this.guna2Panel4.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2Panel4.Controls.Add(this.Data3);
-            this.guna2Panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Panel4.CustomBorderColor = System.Drawing.Color.White;
-            this.guna2Panel4.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Panel4.Location = new System.Drawing.Point(368, 103);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(182, 159);
-            this.guna2Panel4.TabIndex = 27;
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(23, 8);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(56, 59);
-            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox5.TabIndex = 2;
-            this.guna2PictureBox5.TabStop = false;
-            this.guna2PictureBox5.UseTransparentBackground = true;
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(23, 71);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(114, 46);
-            this.guna2HtmlLabel5.TabIndex = 3;
-            this.guna2HtmlLabel5.Text = "Classes";
-            this.guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // Data3
-            // 
-            this.Data3.AutoSize = true;
-            this.Data3.BackColor = System.Drawing.Color.Transparent;
-            this.Data3.Font = new System.Drawing.Font("Nunito ExtraBold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.Data3.Location = new System.Drawing.Point(114, 16);
-            this.Data3.Name = "Data3";
-            this.Data3.Size = new System.Drawing.Size(57, 44);
-            this.Data3.TabIndex = 3;
-            this.Data3.Tag = "DataNumber";
-            this.Data3.Text = "10";
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderRadius = 50;
-            this.guna2Panel1.BorderThickness = 1;
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox4);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel1.Controls.Add(this.Data2);
-            this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Panel1.CustomBorderColor = System.Drawing.Color.White;
-            this.guna2Panel1.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Panel1.Location = new System.Drawing.Point(614, 103);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(171, 159);
-            this.guna2Panel1.TabIndex = 26;
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(18, 96);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(141, 46);
-            this.guna2HtmlLabel4.TabIndex = 3;
-            this.guna2HtmlLabel4.Text = "Available";
-            this.guna2HtmlLabel4.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(18, 8);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(45, 44);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox4.TabIndex = 2;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(18, 56);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(111, 46);
-            this.guna2HtmlLabel3.TabIndex = 3;
-            this.guna2HtmlLabel3.Text = "Lecture";
-            this.guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // Data2
-            // 
-            this.Data2.AutoSize = true;
-            this.Data2.BackColor = System.Drawing.Color.Transparent;
-            this.Data2.Font = new System.Drawing.Font("Nunito ExtraBold", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.Data2.Location = new System.Drawing.Point(86, 14);
-            this.Data2.Name = "Data2";
-            this.Data2.Size = new System.Drawing.Size(57, 44);
-            this.Data2.TabIndex = 3;
-            this.Data2.Tag = "DataNumber";
-            this.Data2.Text = "20";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Nunito", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(42, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 44);
-            this.label5.TabIndex = 30;
-            this.label5.Tag = "";
-            this.label5.Text = "DASHBOARD";
-            // 
-            // Board1
-            // 
-            this.Board1.BackColor = System.Drawing.Color.Transparent;
-            this.Board1.BorderColor = System.Drawing.Color.Transparent;
-            this.Board1.BorderRadius = 50;
-            this.Board1.BorderThickness = 1;
-            this.Board1.Controls.Add(this.guna2HtmlLabel2);
-            this.Board1.Controls.Add(this.guna2HtmlLabel1);
-            this.Board1.Controls.Add(this.guna2PictureBox3);
-            this.Board1.Controls.Add(this.Data1);
-            this.Board1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Board1.CustomBorderColor = System.Drawing.Color.White;
-            this.Board1.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.Board1.Location = new System.Drawing.Point(89, 103);
-            this.Board1.Margin = new System.Windows.Forms.Padding(2);
-            this.Board1.Name = "Board1";
-            this.Board1.Size = new System.Drawing.Size(210, 159);
-            this.Board1.TabIndex = 25;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 96);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(141, 46);
-            this.guna2HtmlLabel2.TabIndex = 3;
-            this.guna2HtmlLabel2.Text = "Available";
-            this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Nunito Medium", 24F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 56);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 46);
-            this.guna2HtmlLabel1.TabIndex = 3;
-            this.guna2HtmlLabel1.Text = "Student \n";
-            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(15, 8);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(45, 44);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 2;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
-            // 
-            // Data1
-            // 
-            this.Data1.AutoSize = true;
-            this.Data1.BackColor = System.Drawing.Color.Transparent;
-            this.Data1.Font = new System.Drawing.Font("Nunito", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Data1.Location = new System.Drawing.Point(117, 16);
-            this.Data1.Name = "Data1";
-            this.Data1.Size = new System.Drawing.Size(71, 33);
-            this.Data1.TabIndex = 3;
-            this.Data1.Tag = "DataNumber";
-            this.Data1.Text = "1000";
-            // 
-            // sidebar_timerTick
-            // 
-            this.sidebar_timerTick.Tick += new System.EventHandler(this.sidebar_timerTick_Tick);
-            // 
-            // SideBar
-            // 
-            this.SideBar.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.SideBar.Controls.Add(this.head_sidebar);
-            this.SideBar.Controls.Add(this.guna2Button5);
-            this.SideBar.Controls.Add(this.ProfileButton);
-            this.SideBar.Controls.Add(this.guna2Button4);
-            this.SideBar.Controls.Add(this.CourseButton);
-            this.SideBar.Controls.Add(this.SystemButton);
-            this.SideBar.Controls.Add(this.HomeButton);
-            this.SideBar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SideBar.FillColor = System.Drawing.SystemColors.WindowFrame;
-            this.SideBar.Location = new System.Drawing.Point(0, 0);
-            this.SideBar.MaximumSize = new System.Drawing.Size(213, 793);
-            this.SideBar.MinimumSize = new System.Drawing.Size(103, 793);
-            this.SideBar.Name = "SideBar";
-            this.SideBar.Size = new System.Drawing.Size(103, 793);
-            this.SideBar.TabIndex = 5;
-            this.SideBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
-            this.SideBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
             // 
             // guna2Button5
             // 
@@ -527,54 +492,114 @@
             this.HomeButton.MouseLeave += new System.EventHandler(this.HomeButton_MouseLeave);
             this.HomeButton.MouseHover += new System.EventHandler(this.HomeButton_MouseHover);
             // 
-            // panelChild
+            // Picbox4
             // 
-            this.panelChild.AutoScroll = true;
-            this.panelChild.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panelChild.Controls.Add(this.label5);
-            this.panelChild.Controls.Add(this.guna2Button7);
-            this.panelChild.Controls.Add(this.comboBox1);
-            this.panelChild.Controls.Add(this.guna2Panel4);
-            this.panelChild.Controls.Add(this.guna2Panel1);
-            this.panelChild.Controls.Add(this.Board1);
-            this.panelChild.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelChild.Location = new System.Drawing.Point(90, 0);
-            this.panelChild.Name = "panelChild";
-            this.panelChild.Size = new System.Drawing.Size(1103, 780);
-            this.panelChild.TabIndex = 6;
-            this.panelChild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChild_Paint);
+            this.Picbox4.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox4.Image = global::The_amazing_of_numbers.Properties.Resources._2_8140331703058478;
+            this.Picbox4.ImageRotate = 0F;
+            this.Picbox4.Location = new System.Drawing.Point(538, 279);
+            this.Picbox4.Name = "Picbox4";
+            this.Picbox4.Size = new System.Drawing.Size(196, 102);
+            this.Picbox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Picbox4.TabIndex = 16;
+            this.Picbox4.TabStop = false;
+            this.Picbox4.UseTransparentBackground = true;
             // 
-            // HomeTool
+            // Picbox3
             // 
-            this.HomeTool.AllowLinksHandling = true;
-            this.HomeTool.AutomaticDelay = 0;
-            this.HomeTool.AutoPopDelay = 0;
-            this.HomeTool.InitialDelay = 0;
-            this.HomeTool.MaximumSize = new System.Drawing.Size(0, 0);
-            this.HomeTool.ReshowDelay = 0;
-            this.HomeTool.ToolTipTitle = "Your Home";
-            this.HomeTool.UseGdiPlusTextRendering = true;
+            this.Picbox3.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox3.Image = global::The_amazing_of_numbers.Properties.Resources._2_8927811703128122;
+            this.Picbox3.ImageRotate = 0F;
+            this.Picbox3.Location = new System.Drawing.Point(538, 139);
+            this.Picbox3.Name = "Picbox3";
+            this.Picbox3.Size = new System.Drawing.Size(196, 102);
+            this.Picbox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Picbox3.TabIndex = 13;
+            this.Picbox3.TabStop = false;
+            this.Picbox3.UseTransparentBackground = true;
             // 
-            // UserProfile
+            // Picbox2
             // 
-            this.UserProfile.AllowLinksHandling = true;
-            this.UserProfile.MaximumSize = new System.Drawing.Size(0, 0);
-            this.UserProfile.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.UserProfile.ToolTipTitle = "Your Profile";
+            this.Picbox2.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox2.Image = global::The_amazing_of_numbers.Properties.Resources._2_5303281703130538;
+            this.Picbox2.ImageRotate = 0F;
+            this.Picbox2.Location = new System.Drawing.Point(538, 11);
+            this.Picbox2.Name = "Picbox2";
+            this.Picbox2.Size = new System.Drawing.Size(196, 102);
+            this.Picbox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Picbox2.TabIndex = 10;
+            this.Picbox2.TabStop = false;
+            this.Picbox2.UseTransparentBackground = true;
             // 
-            // CourseBtn
+            // Picbox1
             // 
-            this.CourseBtn.AllowLinksHandling = true;
-            this.CourseBtn.MaximumSize = new System.Drawing.Size(0, 0);
-            this.CourseBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.CourseBtn.ToolTipTitle = "Your Course";
+            this.Picbox1.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox1.Image = global::The_amazing_of_numbers.Properties.Resources._5850621703157364;
+            this.Picbox1.ImageRotate = 0F;
+            this.Picbox1.Location = new System.Drawing.Point(29, 59);
+            this.Picbox1.Name = "Picbox1";
+            this.Picbox1.Size = new System.Drawing.Size(445, 205);
+            this.Picbox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Picbox1.TabIndex = 7;
+            this.Picbox1.TabStop = false;
+            this.Picbox1.UseTransparentBackground = true;
             // 
-            // ClassBtn
+            // guna2PictureBox1
             // 
-            this.ClassBtn.AllowLinksHandling = true;
-            this.ClassBtn.MaximumSize = new System.Drawing.Size(0, 0);
-            this.ClassBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.ClassBtn.ToolTipTitle = "Your Class";
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_news_1001;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(29, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(49, 40);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 6;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // Tetbox1
+            // 
+            this.Tetbox1.BackColor = System.Drawing.Color.Transparent;
+            this.Tetbox1.BorderRadius = 40;
+            this.Tetbox1.ErrorImage = null;
+            this.Tetbox1.Image = global::The_amazing_of_numbers.Properties.Resources.nghi_tet_2021_620_v1;
+            this.Tetbox1.ImageRotate = 0F;
+            this.Tetbox1.Location = new System.Drawing.Point(419, 194);
+            this.Tetbox1.Name = "Tetbox1";
+            this.Tetbox1.Size = new System.Drawing.Size(250, 172);
+            this.Tetbox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Tetbox1.TabIndex = 6;
+            this.Tetbox1.TabStop = false;
+            this.Tetbox1.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.BorderRadius = 40;
+            this.guna2PictureBox3.Image = global::The_amazing_of_numbers.Properties.Resources.mung_1_tet_2024_la_ngay_may_duong_lich_1925b508;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(3, 194);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(281, 182);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox3.TabIndex = 7;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
+            // 
+            // TetBox2
+            // 
+            this.TetBox2.BackColor = System.Drawing.Color.Transparent;
+            this.TetBox2.BorderRadius = 40;
+            this.TetBox2.ErrorImage = null;
+            this.TetBox2.Image = global::The_amazing_of_numbers.Properties.Resources.DSC08645_2_;
+            this.TetBox2.ImageRotate = 0F;
+            this.TetBox2.Location = new System.Drawing.Point(810, 182);
+            this.TetBox2.Name = "TetBox2";
+            this.TetBox2.Size = new System.Drawing.Size(250, 172);
+            this.TetBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.TetBox2.TabIndex = 5;
+            this.TetBox2.TabStop = false;
+            this.TetBox2.UseTransparentBackground = true;
             // 
             // LecturerMainForm
             // 
@@ -589,18 +614,20 @@
             this.Name = "LecturerMainForm";
             this.Text = "LecturerMainForm";
             this.head_sidebar.ResumeLayout(false);
-            this.guna2Panel4.ResumeLayout(false);
-            this.guna2Panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            this.Board1.ResumeLayout(false);
-            this.Board1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.SideBar.ResumeLayout(false);
             this.panelChild.ResumeLayout(false);
-            this.panelChild.PerformLayout();
+            this.guna2CustomGradientPanel2.ResumeLayout(false);
+            this.guna2CustomGradientPanel2.PerformLayout();
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tetbox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TetBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -611,28 +638,11 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel head_sidebar;
         private Guna.UI2.WinForms.Guna2Button MenuBtn;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private System.Windows.Forms.Label Data3;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button ProfileButton;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private System.Windows.Forms.Label Data2;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button CourseButton;
-        private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2Button HomeButton;
-        private Guna.UI2.WinForms.Guna2Panel Board1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
-        private System.Windows.Forms.Label Data1;
         private Guna.UI2.WinForms.Guna2Button SystemButton;
         private System.Windows.Forms.Timer sidebar_timerTick;
         private Guna.UI2.WinForms.Guna2Panel SideBar;
@@ -641,5 +651,25 @@
         private Guna.UI2.WinForms.Guna2HtmlToolTip UserProfile;
         private Guna.UI2.WinForms.Guna2HtmlToolTip CourseBtn;
         private Guna.UI2.WinForms.Guna2HtmlToolTip ClassBtn;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private Guna.UI2.WinForms.Guna2PictureBox Tetbox1;
+        private Guna.UI2.WinForms.Guna2PictureBox TetBox2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.LinkLabel linkLabel4;
+        private Guna.UI2.WinForms.Guna2PictureBox Picbox4;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private Guna.UI2.WinForms.Guna2PictureBox Picbox3;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private Guna.UI2.WinForms.Guna2PictureBox Picbox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private Guna.UI2.WinForms.Guna2PictureBox Picbox1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.Label label8;
     }
 }

@@ -16,5 +16,33 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
             InitializeComponent();
         }
+        /*Setting multi panel child content*/
+        //Panel child content 
+        private Form currentFormChild;
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            ProfileUser_Info.Controls.Add(childForm);
+            ProfileUser_Info.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new StudentForm_StudentProfile());
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ProfileEdition());
+        }
     }
 }

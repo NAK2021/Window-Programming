@@ -15,7 +15,7 @@ namespace The_amazing_of_numbers.Area.Admin.Controllers
         public void AdminHomeView(User user_model)
         {
             cur_user = user_model;  
-            new AdminMainForm(cur_user.id).Show();
+           
         }
         public void AddingPIN(string PIN, string id)
         {

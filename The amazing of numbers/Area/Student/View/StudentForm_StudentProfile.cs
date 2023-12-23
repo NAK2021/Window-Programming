@@ -40,16 +40,17 @@ namespace The_amazing_of_numbers.Area.Student.View
             childForm.Focus();
         }
         //Edit Profile
-        private void EditInfo_Button(object sender, EventArgs e)
+         private void guna2Button3_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm ( new ProfileEdition());
-           
+            OpenChildForm(new ProfileEdition());
+
         }
-        private void guna2Button1_Click(object sender, EventArgs e)
+         //View Scores
+        private void guna2Button1_Click_1(object sender, EventArgs e)
         {
             OpenChildForm(new Student_Score());
-        }
 
+        }
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             if (currentFormChild != null)
@@ -58,9 +59,74 @@ namespace The_amazing_of_numbers.Area.Student.View
             }
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
+        private void ProfileUser_Info_Paint(object sender, PaintEventArgs e)
         {
-            OpenChildForm(new ProfileEdition());
+
+        }
+
+        private void UserInfo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserSchoolYear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

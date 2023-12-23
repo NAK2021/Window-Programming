@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Diagnostics;
 namespace The_amazing_of_numbers.Area.Student.View
 {
     public partial class StudentMainForm : Form
@@ -19,7 +19,8 @@ namespace The_amazing_of_numbers.Area.Student.View
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         /*Đoạn này khai báo một phương thức static extern cho hàm CreateRoundRectRgn từ thư viện GDI32.dll. 
          * Hàm này được sử dụng để tạo một vùng hình chữ nhật có góc bo tròn.
-         */ private static extern IntPtr CreateRoundRectRgn
+         */
+        private static extern IntPtr CreateRoundRectRgn
              (
                  int nLeftRect,     // x-coordinate of upper-left corner
                  int nTopRect,      // y-coordinate of upper-left corner
@@ -37,6 +38,7 @@ namespace The_amazing_of_numbers.Area.Student.View
             Width, Height: Tọa độ của góc dưới bên phải của hình chữ nhật, được đặt bằng chiều rộng và chiều cao của form.
             20, 20: Chiều rộng và chiều cao của hình elip được sử dụng để tạo các góc bo tròn.*/
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 50, 50));
+
         }
         /*Setting multi panel child content*/
         //Panel child content 
@@ -53,8 +55,8 @@ namespace The_amazing_of_numbers.Area.Student.View
             childForm.Dock = DockStyle.Fill;
             panelChild.Controls.Add(childForm);
             panelChild.Tag = childForm;
-            childForm.BringToFront();
             childForm.Show();
+            childForm.BringToFront();
         }
         // Side Bar
         bool sidebarExpand;
@@ -190,11 +192,24 @@ namespace The_amazing_of_numbers.Area.Student.View
             mouseLocation = new Point(-e.X, -e.Y);
         }
 
+
+        public void UpdateLable(int ImageNumber, int nextImageNumber)
+        {
+            
+        }
+
+   
+    
+        private void LoadChecked()
+        {
+      
+        }
+      
+    
         private void head_sidebar_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
         private void panelChild_Paint(object sender, PaintEventArgs e)
         {
 
@@ -210,10 +225,92 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
+    
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void guna2CustomGradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        //Link Label
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+          Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614461-giang-vien-sinh-vien-khoa-kien-truc-my-thuat-tham-du-hoi-thao-su-dung-vat-lieu-noi-that-ben-vung-va-");
+        }
+         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614440-video-hoc-sinh-09-truong-thpt-khu-vuc-quan-binh-thanh-va-tp-thu-duc-soi-noi-tranh-tai-tai-chung-ket-");
+        }
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614437-hoi-doanh-nghiep-cuu-sinh-vien-vien-khoa-hoc-ung-dung-noi-tiep-lua-dam-me-cho-sinh-vien-chinh-thuc-r");
+        }
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614417-le-trao-bang-tot-nghiep-thang-122023-tai-hutech-cam-on-cha-me-nguoi-khong-dung-tren-tham-do");
+        } 
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech");
+        }
+        private void Picbox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CustomGradientPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2VScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        /*       private void guna2Button1_Click(object sender, EventArgs e)
+               {
+                   DialogResult result = MessageBox.Show("Tin nhắn của bạn giờ đây có hiện dưới dạng nặc dang. Bạn có muốn tiếp tục không?", "Tiếp tục", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                       if(result == DialogResult.Yes)
+                   {
+                      Form modalbackground = new Form();
+                       using(Contact_mess modal = new Contact_mess())
+                       {
+                           modalbackground.StartPosition = FormStartPosition.Manual;
+                           modalbackground.FormBorderStyle = FormBorderStyle.None;
+                           modalbackground.Opacity = 0.50d;
+                           modalbackground.BackColor = Color.Black;
+                           modalbackground.Size = this.Size;
+                           modalbackground.Location = this.Location;
+                           modalbackground.ShowInTaskbar = false;
+                           modalbackground.Show();
+                           modal.Owner = modalbackground;
+
+                           parentX = this.Location.X;
+                           parentY = this.Location.Y;  
+
+                           modal.ShowDialog();
+                           modalbackground.Dispose();
+                       }
+                   }
+                       else
+                   {
+                       this.Hide();
+                   }
+
+       */
+
+
+
 
         private void SideBar_Paint(object sender, PaintEventArgs e)
         {

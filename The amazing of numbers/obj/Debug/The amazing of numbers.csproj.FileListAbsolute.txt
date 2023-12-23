@@ -184,3 +184,20 @@ G:\finalWF\New Clone Final Term\Window-Programming\The amazing of numbers\obj\De
 G:\finalWF\New Clone Final Term\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CopyComplete
 G:\finalWF\New Clone Final Term\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.exe
 G:\finalWF\New Clone Final Term\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.pdb
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\bin\Debug\Leaf.xNet.dll
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\bin\Debug\TeleSharp.TL.dll
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\bin\Debug\TLSharp.Core.dll
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\bin\Debug\Leaf.xNet.xml
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Student_Score.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.ChangePassWord.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.genaratePin.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_profile.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Profile_Edit_Lec.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Lecture_ChangePass.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Lecture_ChangePin.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_course.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_TeaClas.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureViewClasss.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentViewTheirClass.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.StudentListinClass.resources
+D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureStudentScore.resources

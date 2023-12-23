@@ -16,5 +16,10 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         {
             InitializeComponent();
         }
+
+        private void panelchild_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

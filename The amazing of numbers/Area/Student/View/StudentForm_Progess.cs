@@ -15,7 +15,8 @@ namespace The_amazing_of_numbers.Area.Student.View
         public StudentForm_Progess()
         {
             InitializeComponent();
-        }  /*Setting multi panel child content*/
+        }
+        /*Setting multi panel child content*/
         //Panel child content 
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -43,6 +44,11 @@ namespace The_amazing_of_numbers.Area.Student.View
         private void AchievementButton_Click_1(object sender, EventArgs e)
         {
             OpenChildForm(new StudentAchievements());
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new DanhGiaRenLuyen());
         }
     }
 }
