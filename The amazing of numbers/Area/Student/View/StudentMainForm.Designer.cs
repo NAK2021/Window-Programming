@@ -414,7 +414,7 @@
             this.panelChild.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelChild.Location = new System.Drawing.Point(101, 0);
             this.panelChild.Name = "panelChild";
-            this.panelChild.Size = new System.Drawing.Size(1099, 793);
+            this.panelChild.Size = new System.Drawing.Size(1099, 788);
             this.panelChild.TabIndex = 4;
             this.panelChild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChild_Paint);
             // 
@@ -445,10 +445,10 @@
             // 
             this.linkLabel5.AutoSize = true;
             this.linkLabel5.BackColor = System.Drawing.Color.White;
-            this.linkLabel5.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel5.Location = new System.Drawing.Point(423, 11);
             this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(88, 20);
+            this.linkLabel5.Size = new System.Drawing.Size(87, 18);
             this.linkLabel5.TabIndex = 18;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "Xem Tất Cả\r\n";
@@ -458,10 +458,10 @@
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.BackColor = System.Drawing.Color.White;
-            this.linkLabel4.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel4.Location = new System.Drawing.Point(747, 312);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(289, 34);
+            this.linkLabel4.Size = new System.Drawing.Size(290, 30);
             this.linkLabel4.TabIndex = 17;
             this.linkLabel4.TabStop = true;
             this.linkLabel4.Text = "Lễ trao bằng tốt nghiệp tháng 12/2023 tại HUTECH: \r\n“Cảm ơn cha mẹ - Người không " +
@@ -496,10 +496,10 @@
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.BackColor = System.Drawing.Color.White;
-            this.linkLabel3.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.Location = new System.Drawing.Point(747, 167);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(293, 51);
+            this.linkLabel3.Size = new System.Drawing.Size(296, 45);
             this.linkLabel3.TabIndex = 14;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Hội Doanh nghiệp Cựu sinh viên Viện\r\n Khoa học Ứng dụng \r\n- Nơi tiếp lửa đam mê c" +
@@ -534,10 +534,10 @@
             // 
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.BackColor = System.Drawing.Color.White;
-            this.linkLabel2.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.Location = new System.Drawing.Point(740, 25);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(292, 68);
+            this.linkLabel2.Size = new System.Drawing.Size(294, 60);
             this.linkLabel2.TabIndex = 11;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "[Video] Học sinh 09 Trường THPT khu vực\r\n quận Bình Thạnh và TP. Thủ Đức sôi nổi " +
@@ -574,10 +574,10 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.White;
-            this.linkLabel1.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.Location = new System.Drawing.Point(25, 279);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(486, 40);
+            this.linkLabel1.Size = new System.Drawing.Size(472, 36);
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Giảng viên, sinh viên Khoa Kiến trúc - Mỹ thuật tham dự Hội thảo \r\n“Sử dụng vật l" +
@@ -614,10 +614,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(96, 10);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(165, 33);
+            this.label8.Size = new System.Drawing.Size(167, 29);
             this.label8.TabIndex = 6;
             this.label8.Text = "Hutech News";
             // 
@@ -852,14 +852,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.ClientSize = new System.Drawing.Size(1200, 793);
+            this.ClientSize = new System.Drawing.Size(1200, 788);
             this.Controls.Add(this.SideBar);
             this.Controls.Add(this.panelChild);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1200, 793);
-            this.MinimumSize = new System.Drawing.Size(1200, 793);
+            this.MinimumSize = new System.Drawing.Size(1200, 736);
             this.Name = "StudentMainForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "StudentMainForm";

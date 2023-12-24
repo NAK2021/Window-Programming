@@ -39,15 +39,25 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.label2 = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.UserSchoolYear = new System.Windows.Forms.Label();
             this.UserName = new System.Windows.Forms.Label();
             this.UserID = new System.Windows.Forms.Label();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ProfileUser_Info.SuspendLayout();
+            this.UserInfo.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2CustomGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // ProfileUser_Info
@@ -62,7 +72,7 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.ProfileUser_Info.FillColor4 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ProfileUser_Info.Location = new System.Drawing.Point(0, 0);
             this.ProfileUser_Info.Name = "ProfileUser_Info";
-            this.ProfileUser_Info.Size = new System.Drawing.Size(1082, 793);
+            this.ProfileUser_Info.Size = new System.Drawing.Size(1082, 788);
             this.ProfileUser_Info.TabIndex = 1;
             // 
             // UserInfo
@@ -70,7 +80,8 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.UserInfo.AutoScroll = true;
             this.UserInfo.AutoScrollMargin = new System.Drawing.Size(0, 1000);
             this.UserInfo.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.UserInfo.BorderRadius = 60;
+            this.UserInfo.Controls.Add(this.guna2CustomGradientPanel2);
+            this.UserInfo.FillColor = System.Drawing.Color.Gainsboro;
             this.UserInfo.Location = new System.Drawing.Point(12, 208);
             this.UserInfo.Name = "UserInfo";
             this.UserInfo.Size = new System.Drawing.Size(1058, 573);
@@ -243,6 +254,19 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.guna2TextBox3.TabIndex = 6;
             this.guna2TextBox3.WordWrap = false;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_male_user;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(13, 3);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(171, 105);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // UserSchoolYear
             // 
             this.UserSchoolYear.AutoSize = true;
@@ -318,32 +342,75 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.label1.TabIndex = 4;
             this.label1.Text = "Department:";
             // 
-            // guna2PictureBox1
+            // guna2CustomGradientPanel2
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_male_user;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(13, 3);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(171, 105);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
+            this.guna2CustomGradientPanel2.Controls.Add(this.dataGridView1);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(15, 13);
+            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(990, 544);
+            this.guna2CustomGradientPanel2.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dataGridView1.GridColor = System.Drawing.Color.Gainsboro;
+            this.dataGridView1.Location = new System.Drawing.Point(28, 18);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(936, 503);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "No";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "ID Course";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 200;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Name Course";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 200;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Deparment";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 200;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Score";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 200;
             // 
             // Student_Score
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1082, 793);
+            this.ClientSize = new System.Drawing.Size(1082, 788);
             this.Controls.Add(this.ProfileUser_Info);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Student_Score";
             this.Text = "Student_Score";
             this.ProfileUser_Info.ResumeLayout(false);
+            this.UserInfo.ResumeLayout(false);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.guna2CustomGradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -366,5 +433,12 @@ namespace The_amazing_of_numbers.Area.Student.View
         private System.Windows.Forms.Label UserID;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }

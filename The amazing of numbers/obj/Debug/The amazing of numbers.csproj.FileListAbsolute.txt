@@ -201,3 +201,69 @@ D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Pro
 D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentViewTheirClass.resources
 D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.StudentListinClass.resources
 D:\Programming\C# project\C-Project\FinalTerm_Winform\Student Project\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureStudentScore.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\The amazing of numbers.exe.config
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\The amazing of numbers.exe
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\The amazing of numbers.pdb
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\aa-DJ\The amazing of numbers.resources.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\aa\The amazing of numbers.resources.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\AForge.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\AForge.Video.DirectShow.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\AForge.Video.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\FontAwesome.Sharp.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\Guna.UI2.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\Leaf.xNet.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\MetroFramework.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\MetroFramework.Fonts.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\TeleSharp.TL.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\TLSharp.Core.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\zxing.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\zxing.presentation.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\AForge.xml
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\AForge.Video.xml
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\AForge.Video.DirectShow.xml
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\Leaf.xNet.xml
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\zxing.xml
+G:\finalWF1\Window-Programming\The amazing of numbers\bin\Debug\zxing.presentation.xml
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.AssemblyReference.cache
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AcademicAffairMainForm.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Admin.View.AdminMainForm.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LecturerMainForm.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureStudentScore.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.LectureViewClasss.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Lecture_ChangePass.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Lecture_ChangePin.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Profile_Edit_Lec.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.StudentListinClass.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_course.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_profile.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.Teacher_TeaClas.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.AlreadyhaveClass.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.ChangePassWord.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.genaratePin.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.ProfileEdition.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.RegisterSchedule.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentAchievements.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_CourseButton.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_Progess.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_StudentFee.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentForm_StudentProfile.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentMainForm.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Student_Score.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.StudentViewTheirClass.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.CustomControl.TextBox.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form2.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Login.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.PINLogin.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Properties.Resources.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.QRLogin.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Register.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.aa-DJ.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Form1.aa.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.GenerateResource.cache
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CoreCompileInputs.cache
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\aa-DJ\The amazing of numbers.resources.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\aa\The amazing of numbers.resources.dll
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CopyComplete
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.exe
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.pdb
