@@ -31,45 +31,43 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.head_sidebar = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
             this.sidebar_timerTick = new System.Windows.Forms.Timer(this.components);
             this.SideBar = new Guna.UI2.WinForms.Guna2Panel();
-            this.panelChild = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.HomeTool = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.UserProfile = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.CourseBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.ClassBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
-            this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.CourseButton = new Guna.UI2.WinForms.Guna2Button();
             this.SystemButton = new Guna.UI2.WinForms.Guna2Button();
             this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
+            this.panelChild = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.Picbox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.Picbox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.Picbox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.Picbox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.Tetbox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.TetBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.HomeTool = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.UserProfile = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.CourseBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.ClassBtn = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.head_sidebar.SuspendLayout();
             this.SideBar.SuspendLayout();
             this.panelChild.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
-            this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox2)).BeginInit();
@@ -87,7 +85,7 @@
             this.label1.Location = new System.Drawing.Point(9, 7);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 20);
+            this.label1.Size = new System.Drawing.Size(91, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Lecturer";
             // 
@@ -106,6 +104,28 @@
             this.head_sidebar.TabIndex = 37;
             this.head_sidebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
             this.head_sidebar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
+            // 
+            // MenuBtn
+            // 
+            this.MenuBtn.Animated = true;
+            this.MenuBtn.BackColor = System.Drawing.Color.Transparent;
+            this.MenuBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.MenuBtn.BorderRadius = 10;
+            this.MenuBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.MenuBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.MenuBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.MenuBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.MenuBtn.FillColor = System.Drawing.Color.White;
+            this.MenuBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MenuBtn.ForeColor = System.Drawing.Color.White;
+            this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
+            this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
+            this.MenuBtn.Location = new System.Drawing.Point(12, 29);
+            this.MenuBtn.Name = "MenuBtn";
+            this.MenuBtn.Size = new System.Drawing.Size(72, 33);
+            this.MenuBtn.TabIndex = 19;
+            this.MenuBtn.UseTransparentBackground = true;
+            this.MenuBtn.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // sidebar_timerTick
             // 
@@ -131,227 +151,6 @@
             this.SideBar.TabIndex = 5;
             this.SideBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
             this.SideBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
-            // 
-            // panelChild
-            // 
-            this.panelChild.AutoScroll = true;
-            this.panelChild.AutoScrollMargin = new System.Drawing.Size(0, 200);
-            this.panelChild.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panelChild.Controls.Add(this.guna2CustomGradientPanel2);
-            this.panelChild.Controls.Add(this.Tetbox1);
-            this.panelChild.Controls.Add(this.guna2PictureBox3);
-            this.panelChild.Controls.Add(this.TetBox2);
-            this.panelChild.Controls.Add(this.guna2CustomGradientPanel1);
-            this.panelChild.Location = new System.Drawing.Point(102, 0);
-            this.panelChild.Name = "panelChild";
-            this.panelChild.Size = new System.Drawing.Size(1091, 789);
-            this.panelChild.TabIndex = 6;
-            this.panelChild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChild_Paint);
-            // 
-            // guna2CustomGradientPanel2
-            // 
-            this.guna2CustomGradientPanel2.AutoScrollMargin = new System.Drawing.Size(0, 100);
-            this.guna2CustomGradientPanel2.BorderRadius = 40;
-            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel5);
-            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel4);
-            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox4);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label11);
-            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label10);
-            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel2);
-            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox2);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label9);
-            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel1);
-            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox1);
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2PictureBox1);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label8);
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(7, 395);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1041, 398);
-            this.guna2CustomGradientPanel2.TabIndex = 8;
-            // 
-            // linkLabel5
-            // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.BackColor = System.Drawing.Color.White;
-            this.linkLabel5.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel5.Location = new System.Drawing.Point(423, 11);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(88, 20);
-            this.linkLabel5.TabIndex = 18;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Xem Tất Cả\r\n";
-            // 
-            // linkLabel4
-            // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.BackColor = System.Drawing.Color.White;
-            this.linkLabel4.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.Location = new System.Drawing.Point(747, 312);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(289, 34);
-            this.linkLabel4.TabIndex = 17;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Lễ trao bằng tốt nghiệp tháng 12/2023 tại HUTECH: \r\n“Cảm ơn cha mẹ - Người không " +
-    "đứng trên thảm đỏ”";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label11.Location = new System.Drawing.Point(616, 251);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(355, 13);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "__________________________________________________________\r\n";
-            // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.BackColor = System.Drawing.Color.White;
-            this.linkLabel3.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(747, 167);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(293, 51);
-            this.linkLabel3.TabIndex = 14;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Hội Doanh nghiệp Cựu sinh viên Viện\r\n Khoa học Ứng dụng \r\n- Nơi tiếp lửa đam mê c" +
-    "ho sinh viên chính thức ra mắt";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.White;
-            this.label10.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label10.Location = new System.Drawing.Point(616, 116);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(355, 13);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "__________________________________________________________\r\n";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.BackColor = System.Drawing.Color.White;
-            this.linkLabel2.Font = new System.Drawing.Font("Nunito", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(740, 25);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(292, 68);
-            this.linkLabel2.TabIndex = 11;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "[Video] Học sinh 09 Trường THPT khu vực\r\n quận Bình Thạnh và TP. Thủ Đức sôi nổi " +
-    "tranh tài tại \r\nChung kết “Đổi mới sáng tạo\r\n cùng tiếng Nhật 2023” của VJIT";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label9.Location = new System.Drawing.Point(517, 25);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(9, 364);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "l\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\n\r\n\r" +
-    "\n";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.White;
-            this.linkLabel1.Font = new System.Drawing.Font("Nunito", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(25, 279);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(486, 40);
-            this.linkLabel1.TabIndex = 8;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Giảng viên, sinh viên Khoa Kiến trúc - Mỹ thuật tham dự Hội thảo \r\n“Sử dụng vật l" +
-    "iệu nội thất bền vững và an toàn” do Báo Tuổi Trẻ tổ chức";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Font = new System.Drawing.Font("Nunito", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(96, 10);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(165, 33);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Hutech News";
-            // 
-            // guna2CustomGradientPanel1
-            // 
-            this.guna2CustomGradientPanel1.BorderRadius = 70;
-            this.guna2CustomGradientPanel1.Controls.Add(this.label5);
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(7, 12);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1027, 223);
-            this.guna2CustomGradientPanel1.TabIndex = 4;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(282, 82);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(441, 31);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Lo nghỉ tết học hành đéo gì tầm này";
-            // 
-            // HomeTool
-            // 
-            this.HomeTool.AllowLinksHandling = true;
-            this.HomeTool.AutomaticDelay = 0;
-            this.HomeTool.AutoPopDelay = 0;
-            this.HomeTool.InitialDelay = 0;
-            this.HomeTool.MaximumSize = new System.Drawing.Size(0, 0);
-            this.HomeTool.ReshowDelay = 0;
-            this.HomeTool.ToolTipTitle = "Your Home";
-            this.HomeTool.UseGdiPlusTextRendering = true;
-            // 
-            // UserProfile
-            // 
-            this.UserProfile.AllowLinksHandling = true;
-            this.UserProfile.MaximumSize = new System.Drawing.Size(0, 0);
-            this.UserProfile.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.UserProfile.ToolTipTitle = "Your Profile";
-            // 
-            // CourseBtn
-            // 
-            this.CourseBtn.AllowLinksHandling = true;
-            this.CourseBtn.MaximumSize = new System.Drawing.Size(0, 0);
-            this.CourseBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.CourseBtn.ToolTipTitle = "Your Course";
-            // 
-            // ClassBtn
-            // 
-            this.ClassBtn.AllowLinksHandling = true;
-            this.ClassBtn.MaximumSize = new System.Drawing.Size(0, 0);
-            this.ClassBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.ClassBtn.ToolTipTitle = "Your Class";
-            // 
-            // MenuBtn
-            // 
-            this.MenuBtn.Animated = true;
-            this.MenuBtn.BackColor = System.Drawing.Color.Transparent;
-            this.MenuBtn.BorderColor = System.Drawing.Color.Transparent;
-            this.MenuBtn.BorderRadius = 10;
-            this.MenuBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MenuBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MenuBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MenuBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MenuBtn.FillColor = System.Drawing.Color.White;
-            this.MenuBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MenuBtn.ForeColor = System.Drawing.Color.White;
-            this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
-            this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
-            this.MenuBtn.Location = new System.Drawing.Point(12, 29);
-            this.MenuBtn.Name = "MenuBtn";
-            this.MenuBtn.Size = new System.Drawing.Size(72, 33);
-            this.MenuBtn.TabIndex = 19;
-            this.MenuBtn.UseTransparentBackground = true;
-            this.MenuBtn.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button5
             // 
@@ -492,6 +291,70 @@
             this.HomeButton.MouseLeave += new System.EventHandler(this.HomeButton_MouseLeave);
             this.HomeButton.MouseHover += new System.EventHandler(this.HomeButton_MouseHover);
             // 
+            // panelChild
+            // 
+            this.panelChild.AutoScroll = true;
+            this.panelChild.AutoScrollMargin = new System.Drawing.Size(0, 200);
+            this.panelChild.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelChild.Controls.Add(this.guna2CustomGradientPanel2);
+            this.panelChild.Controls.Add(this.Tetbox1);
+            this.panelChild.Controls.Add(this.guna2PictureBox3);
+            this.panelChild.Controls.Add(this.TetBox2);
+            this.panelChild.Controls.Add(this.guna2CustomGradientPanel1);
+            this.panelChild.Location = new System.Drawing.Point(102, 0);
+            this.panelChild.Name = "panelChild";
+            this.panelChild.Size = new System.Drawing.Size(1091, 789);
+            this.panelChild.TabIndex = 6;
+            this.panelChild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChild_Paint);
+            // 
+            // guna2CustomGradientPanel2
+            // 
+            this.guna2CustomGradientPanel2.AutoScrollMargin = new System.Drawing.Size(0, 100);
+            this.guna2CustomGradientPanel2.BorderRadius = 40;
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel5);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel4);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox4);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label11);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel3);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox3);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label10);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel2);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox2);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label9);
+            this.guna2CustomGradientPanel2.Controls.Add(this.linkLabel1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.Picbox1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.guna2PictureBox1);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label8);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(7, 395);
+            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1041, 398);
+            this.guna2CustomGradientPanel2.TabIndex = 8;
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.BackColor = System.Drawing.Color.White;
+            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel5.Location = new System.Drawing.Point(423, 11);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(110, 24);
+            this.linkLabel5.TabIndex = 18;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "Xem Tất Cả\r\n";
+            // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.BackColor = System.Drawing.Color.White;
+            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Location = new System.Drawing.Point(747, 312);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(348, 36);
+            this.linkLabel4.TabIndex = 17;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "Lễ trao bằng tốt nghiệp tháng 12/2023 tại HUTECH: \r\n“Cảm ơn cha mẹ - Người không " +
+    "đứng trên thảm đỏ”";
+            // 
             // Picbox4
             // 
             this.Picbox4.BackColor = System.Drawing.Color.Transparent;
@@ -504,6 +367,30 @@
             this.Picbox4.TabIndex = 16;
             this.Picbox4.TabStop = false;
             this.Picbox4.UseTransparentBackground = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label11.Location = new System.Drawing.Point(616, 251);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(413, 15);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "__________________________________________________________\r\n";
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.BackColor = System.Drawing.Color.White;
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(747, 167);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(355, 54);
+            this.linkLabel3.TabIndex = 14;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Hội Doanh nghiệp Cựu sinh viên Viện\r\n Khoa học Ứng dụng \r\n- Nơi tiếp lửa đam mê c" +
+    "ho sinh viên chính thức ra mắt";
             // 
             // Picbox3
             // 
@@ -518,6 +405,30 @@
             this.Picbox3.TabStop = false;
             this.Picbox3.UseTransparentBackground = true;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label10.Location = new System.Drawing.Point(616, 116);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(413, 15);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "__________________________________________________________\r\n";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.White;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999998F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.Location = new System.Drawing.Point(740, 25);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(355, 72);
+            this.linkLabel2.TabIndex = 11;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "[Video] Học sinh 09 Trường THPT khu vực\r\n quận Bình Thạnh và TP. Thủ Đức sôi nổi " +
+    "tranh tài tại \r\nChung kết “Đổi mới sáng tạo\r\n cùng tiếng Nhật 2023” của VJIT";
+            // 
             // Picbox2
             // 
             this.Picbox2.BackColor = System.Drawing.Color.Transparent;
@@ -530,6 +441,31 @@
             this.Picbox2.TabIndex = 10;
             this.Picbox2.TabStop = false;
             this.Picbox2.UseTransparentBackground = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label9.Location = new System.Drawing.Point(517, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(10, 420);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "l\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\nl\r\n\r\n\r" +
+    "\n";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.White;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(25, 279);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(611, 48);
+            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Giảng viên, sinh viên Khoa Kiến trúc - Mỹ thuật tham dự Hội thảo \r\n“Sử dụng vật l" +
+    "iệu nội thất bền vững và an toàn” do Báo Tuổi Trẻ tổ chức";
             // 
             // Picbox1
             // 
@@ -556,6 +492,17 @@
             this.guna2PictureBox1.TabIndex = 6;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(96, 10);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(203, 36);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Hutech News";
             // 
             // Tetbox1
             // 
@@ -601,6 +548,46 @@
             this.TetBox2.TabStop = false;
             this.TetBox2.UseTransparentBackground = true;
             // 
+            // HomeTool
+            // 
+            this.HomeTool.AllowLinksHandling = true;
+            this.HomeTool.AutomaticDelay = 0;
+            this.HomeTool.AutoPopDelay = 0;
+            this.HomeTool.InitialDelay = 0;
+            this.HomeTool.MaximumSize = new System.Drawing.Size(0, 0);
+            this.HomeTool.ReshowDelay = 0;
+            this.HomeTool.ToolTipTitle = "Your Home";
+            this.HomeTool.UseGdiPlusTextRendering = true;
+            // 
+            // UserProfile
+            // 
+            this.UserProfile.AllowLinksHandling = true;
+            this.UserProfile.MaximumSize = new System.Drawing.Size(0, 0);
+            this.UserProfile.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.UserProfile.ToolTipTitle = "Your Profile";
+            // 
+            // CourseBtn
+            // 
+            this.CourseBtn.AllowLinksHandling = true;
+            this.CourseBtn.MaximumSize = new System.Drawing.Size(0, 0);
+            this.CourseBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.CourseBtn.ToolTipTitle = "Your Course";
+            // 
+            // ClassBtn
+            // 
+            this.ClassBtn.AllowLinksHandling = true;
+            this.ClassBtn.MaximumSize = new System.Drawing.Size(0, 0);
+            this.ClassBtn.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.ClassBtn.ToolTipTitle = "Your Class";
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BorderRadius = 70;
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(7, 12);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1027, 223);
+            this.guna2CustomGradientPanel1.TabIndex = 4;
+            // 
             // LecturerMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -618,8 +605,6 @@
             this.panelChild.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
-            this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox2)).EndInit();
@@ -654,8 +639,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox Tetbox1;
         private Guna.UI2.WinForms.Guna2PictureBox TetBox2;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
-        private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.LinkLabel linkLabel4;
@@ -671,5 +654,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox Picbox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label8;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
     }
 }

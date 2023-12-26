@@ -542,6 +542,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\icons8-down-24 %281%292.png" />
+    <None Include="Resources\icons8-down-24 %281%291.png" />
     <None Include="Resources\icons8-down-24 %281%29.png" />
     <None Include="Resources\icons8-class-100.png" />
     <None Include="Resources\icons8-class-16.png" />

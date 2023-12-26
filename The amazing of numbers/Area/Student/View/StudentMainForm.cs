@@ -32,6 +32,7 @@ namespace The_amazing_of_numbers.Area.Student.View
         public StudentMainForm()
         {
             InitializeComponent();
+            customizeDesign();
             /*thiết lập kiểu viền của form thành không, loại bỏ viền mặc định.*/
             this.FormBorderStyle = FormBorderStyle.None;
             /*0, 0: Tọa độ của góc trên bên trái của hình chữ nhật.
@@ -40,6 +41,115 @@ namespace The_amazing_of_numbers.Area.Student.View
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 50, 50));
 
         }
+        //Header Panel Selected Menu
+        private void customizeDesign()
+        {
+            ProfileDropDownPanel.Visible = false;
+            CourseDropDownPanel.Visible = false;
+            ProgressDropDownPanel.Visible = false;
+           /* HK2_ScorePanel.Visible = false;*/
+            /* panelPlaylistSubmenu.Visible = false;
+             panelToolSubmenu.Visible = false;
+             panelImageSubmenu.Visible = false;*/
+        }
+        private void hideSubMenu()
+        {
+          /*  if (ProfileDropDownPanel.Visible == true)
+            {
+                ProfileDropDownPanel.Visible = true;
+            }*/
+      /*      if (CourseDropDownPanel.Visible == true)
+            {
+                CourseDropDownPanel.Visible = true;
+            }*/
+/*            if (panelToolSubmenu.Visible == true)
+            {
+                panelToolSubmenu.Visible = false;
+            }
+            if (panelImageSubmenu.Visible == true)
+            {
+                panelImageSubmenu.Visible = false;
+            }*/
+        }
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+        }       
+        // Profile --- > Hover Button
+        private void ProfileHoverOn(object sender, EventArgs e)
+        {
+            showSubMenu(ProfileDropDownPanel);
+        }
+        private void ProfileHoverOff(object sender, EventArgs e)
+        {
+            if (ProfileDropDownPanel.Visible == true)
+            {
+                ProfileDropDownPanel.Visible = true;
+            }
+        }
+        //Some Optional Button hover in Header Menu
+        private void EditProfile_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ProfileEdition());
+        }
+        private void ViewScores_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Student_Score());
+
+        }
+        // Course --- > Hover Button
+        private void CourseHoverOn(object sender, EventArgs e)
+        {
+            showSubMenu(CourseDropDownPanel);
+        }
+        private void CourseHoverOff(object sender, EventArgs e)
+        {
+            if (CourseDropDownPanel.Visible == true)
+            {
+                CourseDropDownPanel.Visible = true;
+            }
+
+        }   
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new RegisterSchedule());
+        }
+
+        private void ViewClassesButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new StudentViewTheirClass());
+
+        }
+        //Progress ----> Button Hover And Click
+        private void ProgressHoverOn(object sender, EventArgs e)
+        {
+            showSubMenu(ProgressDropDownPanel);
+        }
+        private void ProgressHoverOff(object sender, EventArgs e)
+        {
+            if (ProgressDropDownPanel.Visible == true)
+            {
+                ProgressDropDownPanel.Visible = true;
+            }
+        }
+        private void PointsAchievButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new DanhGiaRenLuyen());
+        }
+
+        private void Achievements_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new StudentAchievements());   
+        }
+
         /*Setting multi panel child content*/
         //Panel child content 
         private Form currentFormChild;
@@ -153,7 +263,8 @@ namespace The_amazing_of_numbers.Area.Student.View
         private void guna2Button3_Click_1(object sender, EventArgs e)
         {
             OpenChildForm(new StudentForm_StudentFee());
-        }
+        }     
+        
           private void guna2Button3_MouseHover(object sender, EventArgs e)
         {
             FeeBtn.Show("Click here to Your Fee", guna2Button3);
@@ -193,18 +304,6 @@ namespace The_amazing_of_numbers.Area.Student.View
         }
 
 
-        public void UpdateLable(int ImageNumber, int nextImageNumber)
-        {
-            
-        }
-
-   
-    
-        private void LoadChecked()
-        {
-      
-        }
-      
     
         private void head_sidebar_Paint(object sender, PaintEventArgs e)
         {
@@ -227,55 +326,25 @@ namespace The_amazing_of_numbers.Area.Student.View
 
     
 
-        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        private void label13_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2CustomGradientPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        //Link Label
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-          Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614461-giang-vien-sinh-vien-khoa-kien-truc-my-thuat-tham-du-hoi-thao-su-dung-vat-lieu-noi-that-ben-vung-va-");
-        }
-         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614440-video-hoc-sinh-09-truong-thpt-khu-vuc-quan-binh-thanh-va-tp-thu-duc-soi-noi-tranh-tai-tai-chung-ket-");
-        }
-        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614437-hoi-doanh-nghiep-cuu-sinh-vien-vien-khoa-hoc-ung-dung-noi-tiep-lua-dam-me-cho-sinh-vien-chinh-thuc-r");
-        }
-        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech/14614417-le-trao-bang-tot-nghiep-thang-122023-tai-hutech-cam-on-cha-me-nguoi-khong-dung-tren-tham-do");
-        } 
-        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://www.hutech.edu.vn/homepage/tin-tuc/tin-hutech");
-        }
-        private void Picbox2_Click(object sender, EventArgs e)
+        private void ProfileDropDownPanel_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void label12_Click(object sender, EventArgs e)
-        {
+       
 
-        }
 
-        private void guna2CustomGradientPanel4_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
 
-        private void guna2VScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
 
-        }
+
+
+
 
         /*       private void guna2Button1_Click(object sender, EventArgs e)
                {
