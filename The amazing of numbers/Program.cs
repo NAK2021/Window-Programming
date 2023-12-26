@@ -20,7 +20,7 @@ namespace The_amazing_of_numbers
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Student_Score());
+            Application.Run(new StudentMainForm());
         }
     }
 }

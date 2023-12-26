@@ -31,6 +31,23 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
             this.ProfileUser_Info = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.UserInfo = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.StudentScore_Data = new System.Windows.Forms.FlowLayoutPanel();
+            this.HK1_Button = new Guna.UI2.WinForms.Guna2Button();
+            this.HK1_ScorePanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.HK1_ScoreData = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HK2_Button = new Guna.UI2.WinForms.Guna2Button();
+            this.HK2_ScorePanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.HK2_ScoreData = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.EditProBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -45,19 +62,19 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.UserID = new System.Windows.Forms.Label();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.ProfileUser_Info.SuspendLayout();
             this.UserInfo.SuspendLayout();
+            this.StudentScore_Data.SuspendLayout();
+            this.HK1_ScorePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HK1_ScoreData)).BeginInit();
+            this.HK2_ScorePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HK2_ScoreData)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.guna2CustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // ProfileUser_Info
@@ -77,15 +94,187 @@ namespace The_amazing_of_numbers.Area.Student.View
             // 
             // UserInfo
             // 
-            this.UserInfo.AutoScroll = true;
             this.UserInfo.AutoScrollMargin = new System.Drawing.Size(0, 1000);
             this.UserInfo.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.UserInfo.Controls.Add(this.guna2CustomGradientPanel2);
-            this.UserInfo.FillColor = System.Drawing.Color.Gainsboro;
+            this.UserInfo.BorderRadius = 50;
+            this.UserInfo.Controls.Add(this.guna2Button4);
+            this.UserInfo.Controls.Add(this.guna2Button3);
+            this.UserInfo.Controls.Add(this.guna2Button2);
+            this.UserInfo.Controls.Add(this.StudentScore_Data);
+            this.UserInfo.Controls.Add(this.guna2Button1);
             this.UserInfo.Location = new System.Drawing.Point(12, 208);
             this.UserInfo.Name = "UserInfo";
             this.UserInfo.Size = new System.Drawing.Size(1058, 573);
             this.UserInfo.TabIndex = 0;
+            this.UserInfo.Paint += new System.Windows.Forms.PaintEventHandler(this.UserInfo_Paint);
+            // 
+            // StudentScore_Data
+            // 
+            this.StudentScore_Data.BackColor = System.Drawing.Color.White;
+            this.StudentScore_Data.Controls.Add(this.HK1_Button);
+            this.StudentScore_Data.Controls.Add(this.HK1_ScorePanel);
+            this.StudentScore_Data.Controls.Add(this.HK2_Button);
+            this.StudentScore_Data.Controls.Add(this.HK2_ScorePanel);
+            this.StudentScore_Data.Location = new System.Drawing.Point(157, 45);
+            this.StudentScore_Data.Name = "StudentScore_Data";
+            this.StudentScore_Data.Size = new System.Drawing.Size(898, 431);
+            this.StudentScore_Data.TabIndex = 2;
+            // 
+            // HK1_Button
+            // 
+            this.HK1_Button.AutoRoundedCorners = true;
+            this.HK1_Button.BackColor = System.Drawing.Color.Transparent;
+            this.HK1_Button.BorderRadius = 20;
+            this.HK1_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.HK1_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.HK1_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.HK1_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.HK1_Button.FillColor = System.Drawing.Color.Silver;
+            this.HK1_Button.Font = new System.Drawing.Font("Nunito ExtraBold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.HK1_Button.ForeColor = System.Drawing.Color.Black;
+            this.HK1_Button.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_;
+            this.HK1_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.HK1_Button.IndicateFocus = true;
+            this.HK1_Button.Location = new System.Drawing.Point(3, 3);
+            this.HK1_Button.Name = "HK1_Button";
+            this.HK1_Button.Size = new System.Drawing.Size(891, 42);
+            this.HK1_Button.TabIndex = 3;
+            this.HK1_Button.Text = "HK1";
+            this.HK1_Button.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.HK1_Button.UseTransparentBackground = true;
+            this.HK1_Button.Click += new System.EventHandler(this.HK1_Button_Click);
+            // 
+            // HK1_ScorePanel
+            // 
+            this.HK1_ScorePanel.Controls.Add(this.HK1_ScoreData);
+            this.HK1_ScorePanel.Location = new System.Drawing.Point(3, 51);
+            this.HK1_ScorePanel.Name = "HK1_ScorePanel";
+            this.HK1_ScorePanel.Size = new System.Drawing.Size(891, 137);
+            this.HK1_ScorePanel.TabIndex = 4;
+            // 
+            // HK1_ScoreData
+            // 
+            this.HK1_ScoreData.AllowUserToOrderColumns = true;
+            this.HK1_ScoreData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.HK1_ScoreData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.HK1_ScoreData.GridColor = System.Drawing.Color.Gainsboro;
+            this.HK1_ScoreData.Location = new System.Drawing.Point(3, 3);
+            this.HK1_ScoreData.Name = "HK1_ScoreData";
+            this.HK1_ScoreData.Size = new System.Drawing.Size(888, 126);
+            this.HK1_ScoreData.TabIndex = 2;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "No";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "ID Course";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 200;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Name Course";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 200;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Deparment";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 200;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Score";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 200;
+            // 
+            // HK2_Button
+            // 
+            this.HK2_Button.AutoRoundedCorners = true;
+            this.HK2_Button.BackColor = System.Drawing.Color.Transparent;
+            this.HK2_Button.BorderRadius = 20;
+            this.HK2_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.HK2_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.HK2_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.HK2_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.HK2_Button.FillColor = System.Drawing.Color.Silver;
+            this.HK2_Button.Font = new System.Drawing.Font("Nunito ExtraBold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.HK2_Button.ForeColor = System.Drawing.Color.Black;
+            this.HK2_Button.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_;
+            this.HK2_Button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.HK2_Button.IndicateFocus = true;
+            this.HK2_Button.Location = new System.Drawing.Point(3, 194);
+            this.HK2_Button.Name = "HK2_Button";
+            this.HK2_Button.Size = new System.Drawing.Size(891, 42);
+            this.HK2_Button.TabIndex = 5;
+            this.HK2_Button.Text = "HK2";
+            this.HK2_Button.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.HK2_Button.UseTransparentBackground = true;
+            this.HK2_Button.Click += new System.EventHandler(this.HK2_Button_Click);
+            // 
+            // HK2_ScorePanel
+            // 
+            this.HK2_ScorePanel.Controls.Add(this.HK2_ScoreData);
+            this.HK2_ScorePanel.Location = new System.Drawing.Point(3, 242);
+            this.HK2_ScorePanel.Name = "HK2_ScorePanel";
+            this.HK2_ScorePanel.Size = new System.Drawing.Size(891, 137);
+            this.HK2_ScorePanel.TabIndex = 6;
+            // 
+            // HK2_ScoreData
+            // 
+            this.HK2_ScoreData.AllowUserToOrderColumns = true;
+            this.HK2_ScoreData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.HK2_ScoreData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5});
+            this.HK2_ScoreData.GridColor = System.Drawing.Color.Gainsboro;
+            this.HK2_ScoreData.Location = new System.Drawing.Point(3, 3);
+            this.HK2_ScoreData.Name = "HK2_ScoreData";
+            this.HK2_ScoreData.Size = new System.Drawing.Size(888, 126);
+            this.HK2_ScoreData.TabIndex = 2;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.HeaderText = "No";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.HeaderText = "ID Course";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.HeaderText = "Name Course";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.HeaderText = "Deparment";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Score";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 200;
             // 
             // guna2CustomGradientPanel1
             // 
@@ -342,75 +531,113 @@ namespace The_amazing_of_numbers.Area.Student.View
             this.label1.TabIndex = 4;
             this.label1.Text = "Department:";
             // 
-            // guna2CustomGradientPanel2
+            // guna2Button1
             // 
-            this.guna2CustomGradientPanel2.Controls.Add(this.dataGridView1);
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(15, 13);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(990, 544);
-            this.guna2CustomGradientPanel2.TabIndex = 0;
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 20;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Silver;
+            this.guna2Button1.Font = new System.Drawing.Font("Nunito ExtraBold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button1.IndicateFocus = true;
+            this.guna2Button1.Location = new System.Drawing.Point(11, 48);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(143, 42);
+            this.guna2Button1.TabIndex = 7;
+            this.guna2Button1.Text = "2021 - 2022";
+            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.UseTransparentBackground = true;
             // 
-            // dataGridView1
+            // guna2Button2
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.dataGridView1.GridColor = System.Drawing.Color.Gainsboro;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 18);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(936, 503);
-            this.dataGridView1.TabIndex = 0;
+            this.guna2Button2.AutoRoundedCorners = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderRadius = 20;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Silver;
+            this.guna2Button2.Font = new System.Drawing.Font("Nunito ExtraBold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button2.IndicateFocus = true;
+            this.guna2Button2.Location = new System.Drawing.Point(11, 114);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(143, 42);
+            this.guna2Button2.TabIndex = 8;
+            this.guna2Button2.Text = "2022 - 2023";
+            this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.UseTransparentBackground = true;
             // 
-            // Column1
+            // guna2Button3
             // 
-            this.Column1.HeaderText = "No";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
+            this.guna2Button3.AutoRoundedCorners = true;
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.BorderRadius = 20;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.Silver;
+            this.guna2Button3.Font = new System.Drawing.Font("Nunito ExtraBold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button3.IndicateFocus = true;
+            this.guna2Button3.Location = new System.Drawing.Point(14, 183);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(143, 42);
+            this.guna2Button3.TabIndex = 9;
+            this.guna2Button3.Text = "2023 - 2024";
+            this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button3.UseTransparentBackground = true;
             // 
-            // Column2
+            // guna2Button4
             // 
-            this.Column2.HeaderText = "ID Course";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 200;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Name Course";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 200;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Deparment";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 200;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Score";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 200;
+            this.guna2Button4.AutoRoundedCorners = true;
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.BorderRadius = 20;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.Silver;
+            this.guna2Button4.Font = new System.Drawing.Font("Nunito ExtraBold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button4.IndicateFocus = true;
+            this.guna2Button4.Location = new System.Drawing.Point(14, 252);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.Size = new System.Drawing.Size(143, 42);
+            this.guna2Button4.TabIndex = 10;
+            this.guna2Button4.Text = "2024 - 2025";
+            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.UseTransparentBackground = true;
             // 
             // Student_Score
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1082, 788);
             this.Controls.Add(this.ProfileUser_Info);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Student_Score";
             this.Text = "Student_Score";
+            this.Load += new System.EventHandler(this.Student_Score_Load);
             this.ProfileUser_Info.ResumeLayout(false);
             this.UserInfo.ResumeLayout(false);
+            this.StudentScore_Data.ResumeLayout(false);
+            this.HK1_ScorePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.HK1_ScoreData)).EndInit();
+            this.HK2_ScorePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.HK2_ScoreData)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.guna2CustomGradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -433,12 +660,26 @@ namespace The_amazing_of_numbers.Area.Student.View
         private System.Windows.Forms.Label UserID;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.FlowLayoutPanel StudentScore_Data;
+        private Guna.UI2.WinForms.Guna2Button HK1_Button;
+        private System.Windows.Forms.DataGridView HK1_ScoreData;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.FlowLayoutPanel HK1_ScorePanel;
+        private Guna.UI2.WinForms.Guna2Button HK2_Button;
+        private System.Windows.Forms.FlowLayoutPanel HK2_ScorePanel;
+        private System.Windows.Forms.DataGridView HK2_ScoreData;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

@@ -15,6 +15,7 @@ namespace The_amazing_of_numbers.Area.Student.View
         public Student_Score()
         {
             InitializeComponent();
+            customizeDesign();
         }
         /*Setting multi panel child content*/
         //Panel child content 
@@ -44,5 +45,64 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
             OpenChildForm(new ProfileEdition());
         }
+        private void customizeDesign()
+        {
+            HK1_ScorePanel.Visible = false;
+            HK2_ScorePanel.Visible = false;
+           /* panelPlaylistSubmenu.Visible = false;
+            panelToolSubmenu.Visible = false;
+            panelImageSubmenu.Visible = false;*/
+        } 
+        private void hideSubMenu()
+        {
+            if (HK1_ScorePanel.Visible == true)
+            {
+                HK1_ScorePanel.Visible = true;
+            }
+            if (HK2_ScorePanel.Visible == true)
+            {
+                HK2_ScorePanel.Visible = true;
+            }
+     /*       if (panelToolSubmenu.Visible == true)
+            {
+                panelToolSubmenu.Visible = false;
+            }*/
+         /*   if (panelImageSubmenu.Visible == true)
+            {
+                panelImageSubmenu.Visible = false;
+
+            }*/
+        }
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+
+        }
+        private void HK1_Button_Click(object sender, EventArgs e)
+        {
+            showSubMenu(HK1_ScorePanel);
+        }
+        private void HK2_Button_Click(object sender, EventArgs e)
+        {
+            showSubMenu(HK2_ScorePanel);
+        }
+        private void Student_Score_Load(object sender, EventArgs e)
+        {
+          
+        }
+        private void UserInfo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+       
     }
 }
