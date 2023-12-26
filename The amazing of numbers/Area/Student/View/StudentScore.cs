@@ -102,7 +102,48 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
 
         }
+        /*Setting multi panel child content*/
+        //Panel child content 
+        private Form currentFormChild1;
+        private void OpenChildForm2(Form childForm)
+        {
+            if (currentFormChild1 != null)
+            {
+                currentFormChild1.Close();
+            }
+            currentFormChild1 = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelData.Controls.Add(childForm);
+            panelData.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
 
-       
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm2(new Score202223());
+        }
+
+        private void guna2Button3_Click_1(object sender, EventArgs e)
+        {
+            if (currentFormChild1 != null)
+            {
+                currentFormChild1.Close();
+            }
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            
+            OpenChildForm2(new Score202122());
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            OpenChildForm2(new Score202425());
+        }
     }
 }

@@ -31,10 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Teacher_course));
             this.panelchild = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.advancedWebClient1 = new Leaf.xNet.AdvancedWebClient();
+            this.RegisterTeachButton = new Guna.UI2.WinForms.Guna2Button();
+            this.RegisterClassButton = new Guna.UI2.WinForms.Guna2Button();
+            this.panelchild.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelchild
             // 
+            this.panelchild.Controls.Add(this.RegisterClassButton);
+            this.panelchild.Controls.Add(this.RegisterTeachButton);
             this.panelchild.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelchild.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panelchild.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
@@ -48,7 +53,8 @@
             // 
             // advancedWebClient1
             // 
-           
+      /*      this.advancedWebClient1.AllowReadStreamBuffering = false;
+            this.advancedWebClient1.AllowWriteStreamBuffering = false;*/
             this.advancedWebClient1.BaseAddress = "";
             this.advancedWebClient1.CachePolicy = null;
             this.advancedWebClient1.Credentials = null;
@@ -61,6 +67,40 @@
             this.advancedWebClient1.Timeout = 10000;
             this.advancedWebClient1.UseDefaultCredentials = false;
             // 
+            // RegisterTeachButton
+            // 
+            this.RegisterTeachButton.AutoRoundedCorners = true;
+            this.RegisterTeachButton.BorderRadius = 40;
+            this.RegisterTeachButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RegisterTeachButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RegisterTeachButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RegisterTeachButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RegisterTeachButton.Font = new System.Drawing.Font("Nunito", 15.75F, System.Drawing.FontStyle.Bold);
+            this.RegisterTeachButton.ForeColor = System.Drawing.Color.White;
+            this.RegisterTeachButton.Location = new System.Drawing.Point(237, 60);
+            this.RegisterTeachButton.Name = "RegisterTeachButton";
+            this.RegisterTeachButton.Size = new System.Drawing.Size(197, 83);
+            this.RegisterTeachButton.TabIndex = 0;
+            this.RegisterTeachButton.Text = "Register Teach";
+            this.RegisterTeachButton.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // RegisterClassButton
+            // 
+            this.RegisterClassButton.AutoRoundedCorners = true;
+            this.RegisterClassButton.BorderRadius = 40;
+            this.RegisterClassButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RegisterClassButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RegisterClassButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RegisterClassButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RegisterClassButton.Font = new System.Drawing.Font("Nunito", 15.75F, System.Drawing.FontStyle.Bold);
+            this.RegisterClassButton.ForeColor = System.Drawing.Color.White;
+            this.RegisterClassButton.Location = new System.Drawing.Point(505, 60);
+            this.RegisterClassButton.Name = "RegisterClassButton";
+            this.RegisterClassButton.Size = new System.Drawing.Size(197, 83);
+            this.RegisterClassButton.TabIndex = 1;
+            this.RegisterClassButton.Text = "Register Class";
+            this.RegisterClassButton.Click += new System.EventHandler(this.RegisterClassButton_Click);
+            // 
             // Teacher_course
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -69,6 +109,7 @@
             this.Controls.Add(this.panelchild);
             this.Name = "Teacher_course";
             this.Text = "Teacher_course";
+            this.panelchild.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -77,5 +118,7 @@
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel panelchild;
         private Leaf.xNet.AdvancedWebClient advancedWebClient1;
+        private Guna.UI2.WinForms.Guna2Button RegisterClassButton;
+        private Guna.UI2.WinForms.Guna2Button RegisterTeachButton;
     }
 }

@@ -14,19 +14,22 @@ namespace The_amazing_of_numbers.Area.Student.View
     public partial class StudentForm_StudentProfile : Form
     {
 
- 
+     
         public StudentForm_StudentProfile()
         {
             InitializeComponent();
-           /* this.VerticalScroll.Value = desiredScrollPosition;*/
+         
         }
         /*Setting multi panel child content*/
         //Panel child content 
+
         private Form currentFormChild ;
         private void OpenChildForm(Form childForm)
         {
+            
             if (currentFormChild != null)
             {
+             
                 currentFormChild.Close();
             }
             currentFormChild = childForm;
@@ -38,9 +41,13 @@ namespace The_amazing_of_numbers.Area.Student.View
             childForm.BringToFront();
             childForm.Show();
             childForm.Focus();
+           
         }
+
+
+
         //Edit Profile
-         private void guna2Button3_Click_1(object sender, EventArgs e)
+        private void guna2Button3_Click_1(object sender, EventArgs e)
         {
             OpenChildForm(new ProfileEdition());
 
@@ -51,13 +58,7 @@ namespace The_amazing_of_numbers.Area.Student.View
             OpenChildForm(new Student_Score());
 
         }
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            if (currentFormChild != null)
-            {
-                currentFormChild.Close();
-            }
-        }
+  
 
         private void ProfileUser_Info_Paint(object sender, PaintEventArgs e)
         {
@@ -125,6 +126,11 @@ namespace The_amazing_of_numbers.Area.Student.View
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CustomGradientPanel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

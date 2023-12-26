@@ -23,8 +23,10 @@ namespace The_amazing_of_numbers.Area.Student.View
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
         {
+           
             if (currentFormChild != null)
             {
+               
                 currentFormChild.Close();
             }
             currentFormChild = childForm;
@@ -33,10 +35,12 @@ namespace The_amazing_of_numbers.Area.Student.View
             childForm.Dock = DockStyle.Fill;
             ProfileUser_Info.Controls.Add(childForm);
             ProfileUser_Info.Tag = childForm;
-            childForm.BringToFront();
             childForm.Show();
+            childForm.BringToFront();
+            childForm.Focus();
         }
-      
+    
+
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Success your submit!");
@@ -44,7 +48,8 @@ namespace The_amazing_of_numbers.Area.Student.View
         //Back to Student Profile
         private void guna2Button7_Click(object sender, EventArgs e)
         {
-           OpenChildForm(new StudentForm_StudentProfile());
+            OpenChildForm(new StudentForm_StudentProfile());    
+                       
         }
         // ChangePin Button
         private void ChangePinBtn_Click(object sender, EventArgs e)
@@ -114,6 +119,12 @@ namespace The_amazing_of_numbers.Area.Student.View
                 }
             }
         }
+
+        private void guna2Button3_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new Student_Score());
+        }
+
         private void ProfileUser_Info_Paint(object sender, PaintEventArgs e)
         {
 

@@ -38,6 +38,7 @@
             this.panelchild.Name = "panelchild";
             this.panelchild.Size = new System.Drawing.Size(1050, 663);
             this.panelchild.TabIndex = 0;
+            this.panelchild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelchild_Paint);
             // 
             // StudentListinClass
             // 

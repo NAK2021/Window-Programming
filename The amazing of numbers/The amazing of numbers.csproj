@@ -137,11 +137,29 @@
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Area\Admin\View\AddingRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Admin\View\AddingRule.Designer.cs">
+      <DependentUpon>AddingRule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\Admin\View\AdminMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Area\Admin\View\AdminMainForm.Designer.cs">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Admin\View\EditRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Admin\View\EditRule.Designer.cs">
+      <DependentUpon>EditRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Admin\View\ViewProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Admin\View\ViewProfile.Designer.cs">
+      <DependentUpon>ViewProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Lecturer\Controllers\LecturerController.cs" />
     <Compile Include="Area\Lecturer\View\LecturerMainForm.cs">
@@ -180,11 +198,29 @@
     <Compile Include="Area\Lecturer\View\Profile_Edit_Lec.Designer.cs">
       <DependentUpon>Profile_Edit_Lec.cs</DependentUpon>
     </Compile>
+    <Compile Include="Area\Lecturer\View\RegisterClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\RegisterClass.Designer.cs">
+      <DependentUpon>RegisterClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\RegisterTeach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\RegisterTeach.Designer.cs">
+      <DependentUpon>RegisterTeach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\Lecturer\View\StudentListinClass.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Area\Lecturer\View\StudentListinClass.Designer.cs">
       <DependentUpon>StudentListinClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\TeacherScoringStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Lecturer\View\TeacherScoringStudent.Designer.cs">
+      <DependentUpon>TeacherScoringStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Lecturer\View\Teacher_course.cs">
       <SubType>Form</SubType>
@@ -246,6 +282,24 @@
     </Compile>
     <Compile Include="Area\Student\View\RegisterSchedule.Designer.cs">
       <DependentUpon>RegisterSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\Score202122.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\Score202122.Designer.cs">
+      <DependentUpon>Score202122.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\Score202223.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\Score202223.Designer.cs">
+      <DependentUpon>Score202223.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Student\View\Score202425.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Student\View\Score202425.Designer.cs">
+      <DependentUpon>Score202425.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Student\View\StudentScore.cs">
       <SubType>Form</SubType>
@@ -374,8 +428,17 @@
     <EmbeddedResource Include="Area\Lecturer\View\Profile_Edit_Lec.resx">
       <DependentUpon>Profile_Edit_Lec.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Area\Lecturer\View\RegisterClass.resx">
+      <DependentUpon>RegisterClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Lecturer\View\RegisterTeach.resx">
+      <DependentUpon>RegisterTeach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\Lecturer\View\StudentListinClass.resx">
       <DependentUpon>StudentListinClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Lecturer\View\TeacherScoringStudent.resx">
+      <DependentUpon>TeacherScoringStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\Lecturer\View\Teacher_course.resx">
       <DependentUpon>Teacher_course.cs</DependentUpon>
@@ -400,6 +463,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Area\Student\View\RegisterSchedule.resx">
       <DependentUpon>RegisterSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\Score202122.resx">
+      <DependentUpon>Score202122.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\Score202223.resx">
+      <DependentUpon>Score202223.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Student\View\Score202425.resx">
+      <DependentUpon>Score202425.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\Student\View\StudentAchievements.resx">
       <DependentUpon>StudentAchievements.cs</DependentUpon>
@@ -542,6 +614,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\icons8-view-100.png" />
+    <None Include="Resources\icons8-edit.gif" />
+    <None Include="Resources\icons8-add-selection-641.png" />
+    <None Include="Resources\icons8-add-selection-64.png" />
     <None Include="Resources\icons8-down-24 %281%292.png" />
     <None Include="Resources\icons8-down-24 %281%291.png" />
     <None Include="Resources\icons8-down-24 %281%29.png" />

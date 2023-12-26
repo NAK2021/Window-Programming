@@ -161,8 +161,10 @@
             this.panelchild.FillColor3 = System.Drawing.SystemColors.GradientActiveCaption;
             this.panelchild.FillColor4 = System.Drawing.SystemColors.GradientActiveCaption;
             this.panelchild.Location = new System.Drawing.Point(0, 0);
+            this.panelchild.MaximumSize = new System.Drawing.Size(1091, 789);
+            this.panelchild.MinimumSize = new System.Drawing.Size(1091, 789);
             this.panelchild.Name = "panelchild";
-            this.panelchild.Size = new System.Drawing.Size(1050, 983);
+            this.panelchild.Size = new System.Drawing.Size(1091, 789);
             this.panelchild.TabIndex = 0;
             this.panelchild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelchild_Paint);
             // 
@@ -1920,7 +1922,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 983);
+            this.ClientSize = new System.Drawing.Size(1075, 750);
             this.Controls.Add(this.panelchild);
             this.Name = "Teacher_TeaClas";
             this.Text = "Teacher_TeaClas";

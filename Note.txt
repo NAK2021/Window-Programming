@@ -32,23 +32,92 @@ Sinh Viên:
 		==> chia điểm rèn luyện
 		==> Điểm học tập
 		==> Achievments
+** ALL DONE **
 
 Giảng Viên:
+-) Profile
+	--> View Detail
+		--> View Mistake
+	--> Update profile
 
-		
---> Your class
-	==> chia làm 2 tab
-		==> View các class mà GV đang dạy
-			* khi chọn vào lớp 
-			==> Xem được danh sách của lớp đó
-				*View
-				-- ID
-				-- Name
-				-- Sex
-				-- School Year
-				-- Dob
-		==> Chấm Điểm
-			* __ Đợi giáo vụ duyệt
- 	
-		==> ( Nếu được*) Lớp đã được đăng ký bao nhiêu
-			người
+-) Course
+	--> Register Teach
+	--> Register Make Up Class
+
+-) Classes
+	--> View Total Class which registed
+		--> View Info detail class
+			--> View List Student in that class
+			** StudentListInClass
+			   >> List all numbers Student 
+		           >> ID, DOB, ....
+	--> Cham diem cho Sinh vien (Scoring)
+
+** ALL DONE **
+
+
+
+
+Deadline - Sáng Thứ 5 phải commit lên github trên branch FE_Student
+Affair (Khang - Tài) **-> Tự chia việc cho nhau
+*** Mục giới thiệu Affair**
+		--> ID
+		--> Department ID
+
+ -) Adding 
+	--> Adding Student
+		 * Show up Student Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+		* Adding Student Button
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status 
+		--> Tạo 1 nút button có tên là Adding Student
+		    ==> Show up ra 1 form cho Giáo vụ nhập thông tin và xác minh bằng nút Submit
+
+	--> Adding Lecture
+		* Show up Student Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+		* Adding Student Button
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status 
+		--> Tạo 1 nút button có tên là Adding Lecture
+		    ==> Show up ra 1 form cho Giáo vụ nhập thông tin và xác minh bằng nút Submit 
+
+	--> Adding Course
+		* Show off Course Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+		* Adding Student Button
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status 
+		--> Tạo 1 nút button có tên là Adding Lecture
+		    ==> Show up ra 1 form cho Giáo vụ nhập thông tin và xác minh bằng nút Submit 
+ -) Statistics
+	--> Statis Student
+
+	--> Statis Lecture
+
+ -) View
+	--> View Student Profile
+		 * Show up Student Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+	--> View Lecture Profile
+		* Show up Student Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+	--> View Course
+		* Show up Student Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+	--> View Department
+		* Show up Department Ino
+			(*) No, ID , CLass, Depart, DOB, Name, Phone, Status
+	--> View Profile -(Giao Vu)
+		* Show all Giao vu ìno
+
+	--> View Class Register
+		* Show Class register
+			(*) No, ID, Class_ID,Date_Registered
+ -) Divide Jobs for Lecture ( Cân Nhắc nhưng cứ tạo trước)
+
+
+
+
+
+
+Admin
+

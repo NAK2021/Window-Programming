@@ -125,7 +125,7 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         private void ViewClassesButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new StudentViewTheirClass());
+            OpenChildForm(new AlreadyhaveClass());
 
         }
         //Progress ----> Button Hover And Click
@@ -147,7 +147,7 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         private void Achievements_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new StudentAchievements());   
+            OpenChildForm(new StudentAchievements());  
         }
 
         /*Setting multi panel child content*/
@@ -377,9 +377,6 @@ namespace The_amazing_of_numbers.Area.Student.View
                    }
 
        */
-
-
-
 
         private void SideBar_Paint(object sender, PaintEventArgs e)
         {

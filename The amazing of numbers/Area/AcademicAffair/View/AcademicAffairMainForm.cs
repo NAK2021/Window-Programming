@@ -16,5 +16,10 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
+
+        private void AcademicAffairMainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

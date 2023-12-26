@@ -32,12 +32,138 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         public LecturerMainForm()
         {
             InitializeComponent();
+            customizeDesign();
             /*thiết lập kiểu viền của form thành không, loại bỏ viền mặc định.*/
             this.FormBorderStyle = FormBorderStyle.None;
             /*0, 0: Tọa độ của góc trên bên trái của hình chữ nhật.
             Width, Height: Tọa độ của góc dưới bên phải của hình chữ nhật, được đặt bằng chiều rộng và chiều cao của form.
             20, 20: Chiều rộng và chiều cao của hình elip được sử dụng để tạo các góc bo tròn.*/
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 50, 50));
+        }
+        //Header Panel Selected Menu
+        private void customizeDesign()
+        {
+            ProfileDropDownPanel.Visible = false;
+            CourseDropDownPanel.Visible = false;
+            ProgressDropDownPanel.Visible = false;
+            /* HK2_ScorePanel.Visible = false;*/
+            /* panelPlaylistSubmenu.Visible = false;
+             panelToolSubmenu.Visible = false;
+             panelImageSubmenu.Visible = false;*/
+        }
+        private void hideSubMenu()
+        {
+            /*  if (ProfileDropDownPanel.Visible == true)
+              {
+                  ProfileDropDownPanel.Visible = true;
+              }*/
+            /*      if (CourseDropDownPanel.Visible == true)
+                  {
+                      CourseDropDownPanel.Visible = true;
+                  }*/
+            /*            if (panelToolSubmenu.Visible == true)
+                        {
+                            panelToolSubmenu.Visible = false;
+                        }
+                        if (panelImageSubmenu.Visible == true)
+                        {
+                            panelImageSubmenu.Visible = false;
+                        }*/
+        }
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+        }
+         private void HomeButton2_Click(object sender, EventArgs e)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+        }
+
+        private void ProfileButton2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Teacher_profile());
+        }
+
+        private void CourseButton2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Teacher_course());
+
+        }
+        private void AchievmentsButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Teacher_TeaClas());
+        }
+        // Profile --- > Hover Button
+        private void ProfileHoverOn(object sender, EventArgs e)
+        {
+            showSubMenu(ProfileDropDownPanel);
+        }
+        private void ProfileHoverOff(object sender, EventArgs e)
+        {
+            if (ProfileDropDownPanel.Visible == true)
+            {
+                ProfileDropDownPanel.Visible = true;
+            }
+        }
+        // Course --- > Hover Button
+        private void CourseHoverOn(object sender, EventArgs e)
+        {
+            showSubMenu(CourseDropDownPanel);
+        }
+        private void CourseHoverOff(object sender, EventArgs e)
+        {
+            if (CourseDropDownPanel.Visible == true)
+            {
+                CourseDropDownPanel.Visible = true;
+            }
+
+        }
+        //Class ----> Button Hover And Click
+        private void ProgressHoverOn(object sender, EventArgs e)
+        {
+            showSubMenu(ProgressDropDownPanel);
+        }
+        private void ProgressHoverOff(object sender, EventArgs e)
+        {
+            if (ProgressDropDownPanel.Visible == true)
+            {
+                ProgressDropDownPanel.Visible = true;
+            }
+        }
+        private void EditProfile_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Profile_Edit_Lec());
+        }
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new RegisterTeach());
+        }
+
+        private void RegisterClassButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new RegisterClass()); 
+        }
+
+        private void ViewClassesButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ScoringButton_Click(object sender, EventArgs e)
+        {
+
         }
         // Side Bar
         bool sidebarExpand; 
@@ -183,7 +309,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
 
         }
 
-       
+      
 
         private void panelChild_Paint(object sender, PaintEventArgs e)
         {

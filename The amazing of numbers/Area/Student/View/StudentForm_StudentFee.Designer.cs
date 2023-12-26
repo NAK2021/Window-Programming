@@ -42,17 +42,15 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.UserInfo = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.UserInfo.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -202,24 +200,12 @@
             this.label13.TabIndex = 24;
             this.label13.Text = "Administrave Staff";
             // 
-            // UserInfo
-            // 
-            this.UserInfo.AutoScroll = true;
-            this.UserInfo.AutoScrollMargin = new System.Drawing.Size(0, 1000);
-            this.UserInfo.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.UserInfo.Controls.Add(this.guna2CustomGradientPanel2);
-            this.UserInfo.FillColor = System.Drawing.Color.Gainsboro;
-            this.UserInfo.Location = new System.Drawing.Point(31, 402);
-            this.UserInfo.Name = "UserInfo";
-            this.UserInfo.Size = new System.Drawing.Size(1049, 313);
-            this.UserInfo.TabIndex = 25;
-            // 
             // guna2CustomGradientPanel2
             // 
             this.guna2CustomGradientPanel2.Controls.Add(this.dataGridView1);
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(15, 13);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(48, 396);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(990, 544);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(990, 200);
             this.guna2CustomGradientPanel2.TabIndex = 0;
             // 
             // dataGridView1
@@ -233,38 +219,10 @@
             this.Column5,
             this.Column6});
             this.dataGridView1.GridColor = System.Drawing.Color.Gainsboro;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 18);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(936, 503);
+            this.dataGridView1.Size = new System.Drawing.Size(984, 503);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "No";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Course id";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 150;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Course name";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 300;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Deparment id";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Credits";
-            this.Column5.Name = "Column5";
             // 
             // Column6
             // 
@@ -272,13 +230,41 @@
             this.Column6.Name = "Column6";
             this.Column6.Width = 300;
             // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Credits";
+            this.Column5.Name = "Column5";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Deparment id";
+            this.Column4.Name = "Column4";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Course name";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 300;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Course id";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 150;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "No";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 50;
+            // 
             // StudentForm_StudentFee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1082, 741);
-            this.Controls.Add(this.UserInfo);
+            this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -296,7 +282,6 @@
             this.Name = "StudentForm_StudentFee";
             this.Text = "StudentForm_StudentFee";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.UserInfo.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -320,7 +305,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel UserInfo;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
