@@ -118,7 +118,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
         private void Addcourse_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new AddCourse());
         }
     }
 }
