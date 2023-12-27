@@ -309,7 +309,10 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
 
         }
 
-      
+        private void CourseDropDownPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
 
         private void panelChild_Paint(object sender, PaintEventArgs e)
         {

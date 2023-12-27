@@ -179,7 +179,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(106, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 29);
+            this.label1.Size = new System.Drawing.Size(94, 36);
             this.label1.TabIndex = 31;
             this.label1.Text = "Menu";
             // 
@@ -190,7 +190,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Location = new System.Drawing.Point(96, 389);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 29);
+            this.label7.Size = new System.Drawing.Size(143, 36);
             this.label7.TabIndex = 36;
             this.label7.Text = "Progress";
             // 
@@ -201,7 +201,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(106, 322);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 29);
+            this.label6.Size = new System.Drawing.Size(68, 36);
             this.label6.TabIndex = 35;
             this.label6.Text = "Fee";
             // 
@@ -212,7 +212,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(101, 261);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 29);
+            this.label4.Size = new System.Drawing.Size(117, 36);
             this.label4.TabIndex = 34;
             this.label4.Text = "Course";
             // 
@@ -223,7 +223,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(101, 194);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 29);
+            this.label3.Size = new System.Drawing.Size(107, 36);
             this.label3.TabIndex = 33;
             this.label3.Text = "Profile";
             // 
@@ -234,7 +234,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(101, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 29);
+            this.label2.Size = new System.Drawing.Size(96, 36);
             this.label2.TabIndex = 32;
             this.label2.Text = "Home";
             // 
@@ -747,7 +747,7 @@
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.label14.Location = new System.Drawing.Point(117, 16);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(9, 78);
+            this.label14.Size = new System.Drawing.Size(10, 96);
             this.label14.TabIndex = 10;
             this.label14.Text = "|\r\n|\r\n|\r\n|\r\n|\r\n|";
             // 
@@ -758,7 +758,7 @@
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(217, 106);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 18);
+            this.label13.Size = new System.Drawing.Size(98, 22);
             this.label13.TabIndex = 9;
             this.label13.Text = "Dang Hoc";
             this.label13.Click += new System.EventHandler(this.label13_Click);
@@ -770,7 +770,7 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(129, 106);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(61, 18);
+            this.label12.Size = new System.Drawing.Size(73, 22);
             this.label12.TabIndex = 8;
             this.label12.Text = "Status:";
             // 
@@ -781,7 +781,7 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(208, 74);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 18);
+            this.label11.Size = new System.Drawing.Size(117, 22);
             this.label11.TabIndex = 7;
             this.label11.Text = "2021 - 2025";
             // 
@@ -792,7 +792,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(144, 74);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 18);
+            this.label10.Size = new System.Drawing.Size(58, 22);
             this.label10.TabIndex = 6;
             this.label10.Text = "Year:";
             // 
@@ -803,7 +803,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(208, 39);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(98, 18);
+            this.label9.Size = new System.Drawing.Size(120, 22);
             this.label9.TabIndex = 5;
             this.label9.Text = "2180607876";
             // 
@@ -814,7 +814,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(135, 8);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 18);
+            this.label8.Size = new System.Drawing.Size(67, 22);
             this.label8.TabIndex = 4;
             this.label8.Text = "Name:";
             // 
@@ -825,7 +825,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(167, 39);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 18);
+            this.label5.Size = new System.Drawing.Size(35, 22);
             this.label5.TabIndex = 3;
             this.label5.Text = "ID:";
             // 
@@ -836,7 +836,7 @@
             this.UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserName.Location = new System.Drawing.Point(208, 8);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(133, 18);
+            this.UserName.Size = new System.Drawing.Size(161, 22);
             this.UserName.TabIndex = 2;
             this.UserName.Text = "Trần Kiện Phong";
             // 
@@ -902,7 +902,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(15, 56);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 39);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(147, 48);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "Student \n";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -915,7 +915,7 @@
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 96);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(141, 39);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(173, 48);
             this.guna2HtmlLabel2.TabIndex = 3;
             this.guna2HtmlLabel2.Text = "Available";
             this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -928,7 +928,7 @@
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(15, 56);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(120, 39);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(147, 48);
             this.guna2HtmlLabel7.TabIndex = 3;
             this.guna2HtmlLabel7.Text = "Student \n";
             this.guna2HtmlLabel7.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -941,7 +941,7 @@
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(15, 96);
             this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(141, 39);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(173, 48);
             this.guna2HtmlLabel6.TabIndex = 3;
             this.guna2HtmlLabel6.Text = "Available";
             this.guna2HtmlLabel6.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -954,7 +954,7 @@
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(18, 56);
             this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(116, 39);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(143, 48);
             this.guna2HtmlLabel3.TabIndex = 3;
             this.guna2HtmlLabel3.Text = "Lecture";
             this.guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -967,7 +967,7 @@
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(18, 96);
             this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(141, 39);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(173, 48);
             this.guna2HtmlLabel4.TabIndex = 3;
             this.guna2HtmlLabel4.Text = "Available";
             this.guna2HtmlLabel4.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -980,7 +980,7 @@
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(23, 71);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(123, 39);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(152, 48);
             this.guna2HtmlLabel5.TabIndex = 3;
             this.guna2HtmlLabel5.Text = "Classes";
             this.guna2HtmlLabel5.TextAlignment = System.Drawing.ContentAlignment.TopCenter;

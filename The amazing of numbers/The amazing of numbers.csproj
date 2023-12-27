@@ -129,12 +129,78 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Area\AcademicAffair\View\AddCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddCourse.Designer.cs">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddLecture.Designer.cs">
+      <DependentUpon>AddLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\AcademicAffair\Controllers\AcademicAffairController.cs" />
     <Compile Include="Area\AcademicAffair\View\AcademicAffairMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Area\AcademicAffair\View\AcademicAffairMainForm.Designer.cs">
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\StatisticLecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\StatisticLecture.Designer.cs">
+      <DependentUpon>StatisticLecture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\StatisticStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\StatisticStudent.Designer.cs">
+      <DependentUpon>StatisticStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewClassRegistered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewClassRegistered.Designer.cs">
+      <DependentUpon>ViewClassRegistered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewCourse.Designer.cs">
+      <DependentUpon>ViewCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewDepartment.Designer.cs">
+      <DependentUpon>ViewDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewLectureProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewLectureProfile.Designer.cs">
+      <DependentUpon>ViewLectureProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewMyProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewMyProfile.Designer.cs">
+      <DependentUpon>ViewMyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewStudentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewStudentProfile.Designer.cs">
+      <DependentUpon>ViewStudentProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Admin\Controllers\AdminController.cs" />
     <Compile Include="Area\Admin\View\AddingRule.cs">
@@ -404,6 +470,9 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Area\AcademicAffair\View\AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\AcademicAffairMainForm.resx">
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
     </EmbeddedResource>

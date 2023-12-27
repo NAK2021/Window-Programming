@@ -81,10 +81,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 20);
+            this.label1.Size = new System.Drawing.Size(91, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Lecturer";
             // 
@@ -97,9 +96,10 @@
             this.head_sidebar.FillColor3 = System.Drawing.SystemColors.WindowFrame;
             this.head_sidebar.FillColor4 = System.Drawing.SystemColors.WindowFrame;
             this.head_sidebar.Location = new System.Drawing.Point(0, 0);
-            this.head_sidebar.MaximumSize = new System.Drawing.Size(213, 85);
+            this.head_sidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.head_sidebar.MaximumSize = new System.Drawing.Size(284, 105);
             this.head_sidebar.Name = "head_sidebar";
-            this.head_sidebar.Size = new System.Drawing.Size(103, 85);
+            this.head_sidebar.Size = new System.Drawing.Size(137, 105);
             this.head_sidebar.TabIndex = 37;
             this.head_sidebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
             this.head_sidebar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
@@ -119,9 +119,10 @@
             this.MenuBtn.ForeColor = System.Drawing.Color.White;
             this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
             this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
-            this.MenuBtn.Location = new System.Drawing.Point(12, 29);
+            this.MenuBtn.Location = new System.Drawing.Point(16, 36);
+            this.MenuBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MenuBtn.Name = "MenuBtn";
-            this.MenuBtn.Size = new System.Drawing.Size(72, 33);
+            this.MenuBtn.Size = new System.Drawing.Size(96, 41);
             this.MenuBtn.TabIndex = 19;
             this.MenuBtn.UseTransparentBackground = true;
             this.MenuBtn.Click += new System.EventHandler(this.guna2Button6_Click);
@@ -143,10 +144,11 @@
             this.SideBar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SideBar.FillColor = System.Drawing.SystemColors.WindowFrame;
             this.SideBar.Location = new System.Drawing.Point(0, 0);
-            this.SideBar.MaximumSize = new System.Drawing.Size(103, 793);
-            this.SideBar.MinimumSize = new System.Drawing.Size(103, 793);
+            this.SideBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SideBar.MaximumSize = new System.Drawing.Size(137, 976);
+            this.SideBar.MinimumSize = new System.Drawing.Size(137, 976);
             this.SideBar.Name = "SideBar";
-            this.SideBar.Size = new System.Drawing.Size(103, 793);
+            this.SideBar.Size = new System.Drawing.Size(137, 976);
             this.SideBar.TabIndex = 5;
             this.SideBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
             this.SideBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
@@ -165,9 +167,10 @@
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.guna2Button5.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_minimize_24;
-            this.guna2Button5.Location = new System.Drawing.Point(21, 610);
+            this.guna2Button5.Location = new System.Drawing.Point(28, 751);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(48, 45);
+            this.guna2Button5.Size = new System.Drawing.Size(64, 55);
             this.guna2Button5.TabIndex = 18;
             this.guna2Button5.UseTransparentBackground = true;
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -187,9 +190,10 @@
             this.ProfileButton.ForeColor = System.Drawing.Color.White;
             this.ProfileButton.Image = global::The_amazing_of_numbers.Properties.Resources.icon5;
             this.ProfileButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.ProfileButton.Location = new System.Drawing.Point(12, 194);
+            this.ProfileButton.Location = new System.Drawing.Point(16, 239);
+            this.ProfileButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProfileButton.Name = "ProfileButton";
-            this.ProfileButton.Size = new System.Drawing.Size(72, 33);
+            this.ProfileButton.Size = new System.Drawing.Size(96, 41);
             this.ProfileButton.TabIndex = 4;
             this.ProfileButton.UseTransparentBackground = true;
             this.ProfileButton.Click += new System.EventHandler(this.ProfileButton_Click);
@@ -211,9 +215,10 @@
             this.guna2Button4.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.guna2Button4.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_logout_501;
             this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button4.Location = new System.Drawing.Point(21, 536);
+            this.guna2Button4.Location = new System.Drawing.Point(28, 660);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(48, 45);
+            this.guna2Button4.Size = new System.Drawing.Size(64, 55);
             this.guna2Button4.TabIndex = 3;
             this.guna2Button4.UseTransparentBackground = true;
             this.guna2Button4.Click += new System.EventHandler(this.MiniBtn_Click);
@@ -233,9 +238,10 @@
             this.CourseButton.ForeColor = System.Drawing.Color.White;
             this.CourseButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_course_50;
             this.CourseButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.CourseButton.Location = new System.Drawing.Point(12, 261);
+            this.CourseButton.Location = new System.Drawing.Point(16, 321);
+            this.CourseButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CourseButton.Name = "CourseButton";
-            this.CourseButton.Size = new System.Drawing.Size(72, 33);
+            this.CourseButton.Size = new System.Drawing.Size(96, 41);
             this.CourseButton.TabIndex = 3;
             this.CourseButton.UseTransparentBackground = true;
             this.CourseButton.Click += new System.EventHandler(this.CourseButton_Click);
@@ -257,9 +263,10 @@
             this.SystemButton.ForeColor = System.Drawing.Color.White;
             this.SystemButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_diploma_100;
             this.SystemButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.SystemButton.Location = new System.Drawing.Point(12, 331);
+            this.SystemButton.Location = new System.Drawing.Point(16, 407);
+            this.SystemButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SystemButton.Name = "SystemButton";
-            this.SystemButton.Size = new System.Drawing.Size(72, 33);
+            this.SystemButton.Size = new System.Drawing.Size(96, 41);
             this.SystemButton.TabIndex = 2;
             this.SystemButton.UseTransparentBackground = true;
             this.SystemButton.Click += new System.EventHandler(this.TeaClassButton_Click);
@@ -281,9 +288,10 @@
             this.HomeButton.ForeColor = System.Drawing.Color.White;
             this.HomeButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_home_50;
             this.HomeButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.HomeButton.Location = new System.Drawing.Point(12, 133);
+            this.HomeButton.Location = new System.Drawing.Point(16, 164);
+            this.HomeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(72, 33);
+            this.HomeButton.Size = new System.Drawing.Size(96, 41);
             this.HomeButton.TabIndex = 0;
             this.HomeButton.UseTransparentBackground = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
@@ -303,18 +311,20 @@
             this.panelChild.Controls.Add(this.ProfileButton2);
             this.panelChild.Controls.Add(this.HomeButton2);
             this.panelChild.Controls.Add(this.Panel_ShowUser);
-            this.panelChild.Location = new System.Drawing.Point(102, 0);
+            this.panelChild.Location = new System.Drawing.Point(136, 0);
+            this.panelChild.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelChild.Name = "panelChild";
-            this.panelChild.Size = new System.Drawing.Size(1091, 789);
+            this.panelChild.Size = new System.Drawing.Size(1455, 971);
             this.panelChild.TabIndex = 6;
             this.panelChild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChild_Paint);
             // 
             // ProfileDropDownPanel
             // 
             this.ProfileDropDownPanel.Controls.Add(this.EditProfile);
-            this.ProfileDropDownPanel.Location = new System.Drawing.Point(202, 78);
+            this.ProfileDropDownPanel.Location = new System.Drawing.Point(269, 96);
+            this.ProfileDropDownPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProfileDropDownPanel.Name = "ProfileDropDownPanel";
-            this.ProfileDropDownPanel.Size = new System.Drawing.Size(114, 50);
+            this.ProfileDropDownPanel.Size = new System.Drawing.Size(152, 62);
             this.ProfileDropDownPanel.TabIndex = 54;
             // 
             // EditProfile
@@ -323,7 +333,7 @@
             this.EditProfile.AutoRoundedCorners = true;
             this.EditProfile.BackColor = System.Drawing.Color.Transparent;
             this.EditProfile.BorderColor = System.Drawing.Color.Silver;
-            this.EditProfile.BorderRadius = 22;
+            this.EditProfile.BorderRadius = 27;
             this.EditProfile.BorderThickness = 1;
             this.EditProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.EditProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -333,9 +343,10 @@
             this.EditProfile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditProfile.ForeColor = System.Drawing.Color.DimGray;
             this.EditProfile.ImageSize = new System.Drawing.Size(30, 30);
-            this.EditProfile.Location = new System.Drawing.Point(3, 3);
+            this.EditProfile.Location = new System.Drawing.Point(4, 4);
+            this.EditProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditProfile.Name = "EditProfile";
-            this.EditProfile.Size = new System.Drawing.Size(108, 46);
+            this.EditProfile.Size = new System.Drawing.Size(144, 57);
             this.EditProfile.TabIndex = 44;
             this.EditProfile.Text = "Edit Profile";
             this.EditProfile.UseTransparentBackground = true;
@@ -357,9 +368,10 @@
             this.AchievmentsButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
             this.AchievmentsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.AchievmentsButton.ImageOffset = new System.Drawing.Point(-8, 0);
-            this.AchievmentsButton.Location = new System.Drawing.Point(459, 16);
+            this.AchievmentsButton.Location = new System.Drawing.Point(612, 20);
+            this.AchievmentsButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AchievmentsButton.Name = "AchievmentsButton";
-            this.AchievmentsButton.Size = new System.Drawing.Size(136, 56);
+            this.AchievmentsButton.Size = new System.Drawing.Size(181, 69);
             this.AchievmentsButton.TabIndex = 53;
             this.AchievmentsButton.Text = "Classes";
             this.AchievmentsButton.UseTransparentBackground = true;
@@ -370,9 +382,10 @@
             // ProgressDropDownPanel
             // 
             this.ProgressDropDownPanel.Controls.Add(this.ScoringButton);
-            this.ProgressDropDownPanel.Location = new System.Drawing.Point(459, 78);
+            this.ProgressDropDownPanel.Location = new System.Drawing.Point(612, 96);
+            this.ProgressDropDownPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProgressDropDownPanel.Name = "ProgressDropDownPanel";
-            this.ProgressDropDownPanel.Size = new System.Drawing.Size(136, 53);
+            this.ProgressDropDownPanel.Size = new System.Drawing.Size(181, 65);
             this.ProgressDropDownPanel.TabIndex = 56;
             // 
             // ScoringButton
@@ -381,7 +394,7 @@
             this.ScoringButton.AutoRoundedCorners = true;
             this.ScoringButton.BackColor = System.Drawing.Color.Transparent;
             this.ScoringButton.BorderColor = System.Drawing.Color.Silver;
-            this.ScoringButton.BorderRadius = 22;
+            this.ScoringButton.BorderRadius = 27;
             this.ScoringButton.BorderThickness = 1;
             this.ScoringButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.ScoringButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -391,9 +404,10 @@
             this.ScoringButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ScoringButton.ForeColor = System.Drawing.Color.DimGray;
             this.ScoringButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.ScoringButton.Location = new System.Drawing.Point(3, 3);
+            this.ScoringButton.Location = new System.Drawing.Point(4, 4);
+            this.ScoringButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ScoringButton.Name = "ScoringButton";
-            this.ScoringButton.Size = new System.Drawing.Size(128, 46);
+            this.ScoringButton.Size = new System.Drawing.Size(171, 57);
             this.ScoringButton.TabIndex = 44;
             this.ScoringButton.Text = "Scoring";
             this.ScoringButton.UseTransparentBackground = true;
@@ -403,10 +417,12 @@
             // 
             this.CourseDropDownPanel.Controls.Add(this.RegisterButton);
             this.CourseDropDownPanel.Controls.Add(this.RegisterClassButton);
-            this.CourseDropDownPanel.Location = new System.Drawing.Point(322, 78);
+            this.CourseDropDownPanel.Location = new System.Drawing.Point(429, 96);
+            this.CourseDropDownPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CourseDropDownPanel.Name = "CourseDropDownPanel";
-            this.CourseDropDownPanel.Size = new System.Drawing.Size(114, 106);
+            this.CourseDropDownPanel.Size = new System.Drawing.Size(152, 130);
             this.CourseDropDownPanel.TabIndex = 55;
+            this.CourseDropDownPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.CourseDropDownPanel_Paint);
             // 
             // RegisterButton
             // 
@@ -414,19 +430,20 @@
             this.RegisterButton.AutoRoundedCorners = true;
             this.RegisterButton.BackColor = System.Drawing.Color.Transparent;
             this.RegisterButton.BorderColor = System.Drawing.Color.Silver;
-            this.RegisterButton.BorderRadius = 22;
+            this.RegisterButton.BorderRadius = 27;
             this.RegisterButton.BorderThickness = 1;
             this.RegisterButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.RegisterButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.RegisterButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.RegisterButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.RegisterButton.FillColor = System.Drawing.Color.Gainsboro;
-            this.RegisterButton.Font = new System.Drawing.Font("Nunito", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegisterButton.ForeColor = System.Drawing.Color.DimGray;
             this.RegisterButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.RegisterButton.Location = new System.Drawing.Point(3, 3);
+            this.RegisterButton.Location = new System.Drawing.Point(4, 4);
+            this.RegisterButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(108, 46);
+            this.RegisterButton.Size = new System.Drawing.Size(144, 57);
             this.RegisterButton.TabIndex = 44;
             this.RegisterButton.Text = "Register Teach";
             this.RegisterButton.UseTransparentBackground = true;
@@ -438,7 +455,7 @@
             this.RegisterClassButton.AutoRoundedCorners = true;
             this.RegisterClassButton.BackColor = System.Drawing.Color.Transparent;
             this.RegisterClassButton.BorderColor = System.Drawing.Color.Silver;
-            this.RegisterClassButton.BorderRadius = 22;
+            this.RegisterClassButton.BorderRadius = 27;
             this.RegisterClassButton.BorderThickness = 1;
             this.RegisterClassButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.RegisterClassButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -448,9 +465,10 @@
             this.RegisterClassButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.RegisterClassButton.ForeColor = System.Drawing.Color.DimGray;
             this.RegisterClassButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.RegisterClassButton.Location = new System.Drawing.Point(3, 55);
+            this.RegisterClassButton.Location = new System.Drawing.Point(4, 69);
+            this.RegisterClassButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RegisterClassButton.Name = "RegisterClassButton";
-            this.RegisterClassButton.Size = new System.Drawing.Size(108, 46);
+            this.RegisterClassButton.Size = new System.Drawing.Size(144, 57);
             this.RegisterClassButton.TabIndex = 45;
             this.RegisterClassButton.Text = "Register Class";
             this.RegisterClassButton.UseTransparentBackground = true;
@@ -472,9 +490,10 @@
             this.CourseButton2.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
             this.CourseButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.CourseButton2.ImageOffset = new System.Drawing.Point(-10, 0);
-            this.CourseButton2.Location = new System.Drawing.Point(322, 16);
+            this.CourseButton2.Location = new System.Drawing.Point(429, 20);
+            this.CourseButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CourseButton2.Name = "CourseButton2";
-            this.CourseButton2.Size = new System.Drawing.Size(109, 56);
+            this.CourseButton2.Size = new System.Drawing.Size(145, 69);
             this.CourseButton2.TabIndex = 51;
             this.CourseButton2.Text = "Course";
             this.CourseButton2.UseTransparentBackground = true;
@@ -498,9 +517,10 @@
             this.ProfileButton2.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
             this.ProfileButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.ProfileButton2.ImageOffset = new System.Drawing.Point(-5, 0);
-            this.ProfileButton2.Location = new System.Drawing.Point(202, 16);
+            this.ProfileButton2.Location = new System.Drawing.Point(269, 20);
+            this.ProfileButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProfileButton2.Name = "ProfileButton2";
-            this.ProfileButton2.Size = new System.Drawing.Size(114, 56);
+            this.ProfileButton2.Size = new System.Drawing.Size(152, 69);
             this.ProfileButton2.TabIndex = 50;
             this.ProfileButton2.Text = "Profile ";
             this.ProfileButton2.UseTransparentBackground = true;
@@ -522,9 +542,10 @@
             this.HomeButton2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.HomeButton2.ForeColor = System.Drawing.Color.DimGray;
             this.HomeButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.HomeButton2.Location = new System.Drawing.Point(92, 16);
+            this.HomeButton2.Location = new System.Drawing.Point(123, 20);
+            this.HomeButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.HomeButton2.Name = "HomeButton2";
-            this.HomeButton2.Size = new System.Drawing.Size(104, 56);
+            this.HomeButton2.Size = new System.Drawing.Size(139, 69);
             this.HomeButton2.TabIndex = 49;
             this.HomeButton2.Text = "Home";
             this.HomeButton2.UseTransparentBackground = true;
@@ -548,9 +569,10 @@
             this.Panel_ShowUser.CustomizableEdges.BottomRight = false;
             this.Panel_ShowUser.CustomizableEdges.TopLeft = false;
             this.Panel_ShowUser.CustomizableEdges.TopRight = false;
-            this.Panel_ShowUser.Location = new System.Drawing.Point(717, 0);
+            this.Panel_ShowUser.Location = new System.Drawing.Point(956, 0);
+            this.Panel_ShowUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel_ShowUser.Name = "Panel_ShowUser";
-            this.Panel_ShowUser.Size = new System.Drawing.Size(374, 142);
+            this.Panel_ShowUser.Size = new System.Drawing.Size(499, 175);
             this.Panel_ShowUser.TabIndex = 48;
             // 
             // label14
@@ -558,9 +580,10 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label14.Location = new System.Drawing.Point(117, 16);
+            this.label14.Location = new System.Drawing.Point(156, 20);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(9, 78);
+            this.label14.Size = new System.Drawing.Size(10, 96);
             this.label14.TabIndex = 10;
             this.label14.Text = "|\r\n|\r\n|\r\n|\r\n|\r\n|";
             // 
@@ -569,9 +592,10 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(208, 106);
+            this.label13.Location = new System.Drawing.Point(277, 130);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(98, 18);
+            this.label13.Size = new System.Drawing.Size(120, 22);
             this.label13.TabIndex = 9;
             this.label13.Text = "Thinh Giang";
             // 
@@ -580,9 +604,10 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(129, 106);
+            this.label12.Location = new System.Drawing.Point(172, 130);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(61, 18);
+            this.label12.Size = new System.Drawing.Size(73, 22);
             this.label12.TabIndex = 8;
             this.label12.Text = "Status:";
             // 
@@ -591,9 +616,10 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(208, 74);
+            this.label11.Location = new System.Drawing.Point(277, 91);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 18);
+            this.label11.Size = new System.Drawing.Size(117, 22);
             this.label11.TabIndex = 7;
             this.label11.Text = "2021 - 2025";
             // 
@@ -602,9 +628,10 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(144, 74);
+            this.label10.Location = new System.Drawing.Point(192, 91);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 18);
+            this.label10.Size = new System.Drawing.Size(58, 22);
             this.label10.TabIndex = 6;
             this.label10.Text = "Year:";
             // 
@@ -613,9 +640,10 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(208, 39);
+            this.label9.Location = new System.Drawing.Point(277, 48);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(98, 18);
+            this.label9.Size = new System.Drawing.Size(120, 22);
             this.label9.TabIndex = 5;
             this.label9.Text = "2180607876";
             // 
@@ -624,9 +652,10 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(135, 8);
+            this.label8.Location = new System.Drawing.Point(180, 10);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 18);
+            this.label8.Size = new System.Drawing.Size(67, 22);
             this.label8.TabIndex = 4;
             this.label8.Text = "Name:";
             // 
@@ -635,9 +664,10 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(167, 39);
+            this.label5.Location = new System.Drawing.Point(223, 48);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 18);
+            this.label5.Size = new System.Drawing.Size(35, 22);
             this.label5.TabIndex = 3;
             this.label5.Text = "ID:";
             // 
@@ -646,9 +676,10 @@
             this.UserName.AutoSize = true;
             this.UserName.BackColor = System.Drawing.Color.White;
             this.UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName.Location = new System.Drawing.Point(208, 8);
+            this.UserName.Location = new System.Drawing.Point(277, 10);
+            this.UserName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(133, 18);
+            this.UserName.Size = new System.Drawing.Size(161, 22);
             this.UserName.TabIndex = 2;
             this.UserName.Text = "Trần Kiện Phong";
             // 
@@ -657,9 +688,10 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_male_user;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 16);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(24, 20);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(93, 90);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(124, 111);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
@@ -699,14 +731,14 @@
             // 
             // LecturerMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1193, 780);
+            this.ClientSize = new System.Drawing.Size(1591, 960);
             this.Controls.Add(this.SideBar);
             this.Controls.Add(this.panelChild);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LecturerMainForm";
             this.Text = "LecturerMainForm";
             this.head_sidebar.ResumeLayout(false);
