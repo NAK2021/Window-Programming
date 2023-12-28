@@ -16,5 +16,17 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
+
+        private void ViewStudentProfile_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'dBUniversityDataSet.Student' table. You can move, or remove it, as needed.
+            this.studentTableAdapter.Fill(this.dBUniversityDataSet.Student);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

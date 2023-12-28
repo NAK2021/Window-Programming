@@ -16,5 +16,12 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
+
+        private void ViewClassRegistered_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'dbUniversityDataSet1.LectureRegisClass' table. You can move, or remove it, as needed.
+            this.lectureRegisClassTableAdapter.Fill(this.dbUniversityDataSet1.LectureRegisClass);
+
+        }
     }
 }

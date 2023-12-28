@@ -16,5 +16,12 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
+
+        private void ViewCourse_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'dBUniversityDataSet.Subject_' table. You can move, or remove it, as needed.
+            this.subject_TableAdapter.Fill(this.dBUniversityDataSet.Subject_);
+
+        }
     }
 }

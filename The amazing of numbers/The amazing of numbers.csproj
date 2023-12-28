@@ -422,6 +422,11 @@
     <Compile Include="CustomControl\TextBox.Designer.cs">
       <DependentUpon>TextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBUniversity.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBUniversity.dbml</DependentUpon>
+    </Compile>
     <Compile Include="DBUniversityDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -470,11 +475,35 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Area\AcademicAffair\View\AddCourse.resx">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\AddLecture.resx">
+      <DependentUpon>AddLecture.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\AddStudent.resx">
       <DependentUpon>AddStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\AcademicAffairMainForm.resx">
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewClassRegistered.resx">
+      <DependentUpon>ViewClassRegistered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewCourse.resx">
+      <DependentUpon>ViewCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewDepartment.resx">
+      <DependentUpon>ViewDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewLectureProfile.resx">
+      <DependentUpon>ViewLectureProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewMyProfile.resx">
+      <DependentUpon>ViewMyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewStudentProfile.resx">
+      <DependentUpon>ViewStudentProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\Admin\View\AdminMainForm.resx">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
@@ -603,6 +632,14 @@
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DBUniversity.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DBUniversity.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBUniversity.dbml.layout">
+      <DependentUpon>DBUniversity.dbml</DependentUpon>
+    </None>
     <None Include="DBUniversityDataSet.xsc">
       <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
     </None>

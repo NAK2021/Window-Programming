@@ -16,5 +16,30 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
+        //add to dataGridView
+        private void addbtn_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add(txtNo.Text, txtID.Text, txtName.Text, 
+                txtDOB.Text, txtSex.Text, txtEmail.Text, txtPhone.Text, 
+                txtDeparment.Text, txtStatus.Text, txtTeachingExperience.Text
+                , txtAcademicRank.Text, txtAssignedSubject.Text);
+            clear();
+        }
+        //reset each add
+        public void clear()
+        {
+            txtNo.Text = "";
+            txtID.Text = "";
+            txtName.Text = "";
+            txtDOB.Text = "";
+            txtSex.Text = "";
+            txtEmail.Text = "";
+            txtPhone.Text = "";
+            txtDeparment.Text = "";
+            txtStatus.Text = "";
+            txtTeachingExperience.Text = "";
+            txtAcademicRank.Text = "";
+            txtAssignedSubject.Text = "";
+        }
     }
 }

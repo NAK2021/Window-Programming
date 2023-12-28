@@ -544,3 +544,13 @@ C:\Users\khang\OneDrive\Tài liệu\winform\font-end\Window-Programming\The am
 C:\Users\khang\OneDrive\Tài liệu\winform\font-end\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.exe
 C:\Users\khang\OneDrive\Tài liệu\winform\font-end\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.pdb
 C:\Users\khang\OneDrive\Tài liệu\winform\font-end\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.addStudent.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.AddStudent.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.RegisterClass.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.RegisterTeach.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Lecturer.View.TeacherScoringStudent.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Score202122.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Score202223.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.Student.View.Score202425.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AddCourse.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.AddLecture.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewStudentProfile.resources
