@@ -21,7 +21,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         private void AcademicAffairMainForm_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'dBUniversityDataSet.Student' table. You can move, or remove it, as needed.
-            this.studentTableAdapter.Fill(this.dBUniversityDataSet.Student);
+       /*     this.studentTableAdapter.Fill(this.dBUniversityDataSet.Student);*/
 
         }
         private void hideSubMenu()

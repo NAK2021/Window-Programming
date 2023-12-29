@@ -422,11 +422,6 @@
     <Compile Include="CustomControl\TextBox.Designer.cs">
       <DependentUpon>TextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBUniversity.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBUniversity.dbml</DependentUpon>
-    </Compile>
     <Compile Include="DBUniversityDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -632,14 +627,6 @@
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DBUniversity.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>DBUniversity.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DBUniversity.dbml.layout">
-      <DependentUpon>DBUniversity.dbml</DependentUpon>
-    </None>
     <None Include="DBUniversityDataSet.xsc">
       <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
     </None>

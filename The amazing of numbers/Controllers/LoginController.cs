@@ -21,44 +21,45 @@ namespace The_amazing_of_numbers.Controller
         dbUniversityDataContext db = new dbUniversityDataContext();
         private Dictionary<char, char> mp;
         private User user_model = new User();
-        public LoginController() {
+        public LoginController()
+        {
             mp = new Dictionary<char, char>();
-            mp.Add('0','7');
-            mp.Add('9','6');
-            mp.Add('8','5');
-            mp.Add('7','4');
-            mp.Add('6','3');
-            mp.Add('5','2');
-            mp.Add('4','1');
-            mp.Add('3','z');
-            mp.Add('2','y');
-            mp.Add('1','x');
-            mp.Add('z','w');
-            mp.Add('y','v');
-            mp.Add('x','u');
-            mp.Add('w','t');
-            mp.Add('v','s');
-            mp.Add('u','r');
-            mp.Add('t','q');
-            mp.Add('s','p');
-            mp.Add('r','o');
-            mp.Add('q','n');
-            mp.Add('p','m');
-            mp.Add('o','l');
-            mp.Add('n','k');
-            mp.Add('m','j');
-            mp.Add('l','i');
-            mp.Add('k','h');
-            mp.Add('j','g');
-            mp.Add('i','f');
-            mp.Add('h','e');
-            mp.Add('g','d');
-            mp.Add('f','c');
-            mp.Add('e','b');
-            mp.Add('d','a');
-            mp.Add('c','0');
-            mp.Add('b','9');
-            mp.Add('a','8');
+            mp.Add('0', '7');
+            mp.Add('9', '6');
+            mp.Add('8', '5');
+            mp.Add('7', '4');
+            mp.Add('6', '3');
+            mp.Add('5', '2');
+            mp.Add('4', '1');
+            mp.Add('3', 'z');
+            mp.Add('2', 'y');
+            mp.Add('1', 'x');
+            mp.Add('z', 'w');
+            mp.Add('y', 'v');
+            mp.Add('x', 'u');
+            mp.Add('w', 't');
+            mp.Add('v', 's');
+            mp.Add('u', 'r');
+            mp.Add('t', 'q');
+            mp.Add('s', 'p');
+            mp.Add('r', 'o');
+            mp.Add('q', 'n');
+            mp.Add('p', 'm');
+            mp.Add('o', 'l');
+            mp.Add('n', 'k');
+            mp.Add('m', 'j');
+            mp.Add('l', 'i');
+            mp.Add('k', 'h');
+            mp.Add('j', 'g');
+            mp.Add('i', 'f');
+            mp.Add('h', 'e');
+            mp.Add('g', 'd');
+            mp.Add('f', 'c');
+            mp.Add('e', 'b');
+            mp.Add('d', 'a');
+            mp.Add('c', '0');
+            mp.Add('b', '9');
+            mp.Add('a', '8');
         }
 
         //Login view will send data to this function
@@ -111,7 +112,7 @@ namespace The_amazing_of_numbers.Controller
         public string Decode(string edcodedPass)
         {
             string decodedPass = "";
-            for(int i = 0; i < edcodedPass.Length; i++)
+            for (int i = 0; i < edcodedPass.Length; i++)
             {
                 decodedPass += mp[edcodedPass[i]];
             }
@@ -121,7 +122,7 @@ namespace The_amazing_of_numbers.Controller
         public void DirectDifferentAutorization(string user_role, Login cur_form)
         {
             cur_form.Hide();
-            switch(user_role.ToLower()) 
+            switch (user_role.ToLower())
             {
                 case ("admin"):
                     AdminController adminController = new AdminController();

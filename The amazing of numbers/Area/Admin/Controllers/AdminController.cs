@@ -21,7 +21,7 @@ namespace The_amazing_of_numbers.Area.Admin.Controllers
         {
             //Console.WriteLine("User id: " + id);
             try {
-                User user_model = db.Users.Where(user => user.id == id).FirstOrDefault();
+                var user_model = db.Users.Where(user => user.id == id).FirstOrDefault();
                 if (user_model != null)
                 {
                     user_model.pin = PIN;
