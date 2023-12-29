@@ -23,10 +23,5 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
             this.studentTableAdapter.Fill(this.dBUniversityDataSet.Student);
 
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

@@ -635,3 +635,8 @@ F:\Programming\File programming\C# project\C-Project\Window-Programming\The amaz
 F:\Programming\File programming\C# project\C-Project\Window-Programming\The amazing of numbers\obj\Debug\aa-DJ\The amazing of numbers.resources.dll
 F:\Programming\File programming\C# project\C-Project\Window-Programming\The amazing of numbers\obj\Debug\aa\The amazing of numbers.resources.dll
 F:\Programming\File programming\C# project\C-Project\Window-Programming\The amazing of numbers\obj\Debug\The amazing of numbers.csproj.CopyComplete
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewClassRegistered.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewCourse.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewDepartment.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewLectureProfile.resources
+G:\finalWF1\Window-Programming\The amazing of numbers\obj\Debug\The_amazing_of_numbers.Area.AcademicAffair.View.ViewMyProfile.resources

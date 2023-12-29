@@ -41,19 +41,6 @@
             this.head_sidebar = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
             this.panelchild = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.schoolyearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dobDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phonenumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.departmentidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totcredDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
             this.divinejob = new Guna.UI2.WinForms.Guna2Button();
             this.ProfileDropDownPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.AddStudent = new Guna.UI2.WinForms.Guna2Button();
@@ -73,6 +60,8 @@
             this.StatisticButton = new Guna.UI2.WinForms.Guna2Button();
             this.AddingButton = new Guna.UI2.WinForms.Guna2Button();
             this.HomeButton2 = new Guna.UI2.WinForms.Guna2Button();
+            this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
             this.SideBar = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
@@ -86,12 +75,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.head_sidebar.SuspendLayout();
             this.panelchild.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
             this.ProfileDropDownPanel.SuspendLayout();
             this.StaDropDownPanel.SuspendLayout();
             this.CourseDropDownPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
             this.SideBar.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -245,7 +233,6 @@
             // 
             // panelchild
             // 
-            this.panelchild.Controls.Add(this.dataGridView1);
             this.panelchild.Controls.Add(this.divinejob);
             this.panelchild.Controls.Add(this.ProfileDropDownPanel);
             this.panelchild.Controls.Add(this.ViewButton);
@@ -260,102 +247,11 @@
             this.panelchild.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panelchild.FillColor3 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panelchild.FillColor4 = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panelchild.Location = new System.Drawing.Point(-50, 0);
+            this.panelchild.Location = new System.Drawing.Point(100, 0);
             this.panelchild.Name = "panelchild";
             this.panelchild.Size = new System.Drawing.Size(1084, 800);
             this.panelchild.TabIndex = 7;
             this.panelchild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelchild_Paint);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.sexDataGridViewTextBoxColumn,
-            this.schoolyearDataGridViewTextBoxColumn,
-            this.dobDataGridViewTextBoxColumn,
-            this.phonenumDataGridViewTextBoxColumn,
-            this.departmentidDataGridViewTextBoxColumn,
-            this.totcredDataGridViewTextBoxColumn,
-            this.statusDataGridViewTextBoxColumn,
-            this.pictureDataGridViewImageColumn});
-            this.dataGridView1.DataSource = this.studentBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(50, 438);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(828, 110);
-            this.dataGridView1.TabIndex = 72;
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name_";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "name_";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // sexDataGridViewTextBoxColumn
-            // 
-            this.sexDataGridViewTextBoxColumn.DataPropertyName = "sex";
-            this.sexDataGridViewTextBoxColumn.HeaderText = "sex";
-            this.sexDataGridViewTextBoxColumn.Name = "sexDataGridViewTextBoxColumn";
-            // 
-            // schoolyearDataGridViewTextBoxColumn
-            // 
-            this.schoolyearDataGridViewTextBoxColumn.DataPropertyName = "school_year";
-            this.schoolyearDataGridViewTextBoxColumn.HeaderText = "school_year";
-            this.schoolyearDataGridViewTextBoxColumn.Name = "schoolyearDataGridViewTextBoxColumn";
-            // 
-            // dobDataGridViewTextBoxColumn
-            // 
-            this.dobDataGridViewTextBoxColumn.DataPropertyName = "dob";
-            this.dobDataGridViewTextBoxColumn.HeaderText = "dob";
-            this.dobDataGridViewTextBoxColumn.Name = "dobDataGridViewTextBoxColumn";
-            // 
-            // phonenumDataGridViewTextBoxColumn
-            // 
-            this.phonenumDataGridViewTextBoxColumn.DataPropertyName = "phone_num";
-            this.phonenumDataGridViewTextBoxColumn.HeaderText = "phone_num";
-            this.phonenumDataGridViewTextBoxColumn.Name = "phonenumDataGridViewTextBoxColumn";
-            // 
-            // departmentidDataGridViewTextBoxColumn
-            // 
-            this.departmentidDataGridViewTextBoxColumn.DataPropertyName = "department_id";
-            this.departmentidDataGridViewTextBoxColumn.HeaderText = "department_id";
-            this.departmentidDataGridViewTextBoxColumn.Name = "departmentidDataGridViewTextBoxColumn";
-            // 
-            // totcredDataGridViewTextBoxColumn
-            // 
-            this.totcredDataGridViewTextBoxColumn.DataPropertyName = "tot_cred";
-            this.totcredDataGridViewTextBoxColumn.HeaderText = "tot_cred";
-            this.totcredDataGridViewTextBoxColumn.Name = "totcredDataGridViewTextBoxColumn";
-            // 
-            // statusDataGridViewTextBoxColumn
-            // 
-            this.statusDataGridViewTextBoxColumn.DataPropertyName = "status_";
-            this.statusDataGridViewTextBoxColumn.HeaderText = "status_";
-            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
-            // 
-            // pictureDataGridViewImageColumn
-            // 
-            this.pictureDataGridViewImageColumn.DataPropertyName = "picture";
-            this.pictureDataGridViewImageColumn.HeaderText = "picture";
-            this.pictureDataGridViewImageColumn.Name = "pictureDataGridViewImageColumn";
-            // 
-            // studentBindingSource
-            // 
-            this.studentBindingSource.DataMember = "Student";
-            this.studentBindingSource.DataSource = this.dBUniversityDataSet;
-            // 
-            // dBUniversityDataSet
-            // 
-            this.dBUniversityDataSet.DataSetName = "DBUniversityDataSet";
-            this.dBUniversityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // divinejob
             // 
@@ -526,6 +422,7 @@
             this.ViewProfile.TabIndex = 48;
             this.ViewProfile.Text = "My profile";
             this.ViewProfile.UseTransparentBackground = true;
+            this.ViewProfile.Click += new System.EventHandler(this.ViewProfile_Click);
             // 
             // ViewStudent
             // 
@@ -549,6 +446,7 @@
             this.ViewStudent.TabIndex = 44;
             this.ViewStudent.Text = "Student profile";
             this.ViewStudent.UseTransparentBackground = true;
+            this.ViewStudent.Click += new System.EventHandler(this.ViewStudent_Click);
             // 
             // ViewLecture
             // 
@@ -572,6 +470,7 @@
             this.ViewLecture.TabIndex = 45;
             this.ViewLecture.Text = "Lecture profile";
             this.ViewLecture.UseTransparentBackground = true;
+            this.ViewLecture.Click += new System.EventHandler(this.ViewLecture_Click);
             // 
             // ViewCourse
             // 
@@ -595,6 +494,7 @@
             this.ViewCourse.TabIndex = 46;
             this.ViewCourse.Text = "Course";
             this.ViewCourse.UseTransparentBackground = true;
+            this.ViewCourse.Click += new System.EventHandler(this.ViewCourse_Click);
             // 
             // ViewDepartment
             // 
@@ -618,6 +518,7 @@
             this.ViewDepartment.TabIndex = 47;
             this.ViewDepartment.Text = "Department";
             this.ViewDepartment.UseTransparentBackground = true;
+            this.ViewDepartment.Click += new System.EventHandler(this.ViewDepartment_Click);
             // 
             // ViewClassRegis
             // 
@@ -641,6 +542,7 @@
             this.ViewClassRegis.TabIndex = 49;
             this.ViewClassRegis.Text = "Class Registered";
             this.ViewClassRegis.UseTransparentBackground = true;
+            this.ViewClassRegis.Click += new System.EventHandler(this.ViewClassRegis_Click);
             // 
             // CourseDropDownPanel
             // 
@@ -675,6 +577,7 @@
             this.StaStudent.TabIndex = 44;
             this.StaStudent.Text = "Student";
             this.StaStudent.UseTransparentBackground = true;
+            this.StaStudent.Click += new System.EventHandler(this.StaStudent_Click);
             // 
             // StaLecture
             // 
@@ -770,6 +673,16 @@
             this.HomeButton2.Text = "Home";
             this.HomeButton2.UseTransparentBackground = true;
             this.HomeButton2.Click += new System.EventHandler(this.HomeButton2_Click);
+            // 
+            // studentBindingSource
+            // 
+            this.studentBindingSource.DataMember = "Student";
+            this.studentBindingSource.DataSource = this.dBUniversityDataSet;
+            // 
+            // dBUniversityDataSet
+            // 
+            this.dBUniversityDataSet.DataSetName = "DBUniversityDataSet";
+            this.dBUniversityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // SideBar
             // 
@@ -913,6 +826,7 @@
             this.HomeButton.Size = new System.Drawing.Size(72, 33);
             this.HomeButton.TabIndex = 0;
             this.HomeButton.UseTransparentBackground = true;
+            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
             // guna2Panel1
             // 
@@ -923,7 +837,7 @@
             this.guna2Panel1.MaximumSize = new System.Drawing.Size(1200, 800);
             this.guna2Panel1.MinimumSize = new System.Drawing.Size(1034, 800);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1034, 800);
+            this.guna2Panel1.Size = new System.Drawing.Size(1184, 800);
             this.guna2Panel1.TabIndex = 1;
             // 
             // studentTableAdapter
@@ -934,7 +848,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 609);
+            this.ClientSize = new System.Drawing.Size(1184, 609);
             this.Controls.Add(this.guna2Panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(1200, 788);
@@ -947,12 +861,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.head_sidebar.ResumeLayout(false);
             this.panelchild.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).EndInit();
             this.ProfileDropDownPanel.ResumeLayout(false);
             this.StaDropDownPanel.ResumeLayout(false);
             this.CourseDropDownPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).EndInit();
             this.SideBar.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -999,19 +912,8 @@
         private Guna.UI2.WinForms.Guna2Button ViewProfile;
         private Guna.UI2.WinForms.Guna2Button ViewClassRegis;
         private Guna.UI2.WinForms.Guna2Button divinejob;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private DBUniversityDataSet dBUniversityDataSet;
         private System.Windows.Forms.BindingSource studentBindingSource;
         private DBUniversityDataSetTableAdapters.StudentTableAdapter studentTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sexDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn schoolyearDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dobDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phonenumDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn departmentidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn totcredDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewImageColumn pictureDataGridViewImageColumn;
     }
 }

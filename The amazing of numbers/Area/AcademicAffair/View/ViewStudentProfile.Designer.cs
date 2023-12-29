@@ -1,4 +1,5 @@
-﻿namespace The_amazing_of_numbers.Area.AcademicAffair.View
+﻿
+namespace The_amazing_of_numbers.Area.AcademicAffair.View
 {
     partial class ViewStudentProfile
     {
@@ -30,6 +31,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
+            this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.StudentTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,14 +44,9 @@
             this.totcredDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
-            this.dBUniversityDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.StudentTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -66,11 +65,24 @@
             this.statusDataGridViewTextBoxColumn,
             this.pictureDataGridViewImageColumn});
             this.dataGridView1.DataSource = this.studentBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 54);
+            this.dataGridView1.Location = new System.Drawing.Point(119, 144);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(913, 279);
+            this.dataGridView1.Size = new System.Drawing.Size(538, 151);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // dBUniversityDataSet
+            // 
+            this.dBUniversityDataSet.DataSetName = "DBUniversityDataSet";
+            this.dBUniversityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // studentBindingSource
+            // 
+            this.studentBindingSource.DataMember = "Student";
+            this.studentBindingSource.DataSource = this.dBUniversityDataSet;
+            // 
+            // studentTableAdapter
+            // 
+            this.studentTableAdapter.ClearBeforeFill = true;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -132,38 +144,18 @@
             this.pictureDataGridViewImageColumn.HeaderText = "picture";
             this.pictureDataGridViewImageColumn.Name = "pictureDataGridViewImageColumn";
             // 
-            // studentBindingSource
-            // 
-            this.studentBindingSource.DataMember = "Student";
-            this.studentBindingSource.DataSource = this.dBUniversityDataSet;
-            // 
-            // dBUniversityDataSet
-            // 
-            this.dBUniversityDataSet.DataSetName = "DBUniversityDataSet";
-            this.dBUniversityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dBUniversityDataSetBindingSource
-            // 
-            this.dBUniversityDataSetBindingSource.DataSource = this.dBUniversityDataSet;
-            this.dBUniversityDataSetBindingSource.Position = 0;
-            // 
-            // studentTableAdapter
-            // 
-            this.studentTableAdapter.ClearBeforeFill = true;
-            // 
             // ViewStudentProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1068, 749);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridView1);
             this.Name = "ViewStudentProfile";
             this.Text = "ViewStudentProfile";
             this.Load += new System.EventHandler(this.ViewStudentProfile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -171,7 +163,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.BindingSource dBUniversityDataSetBindingSource;
         private DBUniversityDataSet dBUniversityDataSet;
         private System.Windows.Forms.BindingSource studentBindingSource;
         private DBUniversityDataSetTableAdapters.StudentTableAdapter studentTableAdapter;

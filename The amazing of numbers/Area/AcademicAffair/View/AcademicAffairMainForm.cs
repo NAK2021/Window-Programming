@@ -122,5 +122,55 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             OpenChildForm(new AddCourse());
         }
+
+        private void ViewProfile_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewMyProfile());
+        }
+
+        private void ViewStudent_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewStudentProfile());
+        }
+
+        private void ViewLecture_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewLectureProfile());
+        }
+
+        private void ViewCourse_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewCourse());
+        }
+
+        private void ViewDepartment_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewDepartment());
+        }
+
+        private void ViewClassRegis_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewClassRegistered());
+        }
+
+        private void StaStudent_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new StatisticStudent());
+        }
+
+        private void StaLecture_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new StatisticLecture());
+        }
+
+   
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+        }
     }
 }
