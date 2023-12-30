@@ -106,7 +106,7 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -124,6 +124,12 @@ namespace The_amazing_of_numbers.Area.AdminArea.View
         {
 
         }
+
+        private void UserName_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void InfoSimple(string adID)
 		{
             Admin admin = adminController.infoDetail(adID);

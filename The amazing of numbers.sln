@@ -5,6 +5,14 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The amazing of numbers", "The amazing of numbers\The amazing of numbers.csproj", "{D8DAA3CD-446F-4754-BC15-90C95387F014}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68EA30A9-6D6F-446B-B778-BF56283C2A97}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Admin\Desktop\DBUniversity.ldf = C:\Users\Admin\Desktop\DBUniversity.ldf
+		C:\Users\Admin\Desktop\DBUniversity.mdf = C:\Users\Admin\Desktop\DBUniversity.mdf
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UpdateSetup", "UpdateSetup\UpdateSetup.vdproj", "{0B16B6DF-FFEB-4CAD-8527-56D6E15264E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,8 @@ Global
 		{D8DAA3CD-446F-4754-BC15-90C95387F014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DAA3CD-446F-4754-BC15-90C95387F014}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DAA3CD-446F-4754-BC15-90C95387F014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B16B6DF-FFEB-4CAD-8527-56D6E15264E1}.Debug|Any CPU.ActiveCfg = Debug
+		{0B16B6DF-FFEB-4CAD-8527-56D6E15264E1}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

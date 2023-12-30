@@ -20,15 +20,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         dbUniversityDataContext db = new dbUniversityDataContext();
         LecturerController lecturerController = new LecturerController();
         private User cur_user;
-        private static extern IntPtr CreateRoundRectRgn
-             (
-                 int nLeftRect,     // x-coordinate of upper-left corner
-                 int nTopRect,      // y-coordinate of upper-left corner
-                 int nRightRect,    // x-coordinate of lower-right corner
-                 int nBottomRect,   // y-coordinate of lower-right corner
-                 int nWidthEllipse, // height of ellipse
-                 int nHeightEllipse // width of ellipse
-             );
+     
         public LecturerMainForm(User cur_user)
         {
             InitializeComponent();
@@ -36,12 +28,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
             Lecture lt = db.Lectures.Where(s => s.id == cur_user.id).FirstOrDefault();
             ProfileLecture();
             customizeDesign();
-            /*thiết lập kiểu viền của form thành không, loại bỏ viền mặc định.*/
-            this.FormBorderStyle = FormBorderStyle.None;
-            /*0, 0: Tọa độ của góc trên bên trái của hình chữ nhật.
-            Width, Height: Tọa độ của góc dưới bên phải của hình chữ nhật, được đặt bằng chiều rộng và chiều cao của form.
-            20, 20: Chiều rộng và chiều cao của hình elip được sử dụng để tạo các góc bo tròn.*/
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 50, 50));
+     
         }
         //Header Panel Selected Menu
         private void customizeDesign()
@@ -283,7 +270,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         //Minimize and Close WinForm
         private void MiniBtn_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
 
         }
         private void guna2Button4_Click(object sender, EventArgs e)

@@ -190,7 +190,7 @@ namespace The_amazing_of_numbers.Area.Student.View
         // Close window
         private void guna2Button4_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
 
         }
 

@@ -253,7 +253,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void MinimizeButton_Click(object sender, EventArgs e)
