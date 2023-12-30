@@ -135,17 +135,17 @@
     <Compile Include="Area\AcademicAffair\View\AddCourse.Designer.cs">
       <DependentUpon>AddCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddingInfomations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\AddingInfomations.Designer.cs">
+      <DependentUpon>AddingInfomations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\AcademicAffair\View\AddLecture.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Area\AcademicAffair\View\AddLecture.Designer.cs">
       <DependentUpon>AddLecture.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Area\AcademicAffair\View\AddStudent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Area\AcademicAffair\View\AddStudent.Designer.cs">
-      <DependentUpon>AddStudent.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\AcademicAffair\Controllers\AcademicAffairController.cs" />
     <Compile Include="Area\AcademicAffair\View\AcademicAffairMainForm.cs">
@@ -153,6 +153,18 @@
     </Compile>
     <Compile Include="Area\AcademicAffair\View\AcademicAffairMainForm.Designer.cs">
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\DivineJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\DivineJobs.Designer.cs">
+      <DependentUpon>DivineJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\StatisticInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\StatisticInfo.Designer.cs">
+      <DependentUpon>StatisticInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\AcademicAffair\View\StatisticLecture.cs">
       <SubType>Form</SubType>
@@ -184,17 +196,17 @@
     <Compile Include="Area\AcademicAffair\View\ViewDepartment.Designer.cs">
       <DependentUpon>ViewDepartment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewInfomations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\AcademicAffair\View\ViewInfomations.Designer.cs">
+      <DependentUpon>ViewInfomations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Area\AcademicAffair\View\ViewLectureProfile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Area\AcademicAffair\View\ViewLectureProfile.Designer.cs">
       <DependentUpon>ViewLectureProfile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Area\AcademicAffair\View\ViewMyProfile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Area\AcademicAffair\View\ViewMyProfile.Designer.cs">
-      <DependentUpon>ViewMyProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\AcademicAffair\View\ViewStudentProfile.cs">
       <SubType>Form</SubType>
@@ -203,11 +215,23 @@
       <DependentUpon>ViewStudentProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Admin\Controllers\AdminController.cs" />
-    <Compile Include="Area\Admin\View\AddingRule.cs">
+    <Compile Include="Area\Admin\View\AdminChangePass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\AddingRule.Designer.cs">
-      <DependentUpon>AddingRule.cs</DependentUpon>
+    <Compile Include="Area\Admin\View\AdminChangePass.Designer.cs">
+      <DependentUpon>AdminChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Admin\View\AdminChangePin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Admin\View\AdminChangePin.Designer.cs">
+      <DependentUpon>AdminChangePin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area\Admin\View\Violate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area\Admin\View\Violate.Designer.cs">
+      <DependentUpon>Violate.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Admin\View\AdminMainForm.cs">
       <SubType>Form</SubType>
@@ -215,11 +239,11 @@
     <Compile Include="Area\Admin\View\AdminMainForm.Designer.cs">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\View\EditRule.cs">
+    <Compile Include="Area\Admin\View\AcademicsAffairsFunc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\EditRule.Designer.cs">
-      <DependentUpon>EditRule.cs</DependentUpon>
+    <Compile Include="Area\Admin\View\AcademicsAffairsFunc.Designer.cs">
+      <DependentUpon>AcademicsAffairsFunc.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Admin\View\ViewProfile.cs">
       <SubType>Form</SubType>
@@ -473,11 +497,11 @@
     <EmbeddedResource Include="Area\AcademicAffair\View\AddCourse.resx">
       <DependentUpon>AddCourse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\AddingInfomations.resx">
+      <DependentUpon>AddingInfomations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\AddLecture.resx">
       <DependentUpon>AddLecture.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Area\AcademicAffair\View\AddStudent.resx">
-      <DependentUpon>AddStudent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\AcademicAffairMainForm.resx">
       <DependentUpon>AcademicAffairMainForm.cs</DependentUpon>
@@ -491,17 +515,26 @@
     <EmbeddedResource Include="Area\AcademicAffair\View\ViewDepartment.resx">
       <DependentUpon>ViewDepartment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Area\AcademicAffair\View\ViewInfomations.resx">
+      <DependentUpon>ViewInfomations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\ViewLectureProfile.resx">
       <DependentUpon>ViewLectureProfile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Area\AcademicAffair\View\ViewMyProfile.resx">
-      <DependentUpon>ViewMyProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\AcademicAffair\View\ViewStudentProfile.resx">
       <DependentUpon>ViewStudentProfile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Area\Admin\View\AcademicsAffairsFunc.resx">
+      <DependentUpon>AcademicsAffairsFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Admin\View\Violate.resx">
+      <DependentUpon>Violate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Area\Admin\View\AdminMainForm.resx">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area\Admin\View\ViewProfile.resx">
+      <DependentUpon>ViewProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\Lecturer\View\LecturerMainForm.resx">
       <DependentUpon>LecturerMainForm.cs</DependentUpon>
@@ -707,6 +740,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\icons8-delete-100.png" />
+    <None Include="Resources\icons8-down-24 %281%293.png" />
+    <None Include="Resources\icons8-people-641.png" />
+    <None Include="Resources\icons8-statistic-64.png" />
     <None Include="Resources\icons8-view-100.png" />
     <None Include="Resources\icons8-edit.gif" />
     <None Include="Resources\icons8-add-selection-641.png" />

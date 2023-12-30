@@ -104,9 +104,9 @@
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2PictureBox2);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button5);
             this.guna2CustomGradientPanel4.Controls.Add(this.label9);
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(636, 555);
+            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(636, 545);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(378, 317);
+            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(378, 222);
             this.guna2CustomGradientPanel4.TabIndex = 0;
             // 
             // guna2Button6
@@ -121,7 +121,7 @@
             this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(101, 261);
+            this.guna2Button6.Location = new System.Drawing.Point(101, 172);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(180, 36);
             this.guna2Button6.TabIndex = 13;
@@ -133,9 +133,9 @@
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox2.Image = global::The_amazing_of_numbers.Properties.Resources._1703244058112_558;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(78, 107);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(87, 85);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(221, 148);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(194, 81);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 12;
             this.guna2PictureBox2.TabStop = false;
@@ -153,7 +153,7 @@
             this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(101, 65);
+            this.guna2Button5.Location = new System.Drawing.Point(101, 43);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(180, 36);
             this.guna2Button5.TabIndex = 11;
@@ -164,10 +164,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(22, 14);
+            this.label9.Font = new System.Drawing.Font("Nunito", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(82, 14);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(335, 31);
+            this.label9.Size = new System.Drawing.Size(220, 26);
             this.label9.TabIndex = 11;
             this.label9.Text = "Generate Your QR code:";
             // 
@@ -253,6 +253,7 @@
             this.guna2Button7.Animated = true;
             this.guna2Button7.AutoRoundedCorners = true;
             this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.BorderRadius = 15;
             this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -839,7 +840,6 @@
             // 
             // panelChild
             // 
-            this.panelChild.AutoScroll = true;
             this.panelChild.Controls.Add(this.guna2CustomGradientPanel5);
             this.panelChild.Controls.Add(this.guna2Button7);
             this.panelChild.Controls.Add(this.guna2CustomGradientPanel3);

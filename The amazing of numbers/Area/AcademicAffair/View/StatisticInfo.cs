@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace The_amazing_of_numbers.Area.Admin.View
+namespace The_amazing_of_numbers.Area.AcademicAffair.View
 {
-    public partial class EditRule : Form
+    public partial class StatisticInfo : Form
     {
-        public EditRule()
+        public StatisticInfo()
         {
             InitializeComponent();
         }

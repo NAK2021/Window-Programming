@@ -16,12 +16,63 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
-
-        private void ViewCourse_Load(object sender, EventArgs e)
+        private Form currentFormChild;
+        private void OpenChildForm(Form childForm)
         {
-            // TODO: This line of code loads data into the 'dBUniversityDataSet.Subject_' table. You can move, or remove it, as needed.
-            this.subject_TableAdapter.Fill(this.dBUniversityDataSet.Subject_);
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelchild.Controls.Add(childForm);
+            panelchild.Tag = childForm;
+            childForm.BringToFront();
+        }
+            private void ProfileClick(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewInfomations());
 
+        }
+  
+        private void StudentsBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewStudentProfile());
+
+        }
+
+        private void LectureBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewLectureProfile());
+
+        }
+
+        private void DepartBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewDepartment());
+
+        }
+
+        private void ClassesBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewClassRegistered());
+
+        }
+        private void guna2CustomGradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelchild_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewInfomations());
         }
     }
 }

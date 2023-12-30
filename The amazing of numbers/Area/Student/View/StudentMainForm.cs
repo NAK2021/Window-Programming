@@ -336,48 +336,7 @@ namespace The_amazing_of_numbers.Area.Student.View
 
         }
 
-       
-
-
-
-
-
-
-
-
-
-        /*       private void guna2Button1_Click(object sender, EventArgs e)
-               {
-                   DialogResult result = MessageBox.Show("Tin nhắn của bạn giờ đây có hiện dưới dạng nặc dang. Bạn có muốn tiếp tục không?", "Tiếp tục", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                       if(result == DialogResult.Yes)
-                   {
-                      Form modalbackground = new Form();
-                       using(Contact_mess modal = new Contact_mess())
-                       {
-                           modalbackground.StartPosition = FormStartPosition.Manual;
-                           modalbackground.FormBorderStyle = FormBorderStyle.None;
-                           modalbackground.Opacity = 0.50d;
-                           modalbackground.BackColor = Color.Black;
-                           modalbackground.Size = this.Size;
-                           modalbackground.Location = this.Location;
-                           modalbackground.ShowInTaskbar = false;
-                           modalbackground.Show();
-                           modal.Owner = modalbackground;
-
-                           parentX = this.Location.X;
-                           parentY = this.Location.Y;  
-
-                           modal.ShowDialog();
-                           modalbackground.Dispose();
-                       }
-                   }
-                       else
-                   {
-                       this.Hide();
-                   }
-
-       */
-
+  
         private void SideBar_Paint(object sender, PaintEventArgs e)
         {
 

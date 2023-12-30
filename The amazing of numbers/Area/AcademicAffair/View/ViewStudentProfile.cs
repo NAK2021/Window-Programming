@@ -16,12 +16,55 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
-
-        private void ViewStudentProfile_Load(object sender, EventArgs e)
+        private Form currentFormChild;
+        private void OpenChildForm(Form childForm)
         {
-            // TODO: This line of code loads data into the 'dBUniversityDataSet.Student' table. You can move, or remove it, as needed.
-            this.studentTableAdapter.Fill(this.dBUniversityDataSet.Student);
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelchild.Controls.Add(childForm);
+            panelchild.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        } 
+        private void MyProfileBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewInfomations());
+        }
+
+        private void LecturesBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewLectureProfile());
 
         }
+
+        private void DepartBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewDepartment());
+
+        }
+
+        private void CoursesBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewCourse());
+
+        }
+
+        private void ClassesBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewClassRegistered());
+
+        }
+        private void panelchild_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+      
     }
 }

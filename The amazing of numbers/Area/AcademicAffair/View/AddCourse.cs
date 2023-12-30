@@ -38,5 +38,12 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
             txtCredits.Text = "";
             txtCost.Text = "";
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add(txtNo.Text, txtCourseID.Text, txtCourseName.Text,
+               txtDeparmentID.Text, txtCredits.Text, txtCost.Text);
+            clear();
+        }
     }
 }

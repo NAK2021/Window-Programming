@@ -16,11 +16,48 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
             InitializeComponent();
         }
-
-        private void ViewClassRegistered_Load(object sender, EventArgs e)
+        private Form currentFormChild;
+        private void OpenChildForm(Form childForm)
         {
-            // TODO: This line of code loads data into the 'dbUniversityDataSet1.LectureRegisClass' table. You can move, or remove it, as needed.
-            this.lectureRegisClassTableAdapter.Fill(this.dbUniversityDataSet1.LectureRegisClass);
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelchild.Controls.Add(childForm);
+            panelchild.Tag = childForm;
+            childForm.BringToFront();
+        }
+        private void ProfileBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewInfomations());
+
+        }
+        private void StudentProfile_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewStudentProfile());
+        }
+
+        private void LectureProfile_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewLectureProfile());
+        }
+
+        private void DepartBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewDepartment());
+        }
+
+        private void CourseBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ViewCourse());
+        }
+
+        private void panelchild_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

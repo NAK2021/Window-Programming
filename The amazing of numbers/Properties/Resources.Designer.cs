@@ -213,6 +213,16 @@ namespace The_amazing_of_numbers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_delete_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-delete-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_diploma_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-diploma-100", resourceCulture);
@@ -256,6 +266,16 @@ namespace The_amazing_of_numbers.Properties {
         internal static System.Drawing.Bitmap icons8_down_24__1_2 {
             get {
                 object obj = ResourceManager.GetObject("icons8-down-24 (1)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_down_24__1_3 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-down-24 (1)3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,6 +423,16 @@ namespace The_amazing_of_numbers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_people_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-people-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_right_90 {
             get {
                 object obj = ResourceManager.GetObject("icons8-right-90", resourceCulture);
@@ -436,6 +466,16 @@ namespace The_amazing_of_numbers.Properties {
         internal static System.Drawing.Bitmap icons8_search_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-search-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_statistic_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-statistic-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

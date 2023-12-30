@@ -30,21 +30,22 @@ namespace The_amazing_of_numbers.Area.Student.View
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            ProfileUser_Info.Controls.Add(childForm);
-            ProfileUser_Info.Tag = childForm;
+            UserInfo.Controls.Add(childForm);
+            UserInfo.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
         }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new StudentForm_StudentProfile());
-        }
-
-        private void guna2Button3_Click(object sender, EventArgs e)
+   private void EditProBtn_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ProfileEdition());
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+         
+            OpenChildForm(new StudentForm_StudentProfile());
+        }
+     
         private void customizeDesign()
         {
             HK1_ScorePanel.Visible = false;
@@ -145,5 +146,12 @@ namespace The_amazing_of_numbers.Area.Student.View
         {
             OpenChildForm2(new Score202425());
         }
+
+        private void ProfileUser_Info_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+     
     }
 }

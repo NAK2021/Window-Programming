@@ -37,16 +37,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.UserName = new System.Windows.Forms.Label();
             this.Panel_ShowUser = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.head_sidebar = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
             this.panelchild = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.divinejob = new Guna.UI2.WinForms.Guna2Button();
             this.ProfileDropDownPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.AddStudent = new Guna.UI2.WinForms.Guna2Button();
-            this.AddLecture = new Guna.UI2.WinForms.Guna2Button();
-            this.Addcourse = new Guna.UI2.WinForms.Guna2Button();
-            this.ViewButton = new Guna.UI2.WinForms.Guna2Button();
             this.StaDropDownPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.ViewProfile = new Guna.UI2.WinForms.Guna2Button();
             this.ViewStudent = new Guna.UI2.WinForms.Guna2Button();
@@ -57,22 +51,26 @@
             this.CourseDropDownPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.StaStudent = new Guna.UI2.WinForms.Guna2Button();
             this.StaLecture = new Guna.UI2.WinForms.Guna2Button();
-            this.StatisticButton = new Guna.UI2.WinForms.Guna2Button();
-            this.AddingButton = new Guna.UI2.WinForms.Guna2Button();
             this.HomeButton2 = new Guna.UI2.WinForms.Guna2Button();
             this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
             this.SideBar = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.CourseButton = new Guna.UI2.WinForms.Guna2Button();
-            this.SystemButton = new Guna.UI2.WinForms.Guna2Button();
-            this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.studentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.StudentTableAdapter();
+            this.divinejob = new Guna.UI2.WinForms.Guna2Button();
+            this.ViewButton = new Guna.UI2.WinForms.Guna2Button();
+            this.StatisticButton = new Guna.UI2.WinForms.Guna2Button();
+            this.AddingButton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.DivineBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.AddingBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.MinimizeButton = new Guna.UI2.WinForms.Guna2Button();
+            this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
+            this.CloseButton = new Guna.UI2.WinForms.Guna2Button();
+            this.StatisticBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
             this.Panel_ShowUser.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.head_sidebar.SuspendLayout();
             this.panelchild.SuspendLayout();
             this.ProfileDropDownPanel.SuspendLayout();
@@ -82,6 +80,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
             this.SideBar.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label14
@@ -89,7 +88,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label14.Location = new System.Drawing.Point(117, 16);
+            this.label14.Location = new System.Drawing.Point(96, 17);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(9, 78);
             this.label14.TabIndex = 10;
@@ -100,7 +99,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(208, 74);
+            this.label11.Location = new System.Drawing.Point(171, 77);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(96, 18);
             this.label11.TabIndex = 7;
@@ -111,7 +110,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(144, 74);
+            this.label10.Location = new System.Drawing.Point(121, 77);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(47, 18);
             this.label10.TabIndex = 6;
@@ -122,7 +121,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(208, 39);
+            this.label9.Location = new System.Drawing.Point(171, 42);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(98, 18);
             this.label9.TabIndex = 5;
@@ -133,7 +132,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(135, 8);
+            this.label8.Location = new System.Drawing.Point(111, 12);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(57, 18);
             this.label8.TabIndex = 4;
@@ -144,7 +143,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(167, 39);
+            this.label5.Location = new System.Drawing.Point(139, 42);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(29, 18);
             this.label5.TabIndex = 3;
@@ -155,7 +154,7 @@
             this.UserName.AutoSize = true;
             this.UserName.BackColor = System.Drawing.Color.White;
             this.UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName.Location = new System.Drawing.Point(208, 8);
+            this.UserName.Location = new System.Drawing.Point(174, 11);
             this.UserName.Name = "UserName";
             this.UserName.Size = new System.Drawing.Size(133, 18);
             this.UserName.TabIndex = 2;
@@ -168,33 +167,20 @@
             this.Panel_ShowUser.BorderRadius = 60;
             this.Panel_ShowUser.BorderThickness = 2;
             this.Panel_ShowUser.Controls.Add(this.label14);
-            this.Panel_ShowUser.Controls.Add(this.label11);
-            this.Panel_ShowUser.Controls.Add(this.label10);
-            this.Panel_ShowUser.Controls.Add(this.label9);
-            this.Panel_ShowUser.Controls.Add(this.label8);
-            this.Panel_ShowUser.Controls.Add(this.label5);
-            this.Panel_ShowUser.Controls.Add(this.UserName);
             this.Panel_ShowUser.Controls.Add(this.guna2PictureBox1);
+            this.Panel_ShowUser.Controls.Add(this.label11);
+            this.Panel_ShowUser.Controls.Add(this.UserName);
+            this.Panel_ShowUser.Controls.Add(this.label10);
+            this.Panel_ShowUser.Controls.Add(this.label5);
+            this.Panel_ShowUser.Controls.Add(this.label8);
+            this.Panel_ShowUser.Controls.Add(this.label9);
             this.Panel_ShowUser.CustomizableEdges.BottomRight = false;
             this.Panel_ShowUser.CustomizableEdges.TopLeft = false;
             this.Panel_ShowUser.CustomizableEdges.TopRight = false;
-            this.Panel_ShowUser.Location = new System.Drawing.Point(735, 0);
+            this.Panel_ShowUser.Location = new System.Drawing.Point(790, 0);
             this.Panel_ShowUser.Name = "Panel_ShowUser";
-            this.Panel_ShowUser.Size = new System.Drawing.Size(348, 119);
+            this.Panel_ShowUser.Size = new System.Drawing.Size(309, 123);
             this.Panel_ShowUser.TabIndex = 61;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_male_user;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 16);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(93, 90);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 1;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // head_sidebar
             // 
@@ -207,29 +193,11 @@
             this.head_sidebar.Location = new System.Drawing.Point(0, 0);
             this.head_sidebar.MaximumSize = new System.Drawing.Size(213, 85);
             this.head_sidebar.Name = "head_sidebar";
-            this.head_sidebar.Size = new System.Drawing.Size(103, 85);
+            this.head_sidebar.Size = new System.Drawing.Size(93, 85);
             this.head_sidebar.TabIndex = 37;
-            // 
-            // MenuBtn
-            // 
-            this.MenuBtn.Animated = true;
-            this.MenuBtn.BackColor = System.Drawing.Color.Transparent;
-            this.MenuBtn.BorderColor = System.Drawing.Color.Transparent;
-            this.MenuBtn.BorderRadius = 10;
-            this.MenuBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MenuBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MenuBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MenuBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MenuBtn.FillColor = System.Drawing.Color.White;
-            this.MenuBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.MenuBtn.ForeColor = System.Drawing.Color.White;
-            this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
-            this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
-            this.MenuBtn.Location = new System.Drawing.Point(12, 29);
-            this.MenuBtn.Name = "MenuBtn";
-            this.MenuBtn.Size = new System.Drawing.Size(72, 33);
-            this.MenuBtn.TabIndex = 19;
-            this.MenuBtn.UseTransparentBackground = true;
+            this.head_sidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.head_sidebar_Paint);
+            this.head_sidebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
+            this.head_sidebar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
             // 
             // panelchild
             // 
@@ -247,46 +215,22 @@
             this.panelchild.FillColor2 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panelchild.FillColor3 = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panelchild.FillColor4 = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panelchild.Location = new System.Drawing.Point(100, 0);
+            this.panelchild.Location = new System.Drawing.Point(93, 0);
             this.panelchild.Name = "panelchild";
-            this.panelchild.Size = new System.Drawing.Size(1084, 800);
+            this.panelchild.Size = new System.Drawing.Size(1100, 800);
             this.panelchild.TabIndex = 7;
             this.panelchild.Paint += new System.Windows.Forms.PaintEventHandler(this.panelchild_Paint);
-            // 
-            // divinejob
-            // 
-            this.divinejob.Animated = true;
-            this.divinejob.BackColor = System.Drawing.Color.Transparent;
-            this.divinejob.BorderColor = System.Drawing.Color.Transparent;
-            this.divinejob.BorderRadius = 10;
-            this.divinejob.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.divinejob.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.divinejob.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.divinejob.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.divinejob.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.divinejob.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.divinejob.ForeColor = System.Drawing.Color.DimGray;
-            this.divinejob.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
-            this.divinejob.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.divinejob.ImageOffset = new System.Drawing.Point(-8, 0);
-            this.divinejob.Location = new System.Drawing.Point(624, 29);
-            this.divinejob.Name = "divinejob";
-            this.divinejob.Size = new System.Drawing.Size(98, 40);
-            this.divinejob.TabIndex = 71;
-            this.divinejob.Text = "Devine";
-            this.divinejob.UseTransparentBackground = true;
             // 
             // ProfileDropDownPanel
             // 
             this.ProfileDropDownPanel.BackColor = System.Drawing.Color.Transparent;
             this.ProfileDropDownPanel.Controls.Add(this.AddStudent);
-            this.ProfileDropDownPanel.Controls.Add(this.AddLecture);
-            this.ProfileDropDownPanel.Controls.Add(this.Addcourse);
             this.ProfileDropDownPanel.Location = new System.Drawing.Point(143, 74);
             this.ProfileDropDownPanel.Name = "ProfileDropDownPanel";
-            this.ProfileDropDownPanel.Size = new System.Drawing.Size(114, 159);
+            this.ProfileDropDownPanel.Size = new System.Drawing.Size(114, 54);
             this.ProfileDropDownPanel.TabIndex = 68;
             this.ProfileDropDownPanel.Visible = false;
+            this.ProfileDropDownPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ProfileDropDownPanel_Paint);
             // 
             // AddStudent
             // 
@@ -301,89 +245,16 @@
             this.AddStudent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.AddStudent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.AddStudent.FillColor = System.Drawing.Color.Gainsboro;
-            this.AddStudent.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddStudent.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddStudent.ForeColor = System.Drawing.Color.DimGray;
             this.AddStudent.ImageSize = new System.Drawing.Size(30, 30);
             this.AddStudent.Location = new System.Drawing.Point(3, 3);
             this.AddStudent.Name = "AddStudent";
             this.AddStudent.Size = new System.Drawing.Size(108, 46);
             this.AddStudent.TabIndex = 44;
-            this.AddStudent.Text = "Add Student";
+            this.AddStudent.Text = "Add infomations";
             this.AddStudent.UseTransparentBackground = true;
             this.AddStudent.Click += new System.EventHandler(this.AddStudent_Click);
-            // 
-            // AddLecture
-            // 
-            this.AddLecture.Animated = true;
-            this.AddLecture.AutoRoundedCorners = true;
-            this.AddLecture.BackColor = System.Drawing.Color.Transparent;
-            this.AddLecture.BorderColor = System.Drawing.Color.Silver;
-            this.AddLecture.BorderRadius = 22;
-            this.AddLecture.BorderThickness = 1;
-            this.AddLecture.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.AddLecture.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.AddLecture.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.AddLecture.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.AddLecture.FillColor = System.Drawing.Color.Gainsboro;
-            this.AddLecture.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddLecture.ForeColor = System.Drawing.Color.DimGray;
-            this.AddLecture.ImageSize = new System.Drawing.Size(30, 30);
-            this.AddLecture.Location = new System.Drawing.Point(3, 55);
-            this.AddLecture.Name = "AddLecture";
-            this.AddLecture.Size = new System.Drawing.Size(108, 46);
-            this.AddLecture.TabIndex = 45;
-            this.AddLecture.Text = "Add Lecture";
-            this.AddLecture.UseTransparentBackground = true;
-            this.AddLecture.Click += new System.EventHandler(this.AddLecture_Click);
-            // 
-            // Addcourse
-            // 
-            this.Addcourse.Animated = true;
-            this.Addcourse.AutoRoundedCorners = true;
-            this.Addcourse.BackColor = System.Drawing.Color.Transparent;
-            this.Addcourse.BorderColor = System.Drawing.Color.Silver;
-            this.Addcourse.BorderRadius = 21;
-            this.Addcourse.BorderThickness = 1;
-            this.Addcourse.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Addcourse.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Addcourse.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Addcourse.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Addcourse.FillColor = System.Drawing.Color.Gainsboro;
-            this.Addcourse.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Addcourse.ForeColor = System.Drawing.Color.DimGray;
-            this.Addcourse.ImageSize = new System.Drawing.Size(30, 30);
-            this.Addcourse.Location = new System.Drawing.Point(3, 107);
-            this.Addcourse.Name = "Addcourse";
-            this.Addcourse.Size = new System.Drawing.Size(108, 45);
-            this.Addcourse.TabIndex = 46;
-            this.Addcourse.Text = "Add Course";
-            this.Addcourse.UseTransparentBackground = true;
-            this.Addcourse.Click += new System.EventHandler(this.Addcourse_Click);
-            // 
-            // ViewButton
-            // 
-            this.ViewButton.Animated = true;
-            this.ViewButton.BackColor = System.Drawing.Color.Transparent;
-            this.ViewButton.BorderColor = System.Drawing.Color.Transparent;
-            this.ViewButton.BorderRadius = 10;
-            this.ViewButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ViewButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ViewButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ViewButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ViewButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ViewButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.ViewButton.ForeColor = System.Drawing.Color.DimGray;
-            this.ViewButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
-            this.ViewButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.ViewButton.ImageOffset = new System.Drawing.Point(-8, 0);
-            this.ViewButton.Location = new System.Drawing.Point(448, 16);
-            this.ViewButton.Name = "ViewButton";
-            this.ViewButton.Size = new System.Drawing.Size(136, 56);
-            this.ViewButton.TabIndex = 67;
-            this.ViewButton.Text = "View";
-            this.ViewButton.UseTransparentBackground = true;
-            this.ViewButton.MouseLeave += new System.EventHandler(this.ViewButton_MouseLeave);
-            this.ViewButton.MouseHover += new System.EventHandler(this.ViewButton_MouseHover);
             // 
             // StaDropDownPanel
             // 
@@ -394,7 +265,7 @@
             this.StaDropDownPanel.Controls.Add(this.ViewCourse);
             this.StaDropDownPanel.Controls.Add(this.ViewDepartment);
             this.StaDropDownPanel.Controls.Add(this.ViewClassRegis);
-            this.StaDropDownPanel.Location = new System.Drawing.Point(461, 79);
+            this.StaDropDownPanel.Location = new System.Drawing.Point(451, 77);
             this.StaDropDownPanel.Name = "StaDropDownPanel";
             this.StaDropDownPanel.Size = new System.Drawing.Size(123, 305);
             this.StaDropDownPanel.TabIndex = 70;
@@ -601,56 +472,7 @@
             this.StaLecture.TabIndex = 45;
             this.StaLecture.Text = "Lecture";
             this.StaLecture.UseTransparentBackground = true;
-            // 
-            // StatisticButton
-            // 
-            this.StatisticButton.Animated = true;
-            this.StatisticButton.BackColor = System.Drawing.Color.Transparent;
-            this.StatisticButton.BorderColor = System.Drawing.Color.Transparent;
-            this.StatisticButton.BorderRadius = 10;
-            this.StatisticButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.StatisticButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.StatisticButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.StatisticButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.StatisticButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.StatisticButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.StatisticButton.ForeColor = System.Drawing.Color.DimGray;
-            this.StatisticButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
-            this.StatisticButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.StatisticButton.ImageOffset = new System.Drawing.Point(-10, 0);
-            this.StatisticButton.Location = new System.Drawing.Point(297, 16);
-            this.StatisticButton.Name = "StatisticButton";
-            this.StatisticButton.Size = new System.Drawing.Size(109, 56);
-            this.StatisticButton.TabIndex = 66;
-            this.StatisticButton.Text = "Statistic";
-            this.StatisticButton.UseTransparentBackground = true;
-            this.StatisticButton.MouseLeave += new System.EventHandler(this.StatisticButton_MouseLeave);
-            this.StatisticButton.MouseHover += new System.EventHandler(this.StatisticButton_MouseHover);
-            // 
-            // AddingButton
-            // 
-            this.AddingButton.Animated = true;
-            this.AddingButton.BackColor = System.Drawing.Color.Transparent;
-            this.AddingButton.BorderColor = System.Drawing.Color.Transparent;
-            this.AddingButton.BorderRadius = 10;
-            this.AddingButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.AddingButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.AddingButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.AddingButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.AddingButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.AddingButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-            this.AddingButton.ForeColor = System.Drawing.Color.DimGray;
-            this.AddingButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
-            this.AddingButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.AddingButton.ImageOffset = new System.Drawing.Point(-5, 0);
-            this.AddingButton.Location = new System.Drawing.Point(143, 16);
-            this.AddingButton.Name = "AddingButton";
-            this.AddingButton.Size = new System.Drawing.Size(114, 56);
-            this.AddingButton.TabIndex = 65;
-            this.AddingButton.Text = "Adding";
-            this.AddingButton.UseTransparentBackground = true;
-            this.AddingButton.MouseLeave += new System.EventHandler(this.AddingButton_MouseLeave);
-            this.AddingButton.MouseHover += new System.EventHandler(this.AddingButton_MouseHover);
+            this.StaLecture.Click += new System.EventHandler(this.StaLecture_Click);
             // 
             // HomeButton2
             // 
@@ -687,40 +509,241 @@
             // SideBar
             // 
             this.SideBar.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.SideBar.Controls.Add(this.DivineBtn);
+            this.SideBar.Controls.Add(this.AddingBtn);
             this.SideBar.Controls.Add(this.head_sidebar);
-            this.SideBar.Controls.Add(this.guna2Button5);
+            this.SideBar.Controls.Add(this.MinimizeButton);
             this.SideBar.Controls.Add(this.ProfileButton);
-            this.SideBar.Controls.Add(this.guna2Button4);
-            this.SideBar.Controls.Add(this.CourseButton);
-            this.SideBar.Controls.Add(this.SystemButton);
+            this.SideBar.Controls.Add(this.CloseButton);
+            this.SideBar.Controls.Add(this.StatisticBtn);
             this.SideBar.Controls.Add(this.HomeButton);
             this.SideBar.FillColor = System.Drawing.SystemColors.WindowFrame;
             this.SideBar.Location = new System.Drawing.Point(0, 0);
-            this.SideBar.MaximumSize = new System.Drawing.Size(103, 944);
-            this.SideBar.MinimumSize = new System.Drawing.Size(103, 944);
+            this.SideBar.MaximumSize = new System.Drawing.Size(103, 800);
+            this.SideBar.MinimumSize = new System.Drawing.Size(93, 800);
             this.SideBar.Name = "SideBar";
-            this.SideBar.Size = new System.Drawing.Size(103, 944);
+            this.SideBar.Size = new System.Drawing.Size(93, 800);
             this.SideBar.TabIndex = 6;
+            this.SideBar.Paint += new System.Windows.Forms.PaintEventHandler(this.SideBar_Paint);
+            this.SideBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
+            this.SideBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
             // 
-            // guna2Button5
+            // guna2Panel1
             // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderRadius = 10;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.guna2Button5.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_minimize_24;
-            this.guna2Button5.Location = new System.Drawing.Point(21, 610);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(48, 45);
-            this.guna2Button5.TabIndex = 18;
-            this.guna2Button5.UseTransparentBackground = true;
+            this.guna2Panel1.Controls.Add(this.panelchild);
+            this.guna2Panel1.Controls.Add(this.SideBar);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.MaximumSize = new System.Drawing.Size(1200, 800);
+            this.guna2Panel1.MinimumSize = new System.Drawing.Size(1034, 800);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1193, 800);
+            this.guna2Panel1.TabIndex = 1;
+            // 
+            // studentTableAdapter
+            // 
+            this.studentTableAdapter.ClearBeforeFill = true;
+            // 
+            // divinejob
+            // 
+            this.divinejob.Animated = true;
+            this.divinejob.BackColor = System.Drawing.Color.Transparent;
+            this.divinejob.BorderColor = System.Drawing.Color.Transparent;
+            this.divinejob.BorderRadius = 10;
+            this.divinejob.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.divinejob.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.divinejob.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.divinejob.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.divinejob.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.divinejob.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+            this.divinejob.ForeColor = System.Drawing.Color.DimGray;
+            this.divinejob.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
+            this.divinejob.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.divinejob.ImageOffset = new System.Drawing.Point(-8, 0);
+            this.divinejob.Location = new System.Drawing.Point(608, 22);
+            this.divinejob.Name = "divinejob";
+            this.divinejob.Size = new System.Drawing.Size(114, 49);
+            this.divinejob.TabIndex = 71;
+            this.divinejob.Text = "Devine";
+            this.divinejob.UseTransparentBackground = true;
+            this.divinejob.Click += new System.EventHandler(this.divinejob_Click);
+            // 
+            // ViewButton
+            // 
+            this.ViewButton.Animated = true;
+            this.ViewButton.BackColor = System.Drawing.Color.Transparent;
+            this.ViewButton.BorderColor = System.Drawing.Color.Transparent;
+            this.ViewButton.BorderRadius = 10;
+            this.ViewButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ViewButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ViewButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ViewButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ViewButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ViewButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+            this.ViewButton.ForeColor = System.Drawing.Color.DimGray;
+            this.ViewButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
+            this.ViewButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.ViewButton.ImageOffset = new System.Drawing.Point(-8, 0);
+            this.ViewButton.Location = new System.Drawing.Point(442, 24);
+            this.ViewButton.Name = "ViewButton";
+            this.ViewButton.Size = new System.Drawing.Size(142, 47);
+            this.ViewButton.TabIndex = 67;
+            this.ViewButton.Text = "View Profile";
+            this.ViewButton.UseTransparentBackground = true;
+            this.ViewButton.Click += new System.EventHandler(this.ViewButton_Click);
+            this.ViewButton.MouseLeave += new System.EventHandler(this.ViewButton_MouseLeave);
+            this.ViewButton.MouseHover += new System.EventHandler(this.ViewButton_MouseHover);
+            // 
+            // StatisticButton
+            // 
+            this.StatisticButton.Animated = true;
+            this.StatisticButton.BackColor = System.Drawing.Color.Transparent;
+            this.StatisticButton.BorderColor = System.Drawing.Color.Transparent;
+            this.StatisticButton.BorderRadius = 10;
+            this.StatisticButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.StatisticButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.StatisticButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.StatisticButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.StatisticButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.StatisticButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+            this.StatisticButton.ForeColor = System.Drawing.Color.DimGray;
+            this.StatisticButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
+            this.StatisticButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.StatisticButton.ImageOffset = new System.Drawing.Point(-10, 0);
+            this.StatisticButton.Location = new System.Drawing.Point(297, 16);
+            this.StatisticButton.Name = "StatisticButton";
+            this.StatisticButton.Size = new System.Drawing.Size(109, 56);
+            this.StatisticButton.TabIndex = 66;
+            this.StatisticButton.Text = "Statistic";
+            this.StatisticButton.UseTransparentBackground = true;
+            this.StatisticButton.Click += new System.EventHandler(this.StatisticButton_Click);
+            this.StatisticButton.MouseLeave += new System.EventHandler(this.StatisticButton_MouseLeave);
+            this.StatisticButton.MouseHover += new System.EventHandler(this.StatisticButton_MouseHover);
+            // 
+            // AddingButton
+            // 
+            this.AddingButton.Animated = true;
+            this.AddingButton.BackColor = System.Drawing.Color.Transparent;
+            this.AddingButton.BorderColor = System.Drawing.Color.Transparent;
+            this.AddingButton.BorderRadius = 10;
+            this.AddingButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddingButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddingButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddingButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddingButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.AddingButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+            this.AddingButton.ForeColor = System.Drawing.Color.DimGray;
+            this.AddingButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
+            this.AddingButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.AddingButton.ImageOffset = new System.Drawing.Point(-5, 0);
+            this.AddingButton.Location = new System.Drawing.Point(143, 16);
+            this.AddingButton.Name = "AddingButton";
+            this.AddingButton.Size = new System.Drawing.Size(114, 56);
+            this.AddingButton.TabIndex = 65;
+            this.AddingButton.Text = "Adding";
+            this.AddingButton.UseTransparentBackground = true;
+            this.AddingButton.Click += new System.EventHandler(this.AddingButton_Click);
+            this.AddingButton.MouseLeave += new System.EventHandler(this.AddingButton_MouseLeave);
+            this.AddingButton.MouseHover += new System.EventHandler(this.AddingButton_MouseHover);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_male_user;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 16);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(72, 69);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 1;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // DivineBtn
+            // 
+            this.DivineBtn.Animated = true;
+            this.DivineBtn.BackColor = System.Drawing.Color.Transparent;
+            this.DivineBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.DivineBtn.BorderRadius = 10;
+            this.DivineBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.DivineBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.DivineBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.DivineBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.DivineBtn.FillColor = System.Drawing.Color.White;
+            this.DivineBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DivineBtn.ForeColor = System.Drawing.Color.White;
+            this.DivineBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_people_641;
+            this.DivineBtn.ImageSize = new System.Drawing.Size(40, 40);
+            this.DivineBtn.Location = new System.Drawing.Point(12, 381);
+            this.DivineBtn.Name = "DivineBtn";
+            this.DivineBtn.Size = new System.Drawing.Size(72, 33);
+            this.DivineBtn.TabIndex = 39;
+            this.DivineBtn.UseTransparentBackground = true;
+            this.DivineBtn.Click += new System.EventHandler(this.DivineBtn_Click);
+            // 
+            // AddingBtn
+            // 
+            this.AddingBtn.Animated = true;
+            this.AddingBtn.BackColor = System.Drawing.Color.Transparent;
+            this.AddingBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.AddingBtn.BorderRadius = 10;
+            this.AddingBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddingBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddingBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddingBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddingBtn.FillColor = System.Drawing.Color.White;
+            this.AddingBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AddingBtn.ForeColor = System.Drawing.Color.White;
+            this.AddingBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_edit;
+            this.AddingBtn.ImageSize = new System.Drawing.Size(30, 30);
+            this.AddingBtn.Location = new System.Drawing.Point(12, 188);
+            this.AddingBtn.Name = "AddingBtn";
+            this.AddingBtn.Size = new System.Drawing.Size(72, 33);
+            this.AddingBtn.TabIndex = 38;
+            this.AddingBtn.UseTransparentBackground = true;
+            this.AddingBtn.Click += new System.EventHandler(this.AddingBtn_Click);
+            // 
+            // MenuBtn
+            // 
+            this.MenuBtn.Animated = true;
+            this.MenuBtn.BackColor = System.Drawing.Color.Transparent;
+            this.MenuBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.MenuBtn.BorderRadius = 10;
+            this.MenuBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.MenuBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.MenuBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.MenuBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.MenuBtn.FillColor = System.Drawing.Color.White;
+            this.MenuBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MenuBtn.ForeColor = System.Drawing.Color.White;
+            this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
+            this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
+            this.MenuBtn.Location = new System.Drawing.Point(12, 29);
+            this.MenuBtn.Name = "MenuBtn";
+            this.MenuBtn.Size = new System.Drawing.Size(72, 33);
+            this.MenuBtn.TabIndex = 19;
+            this.MenuBtn.UseTransparentBackground = true;
+            // 
+            // MinimizeButton
+            // 
+            this.MinimizeButton.Animated = true;
+            this.MinimizeButton.BackColor = System.Drawing.Color.Transparent;
+            this.MinimizeButton.BorderColor = System.Drawing.Color.Transparent;
+            this.MinimizeButton.BorderRadius = 10;
+            this.MinimizeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.MinimizeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.MinimizeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.MinimizeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.MinimizeButton.FillColor = System.Drawing.Color.White;
+            this.MinimizeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MinimizeButton.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.MinimizeButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_minimize_24;
+            this.MinimizeButton.Location = new System.Drawing.Point(21, 610);
+            this.MinimizeButton.Name = "MinimizeButton";
+            this.MinimizeButton.Size = new System.Drawing.Size(48, 45);
+            this.MinimizeButton.TabIndex = 18;
+            this.MinimizeButton.UseTransparentBackground = true;
+            this.MinimizeButton.Click += new System.EventHandler(this.MinimizeButton_Click);
             // 
             // ProfileButton
             // 
@@ -737,74 +760,56 @@
             this.ProfileButton.ForeColor = System.Drawing.Color.White;
             this.ProfileButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_add_selection_641;
             this.ProfileButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.ProfileButton.Location = new System.Drawing.Point(12, 194);
+            this.ProfileButton.Location = new System.Drawing.Point(12, 316);
             this.ProfileButton.Name = "ProfileButton";
             this.ProfileButton.Size = new System.Drawing.Size(72, 33);
             this.ProfileButton.TabIndex = 4;
             this.ProfileButton.UseTransparentBackground = true;
+            this.ProfileButton.Click += new System.EventHandler(this.ProfileButton_Click);
             // 
-            // guna2Button4
+            // CloseButton
             // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderRadius = 10;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.guna2Button4.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_logout_501;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button4.Location = new System.Drawing.Point(21, 536);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(48, 45);
-            this.guna2Button4.TabIndex = 3;
-            this.guna2Button4.UseTransparentBackground = true;
+            this.CloseButton.Animated = true;
+            this.CloseButton.BackColor = System.Drawing.Color.Transparent;
+            this.CloseButton.BorderColor = System.Drawing.Color.Transparent;
+            this.CloseButton.BorderRadius = 10;
+            this.CloseButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.CloseButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.CloseButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.CloseButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.CloseButton.FillColor = System.Drawing.Color.White;
+            this.CloseButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.CloseButton.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.CloseButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_logout_501;
+            this.CloseButton.ImageSize = new System.Drawing.Size(30, 30);
+            this.CloseButton.Location = new System.Drawing.Point(21, 536);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(48, 45);
+            this.CloseButton.TabIndex = 3;
+            this.CloseButton.UseTransparentBackground = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
-            // CourseButton
+            // StatisticBtn
             // 
-            this.CourseButton.Animated = true;
-            this.CourseButton.BackColor = System.Drawing.Color.Transparent;
-            this.CourseButton.BorderColor = System.Drawing.Color.Transparent;
-            this.CourseButton.BorderRadius = 10;
-            this.CourseButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.CourseButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.CourseButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.CourseButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.CourseButton.FillColor = System.Drawing.Color.White;
-            this.CourseButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CourseButton.ForeColor = System.Drawing.Color.White;
-            this.CourseButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_edit;
-            this.CourseButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.CourseButton.Location = new System.Drawing.Point(12, 261);
-            this.CourseButton.Name = "CourseButton";
-            this.CourseButton.Size = new System.Drawing.Size(72, 33);
-            this.CourseButton.TabIndex = 3;
-            this.CourseButton.UseTransparentBackground = true;
-            // 
-            // SystemButton
-            // 
-            this.SystemButton.Animated = true;
-            this.SystemButton.BackColor = System.Drawing.Color.Transparent;
-            this.SystemButton.BorderColor = System.Drawing.Color.Transparent;
-            this.SystemButton.BorderRadius = 10;
-            this.SystemButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.SystemButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.SystemButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.SystemButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.SystemButton.FillColor = System.Drawing.Color.White;
-            this.SystemButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.SystemButton.ForeColor = System.Drawing.Color.White;
-            this.SystemButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_view_100;
-            this.SystemButton.ImageSize = new System.Drawing.Size(30, 30);
-            this.SystemButton.Location = new System.Drawing.Point(12, 331);
-            this.SystemButton.Name = "SystemButton";
-            this.SystemButton.Size = new System.Drawing.Size(72, 33);
-            this.SystemButton.TabIndex = 2;
-            this.SystemButton.UseTransparentBackground = true;
+            this.StatisticBtn.Animated = true;
+            this.StatisticBtn.BackColor = System.Drawing.Color.Transparent;
+            this.StatisticBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.StatisticBtn.BorderRadius = 10;
+            this.StatisticBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.StatisticBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.StatisticBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.StatisticBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.StatisticBtn.FillColor = System.Drawing.Color.White;
+            this.StatisticBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.StatisticBtn.ForeColor = System.Drawing.Color.White;
+            this.StatisticBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_statistic_64;
+            this.StatisticBtn.ImageSize = new System.Drawing.Size(30, 30);
+            this.StatisticBtn.Location = new System.Drawing.Point(12, 254);
+            this.StatisticBtn.Name = "StatisticBtn";
+            this.StatisticBtn.Size = new System.Drawing.Size(72, 33);
+            this.StatisticBtn.TabIndex = 3;
+            this.StatisticBtn.UseTransparentBackground = true;
+            this.StatisticBtn.Click += new System.EventHandler(this.StatisticBtn_Click);
             // 
             // HomeButton
             // 
@@ -828,37 +833,21 @@
             this.HomeButton.UseTransparentBackground = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.Controls.Add(this.panelchild);
-            this.guna2Panel1.Controls.Add(this.SideBar);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.MaximumSize = new System.Drawing.Size(1200, 800);
-            this.guna2Panel1.MinimumSize = new System.Drawing.Size(1034, 800);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1184, 800);
-            this.guna2Panel1.TabIndex = 1;
-            // 
-            // studentTableAdapter
-            // 
-            this.studentTableAdapter.ClearBeforeFill = true;
-            // 
             // AcademicAffairMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 609);
+            this.ClientSize = new System.Drawing.Size(1193, 780);
             this.Controls.Add(this.guna2Panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximumSize = new System.Drawing.Size(1200, 788);
-            this.MinimumSize = new System.Drawing.Size(1027, 605);
+            this.MaximumSize = new System.Drawing.Size(1193, 780);
+            this.MinimumSize = new System.Drawing.Size(1193, 780);
             this.Name = "AcademicAffairMainForm";
             this.Text = "AcademicAffairMainForm";
             this.Load += new System.EventHandler(this.AcademicAffairMainForm_Load);
             this.Panel_ShowUser.ResumeLayout(false);
             this.Panel_ShowUser.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.head_sidebar.ResumeLayout(false);
             this.panelchild.ResumeLayout(false);
             this.ProfileDropDownPanel.ResumeLayout(false);
@@ -868,6 +857,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).EndInit();
             this.SideBar.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -882,11 +872,10 @@
         private System.Windows.Forms.Label UserName;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel Panel_ShowUser;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button MinimizeButton;
         private Guna.UI2.WinForms.Guna2Button ProfileButton;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button CourseButton;
-        private Guna.UI2.WinForms.Guna2Button SystemButton;
+        private Guna.UI2.WinForms.Guna2Button CloseButton;
+        private Guna.UI2.WinForms.Guna2Button StatisticBtn;
         private Guna.UI2.WinForms.Guna2Button HomeButton;
         private Guna.UI2.WinForms.Guna2Button MenuBtn;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel head_sidebar;
@@ -904,8 +893,6 @@
         private Guna.UI2.WinForms.Guna2Button StatisticButton;
         private Guna.UI2.WinForms.Guna2Button AddingButton;
         private Guna.UI2.WinForms.Guna2Button HomeButton2;
-        private Guna.UI2.WinForms.Guna2Button AddLecture;
-        private Guna.UI2.WinForms.Guna2Button Addcourse;
         private Guna.UI2.WinForms.Guna2Button ViewLecture;
         private Guna.UI2.WinForms.Guna2Button ViewCourse;
         private Guna.UI2.WinForms.Guna2Button ViewDepartment;
@@ -915,5 +902,7 @@
         private DBUniversityDataSet dBUniversityDataSet;
         private System.Windows.Forms.BindingSource studentBindingSource;
         private DBUniversityDataSetTableAdapters.StudentTableAdapter studentTableAdapter;
+        private Guna.UI2.WinForms.Guna2Button AddingBtn;
+        private Guna.UI2.WinForms.Guna2Button DivineBtn;
     }
 }

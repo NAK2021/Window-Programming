@@ -60,18 +60,17 @@ namespace The_amazing_of_numbers.Area.Admin.View
         {
 
         }
-
+        // Header Menu Click
         private void FeeButton2_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AddingRule());
+            OpenChildForm(new Violate());
         }
 
         private void EditingButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new EditRule());
+            OpenChildForm(new AcademicsAffairsFunc());
 
         }
-
         private void ViewButton_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ViewProfile());
@@ -84,15 +83,16 @@ namespace The_amazing_of_numbers.Area.Admin.View
                 currentFormChild.Close();
             }
         }
-
+     
+        // SideBar Menu Click
         private void ProfileButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AddingRule());
+            OpenChildForm(new Violate());
         }
 
         private void CourseButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new EditRule());
+            OpenChildForm(new AcademicsAffairsFunc());
         }
 
         private void SystemButton_Click(object sender, EventArgs e)
@@ -109,6 +109,12 @@ namespace The_amazing_of_numbers.Area.Admin.View
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+         
+        }
+
 
         private void SideBar_Paint(object sender, PaintEventArgs e)
         {

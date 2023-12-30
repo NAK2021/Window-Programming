@@ -1,6 +1,6 @@
-﻿namespace The_amazing_of_numbers.Area.Admin.View
+﻿namespace The_amazing_of_numbers.Area.AcademicAffair.View
 {
-    partial class EditRule
+    partial class StatisticInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "EditRule";
+            this.Text = "StatisticInfo";
         }
 
         #endregion
