@@ -161,7 +161,7 @@
 			this.panelchild.FillColor3 = System.Drawing.SystemColors.GradientActiveCaption;
 			this.panelchild.FillColor4 = System.Drawing.SystemColors.GradientActiveCaption;
 			this.panelchild.Location = new System.Drawing.Point(0, 0);
-			this.panelchild.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.panelchild.Margin = new System.Windows.Forms.Padding(4);
 			this.panelchild.MaximumSize = new System.Drawing.Size(1455, 971);
 			this.panelchild.MinimumSize = new System.Drawing.Size(1455, 971);
 			this.panelchild.Name = "panelchild";
@@ -209,7 +209,7 @@
 			this.guna2CustomGradientPanel10.Controls.Add(this.label48);
 			this.guna2CustomGradientPanel10.Controls.Add(this.label49);
 			this.guna2CustomGradientPanel10.Location = new System.Drawing.Point(951, 935);
-			this.guna2CustomGradientPanel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel10.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel10.Name = "guna2CustomGradientPanel10";
 			this.guna2CustomGradientPanel10.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel10.TabIndex = 53;
@@ -227,7 +227,7 @@
 			this.guna2Button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button9.ForeColor = System.Drawing.Color.White;
 			this.guna2Button9.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button9.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button9.Name = "guna2Button9";
 			this.guna2Button9.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button9.TabIndex = 45;
@@ -401,7 +401,7 @@
 			this.guna2CustomGradientPanel1.Controls.Add(this.label43);
 			this.guna2CustomGradientPanel1.Controls.Add(this.label44);
 			this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(493, 935);
-			this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
 			this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel1.TabIndex = 52;
@@ -419,7 +419,7 @@
 			this.guna2Button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button8.ForeColor = System.Drawing.Color.White;
 			this.guna2Button8.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button8.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button8.Name = "guna2Button8";
 			this.guna2Button8.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button8.TabIndex = 45;
@@ -593,7 +593,7 @@
 			this.guna2CustomGradientPanel9.Controls.Add(this.label38);
 			this.guna2CustomGradientPanel9.Controls.Add(this.label39);
 			this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(44, 935);
-			this.guna2CustomGradientPanel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel9.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel9.Name = "guna2CustomGradientPanel9";
 			this.guna2CustomGradientPanel9.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel9.TabIndex = 51;
@@ -611,7 +611,7 @@
 			this.guna2Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button7.ForeColor = System.Drawing.Color.White;
 			this.guna2Button7.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button7.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button7.Name = "guna2Button7";
 			this.guna2Button7.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button7.TabIndex = 45;
@@ -785,7 +785,7 @@
 			this.guna2CustomGradientPanel8.Controls.Add(this.label33);
 			this.guna2CustomGradientPanel8.Controls.Add(this.label34);
 			this.guna2CustomGradientPanel8.Location = new System.Drawing.Point(951, 610);
-			this.guna2CustomGradientPanel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel8.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel8.Name = "guna2CustomGradientPanel8";
 			this.guna2CustomGradientPanel8.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel8.TabIndex = 50;
@@ -803,7 +803,7 @@
 			this.guna2Button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button6.ForeColor = System.Drawing.Color.White;
 			this.guna2Button6.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button6.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button6.Name = "guna2Button6";
 			this.guna2Button6.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button6.TabIndex = 45;
@@ -977,7 +977,7 @@
 			this.guna2CustomGradientPanel7.Controls.Add(this.label28);
 			this.guna2CustomGradientPanel7.Controls.Add(this.label29);
 			this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(493, 610);
-			this.guna2CustomGradientPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel7.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
 			this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel7.TabIndex = 49;
@@ -995,7 +995,7 @@
 			this.guna2Button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button5.ForeColor = System.Drawing.Color.White;
 			this.guna2Button5.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button5.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button5.Name = "guna2Button5";
 			this.guna2Button5.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button5.TabIndex = 45;
@@ -1169,7 +1169,7 @@
 			this.guna2CustomGradientPanel6.Controls.Add(this.label23);
 			this.guna2CustomGradientPanel6.Controls.Add(this.label24);
 			this.guna2CustomGradientPanel6.Location = new System.Drawing.Point(44, 610);
-			this.guna2CustomGradientPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel6.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel6.Name = "guna2CustomGradientPanel6";
 			this.guna2CustomGradientPanel6.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel6.TabIndex = 48;
@@ -1187,7 +1187,7 @@
 			this.guna2Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button4.ForeColor = System.Drawing.Color.White;
 			this.guna2Button4.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button4.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button4.Name = "guna2Button4";
 			this.guna2Button4.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button4.TabIndex = 45;
@@ -1361,7 +1361,7 @@
 			this.guna2CustomGradientPanel5.Controls.Add(this.label18);
 			this.guna2CustomGradientPanel5.Controls.Add(this.label19);
 			this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(951, 286);
-			this.guna2CustomGradientPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel5.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
 			this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel5.TabIndex = 47;
@@ -1379,7 +1379,7 @@
 			this.guna2Button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button3.ForeColor = System.Drawing.Color.White;
 			this.guna2Button3.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button3.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button3.Name = "guna2Button3";
 			this.guna2Button3.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button3.TabIndex = 45;
@@ -1553,7 +1553,7 @@
 			this.guna2CustomGradientPanel4.Controls.Add(this.label12);
 			this.guna2CustomGradientPanel4.Controls.Add(this.label14);
 			this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(493, 286);
-			this.guna2CustomGradientPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel4.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
 			this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel4.TabIndex = 46;
@@ -1571,7 +1571,7 @@
 			this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button2.ForeColor = System.Drawing.Color.White;
 			this.guna2Button2.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button2.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button2.Name = "guna2Button2";
 			this.guna2Button2.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button2.TabIndex = 45;
@@ -1745,7 +1745,7 @@
 			this.guna2CustomGradientPanel3.Controls.Add(this.UserSchoolYear);
 			this.guna2CustomGradientPanel3.Controls.Add(this.label13);
 			this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(44, 286);
-			this.guna2CustomGradientPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2CustomGradientPanel3.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
 			this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(351, 252);
 			this.guna2CustomGradientPanel3.TabIndex = 4;
@@ -1763,7 +1763,7 @@
 			this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.guna2Button1.ForeColor = System.Drawing.Color.White;
 			this.guna2Button1.Location = new System.Drawing.Point(71, 199);
-			this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2Button1.Name = "guna2Button1";
 			this.guna2Button1.Size = new System.Drawing.Size(209, 49);
 			this.guna2Button1.TabIndex = 45;
@@ -1944,7 +1944,7 @@
 			this.Classinfo1.Controls.Add(this.label1);
 			this.Classinfo1.Controls.Add(this.guna2PictureBox1);
 			this.Classinfo1.Location = new System.Drawing.Point(44, 15);
-			this.Classinfo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Classinfo1.Margin = new System.Windows.Forms.Padding(4);
 			this.Classinfo1.Name = "Classinfo1";
 			this.Classinfo1.Size = new System.Drawing.Size(351, 181);
 			this.Classinfo1.TabIndex = 0;
@@ -1980,7 +1980,7 @@
 			this.guna2PictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_class_100;
 			this.guna2PictureBox1.ImageRotate = 0F;
 			this.guna2PictureBox1.Location = new System.Drawing.Point(29, 4);
-			this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
 			this.guna2PictureBox1.Name = "guna2PictureBox1";
 			this.guna2PictureBox1.Size = new System.Drawing.Size(95, 135);
 			this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1995,7 +1995,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1433, 923);
 			this.Controls.Add(this.panelchild);
-			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "Teacher_TeaClas";
 			this.Text = "Teacher_TeaClas";
 			this.panelchild.ResumeLayout(false);

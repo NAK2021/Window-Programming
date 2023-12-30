@@ -33,6 +33,7 @@
 			this.ViewButton = new Guna.UI2.WinForms.Guna2Button();
 			this.EditingButton = new Guna.UI2.WinForms.Guna2Button();
 			this.Panel_ShowUser = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+			this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
 			this.label14 = new System.Windows.Forms.Label();
 			this.label11 = new System.Windows.Forms.Label();
 			this.label10 = new System.Windows.Forms.Label();
@@ -51,13 +52,12 @@
 			this.EditBtn = new Guna.UI2.WinForms.Guna2Button();
 			this.ViewBtn = new Guna.UI2.WinForms.Guna2Button();
 			this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
 			this.guna2Panel1.SuspendLayout();
 			this.panelchild.SuspendLayout();
 			this.Panel_ShowUser.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
 			this.SideBar.SuspendLayout();
 			this.head_sidebar.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// guna2Panel1
@@ -160,6 +160,19 @@
 			this.Panel_ShowUser.Name = "Panel_ShowUser";
 			this.Panel_ShowUser.Size = new System.Drawing.Size(464, 146);
 			this.Panel_ShowUser.TabIndex = 61;
+			// 
+			// guna2CirclePictureBox1
+			// 
+			this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
+			this.guna2CirclePictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icon34;
+			this.guna2CirclePictureBox1.ImageRotate = 0F;
+			this.guna2CirclePictureBox1.Location = new System.Drawing.Point(56, 21);
+			this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+			this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+			this.guna2CirclePictureBox1.Size = new System.Drawing.Size(93, 94);
+			this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.guna2CirclePictureBox1.TabIndex = 11;
+			this.guna2CirclePictureBox1.TabStop = false;
 			// 
 			// label14
 			// 
@@ -488,19 +501,6 @@
 			this.HomeButton.UseTransparentBackground = true;
 			this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
 			// 
-			// guna2CirclePictureBox1
-			// 
-			this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
-			this.guna2CirclePictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icon34;
-			this.guna2CirclePictureBox1.ImageRotate = 0F;
-			this.guna2CirclePictureBox1.Location = new System.Drawing.Point(56, 21);
-			this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-			this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-			this.guna2CirclePictureBox1.Size = new System.Drawing.Size(93, 94);
-			this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.guna2CirclePictureBox1.TabIndex = 11;
-			this.guna2CirclePictureBox1.TabStop = false;
-			// 
 			// AdminMainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -518,9 +518,9 @@
 			this.panelchild.ResumeLayout(false);
 			this.Panel_ShowUser.ResumeLayout(false);
 			this.Panel_ShowUser.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
 			this.SideBar.ResumeLayout(false);
 			this.head_sidebar.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
 			this.ResumeLayout(false);
 
         }

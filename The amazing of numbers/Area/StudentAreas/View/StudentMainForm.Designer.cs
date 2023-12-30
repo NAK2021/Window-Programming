@@ -32,16 +32,25 @@
 			this.sidebar_timerTick = new System.Windows.Forms.Timer(this.components);
 			this.SideBar = new Guna.UI2.WinForms.Guna2Panel();
 			this.head_sidebar = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+			this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+			this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
+			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+			this.CourseButton = new Guna.UI2.WinForms.Guna2Button();
+			this.SystemButton = new Guna.UI2.WinForms.Guna2Button();
+			this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
 			this.panelChild = new Guna.UI2.WinForms.Guna2Panel();
 			this.ProfileDropDownPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.EditProfile = new Guna.UI2.WinForms.Guna2Button();
 			this.ViewScores = new Guna.UI2.WinForms.Guna2Button();
+			this.AchievmentsButton = new Guna.UI2.WinForms.Guna2Button();
 			this.ProgressDropDownPanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.PointsAchievButton = new Guna.UI2.WinForms.Guna2Button();
 			this.Achievements = new Guna.UI2.WinForms.Guna2Button();
@@ -49,8 +58,11 @@
 			this.RegisterButton = new Guna.UI2.WinForms.Guna2Button();
 			this.ViewClassesButton = new Guna.UI2.WinForms.Guna2Button();
 			this.FeeButton2 = new Guna.UI2.WinForms.Guna2Button();
+			this.CourseButton2 = new Guna.UI2.WinForms.Guna2Button();
+			this.ProfileButton2 = new Guna.UI2.WinForms.Guna2Button();
 			this.HomeButton2 = new Guna.UI2.WinForms.Guna2Button();
 			this.Panel_ShowUser = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+			this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
 			this.label14 = new System.Windows.Forms.Label();
 			this.label13 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
@@ -78,18 +90,6 @@
 			this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
 			this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
 			this.guna2BorderlessForm2 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-			this.MenuBtn = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-			this.ProfileButton = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-			this.CourseButton = new Guna.UI2.WinForms.Guna2Button();
-			this.SystemButton = new Guna.UI2.WinForms.Guna2Button();
-			this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
-			this.AchievmentsButton = new Guna.UI2.WinForms.Guna2Button();
-			this.CourseButton2 = new Guna.UI2.WinForms.Guna2Button();
-			this.ProfileButton2 = new Guna.UI2.WinForms.Guna2Button();
-			this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
 			this.SideBar.SuspendLayout();
 			this.head_sidebar.SuspendLayout();
 			this.panelChild.SuspendLayout();
@@ -149,6 +149,28 @@
 			this.head_sidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.head_sidebar_Paint);
 			this.head_sidebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_down);
 			this.head_sidebar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_move);
+			// 
+			// MenuBtn
+			// 
+			this.MenuBtn.Animated = true;
+			this.MenuBtn.BackColor = System.Drawing.Color.Transparent;
+			this.MenuBtn.BorderColor = System.Drawing.Color.Transparent;
+			this.MenuBtn.BorderRadius = 10;
+			this.MenuBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.MenuBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.MenuBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.MenuBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.MenuBtn.FillColor = System.Drawing.Color.White;
+			this.MenuBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.MenuBtn.ForeColor = System.Drawing.Color.White;
+			this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
+			this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
+			this.MenuBtn.Location = new System.Drawing.Point(12, 29);
+			this.MenuBtn.Name = "MenuBtn";
+			this.MenuBtn.Size = new System.Drawing.Size(72, 33);
+			this.MenuBtn.TabIndex = 19;
+			this.MenuBtn.UseTransparentBackground = true;
+			this.MenuBtn.Click += new System.EventHandler(this.MenuBtn_Click);
 			// 
 			// label1
 			// 
@@ -215,6 +237,169 @@
 			this.label2.Size = new System.Drawing.Size(96, 36);
 			this.label2.TabIndex = 32;
 			this.label2.Text = "Home";
+			// 
+			// guna2Button5
+			// 
+			this.guna2Button5.Animated = true;
+			this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button5.BorderColor = System.Drawing.Color.Transparent;
+			this.guna2Button5.BorderRadius = 10;
+			this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button5.FillColor = System.Drawing.Color.White;
+			this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.guna2Button5.ForeColor = System.Drawing.Color.CornflowerBlue;
+			this.guna2Button5.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_minimize_24;
+			this.guna2Button5.Location = new System.Drawing.Point(21, 664);
+			this.guna2Button5.Name = "guna2Button5";
+			this.guna2Button5.Size = new System.Drawing.Size(48, 45);
+			this.guna2Button5.TabIndex = 18;
+			this.guna2Button5.UseTransparentBackground = true;
+			this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click_1);
+			// 
+			// guna2Button3
+			// 
+			this.guna2Button3.Animated = true;
+			this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button3.BorderColor = System.Drawing.Color.Transparent;
+			this.guna2Button3.BorderRadius = 10;
+			this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button3.FillColor = System.Drawing.Color.White;
+			this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.guna2Button3.ForeColor = System.Drawing.Color.White;
+			this.guna2Button3.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_macbook_money_50;
+			this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
+			this.guna2Button3.Location = new System.Drawing.Point(12, 322);
+			this.guna2Button3.Name = "guna2Button3";
+			this.guna2Button3.Size = new System.Drawing.Size(72, 33);
+			this.guna2Button3.TabIndex = 4;
+			this.guna2Button3.UseTransparentBackground = true;
+			this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click_1);
+			this.guna2Button3.MouseLeave += new System.EventHandler(this.guna2Button3_MouseLeave);
+			this.guna2Button3.MouseHover += new System.EventHandler(this.guna2Button3_MouseHover);
+			// 
+			// ProfileButton
+			// 
+			this.ProfileButton.Animated = true;
+			this.ProfileButton.BackColor = System.Drawing.Color.Transparent;
+			this.ProfileButton.BorderColor = System.Drawing.Color.Transparent;
+			this.ProfileButton.BorderRadius = 10;
+			this.ProfileButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.ProfileButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.ProfileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.ProfileButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.ProfileButton.FillColor = System.Drawing.Color.White;
+			this.ProfileButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.ProfileButton.ForeColor = System.Drawing.Color.White;
+			this.ProfileButton.Image = global::The_amazing_of_numbers.Properties.Resources.icon5;
+			this.ProfileButton.ImageSize = new System.Drawing.Size(30, 30);
+			this.ProfileButton.Location = new System.Drawing.Point(12, 194);
+			this.ProfileButton.Name = "ProfileButton";
+			this.ProfileButton.Size = new System.Drawing.Size(72, 33);
+			this.ProfileButton.TabIndex = 4;
+			this.ProfileButton.UseTransparentBackground = true;
+			this.ProfileButton.Click += new System.EventHandler(this.ProfileButton_Click);
+			this.ProfileButton.MouseLeave += new System.EventHandler(this.ProfileButton_MouseLeave);
+			this.ProfileButton.MouseHover += new System.EventHandler(this.ProfileButton_MouseHover_1);
+			// 
+			// guna2Button4
+			// 
+			this.guna2Button4.Animated = true;
+			this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+			this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
+			this.guna2Button4.BorderRadius = 10;
+			this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.guna2Button4.FillColor = System.Drawing.Color.White;
+			this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.guna2Button4.ForeColor = System.Drawing.Color.CornflowerBlue;
+			this.guna2Button4.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_logout_50;
+			this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
+			this.guna2Button4.Location = new System.Drawing.Point(21, 581);
+			this.guna2Button4.Name = "guna2Button4";
+			this.guna2Button4.Size = new System.Drawing.Size(48, 45);
+			this.guna2Button4.TabIndex = 3;
+			this.guna2Button4.UseTransparentBackground = true;
+			this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click_1);
+			// 
+			// CourseButton
+			// 
+			this.CourseButton.Animated = true;
+			this.CourseButton.BackColor = System.Drawing.Color.Transparent;
+			this.CourseButton.BorderColor = System.Drawing.Color.Transparent;
+			this.CourseButton.BorderRadius = 10;
+			this.CourseButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.CourseButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.CourseButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.CourseButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.CourseButton.FillColor = System.Drawing.Color.White;
+			this.CourseButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.CourseButton.ForeColor = System.Drawing.Color.White;
+			this.CourseButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_course_50;
+			this.CourseButton.ImageSize = new System.Drawing.Size(30, 30);
+			this.CourseButton.Location = new System.Drawing.Point(12, 261);
+			this.CourseButton.Name = "CourseButton";
+			this.CourseButton.Size = new System.Drawing.Size(72, 33);
+			this.CourseButton.TabIndex = 3;
+			this.CourseButton.UseTransparentBackground = true;
+			this.CourseButton.Click += new System.EventHandler(this.CourseButton_Click);
+			this.CourseButton.MouseLeave += new System.EventHandler(this.CourseButton_MouseLeave);
+			this.CourseButton.MouseHover += new System.EventHandler(this.CourseButton_MouseHover);
+			// 
+			// SystemButton
+			// 
+			this.SystemButton.Animated = true;
+			this.SystemButton.BackColor = System.Drawing.Color.Transparent;
+			this.SystemButton.BorderColor = System.Drawing.Color.Transparent;
+			this.SystemButton.BorderRadius = 10;
+			this.SystemButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.SystemButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.SystemButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.SystemButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.SystemButton.FillColor = System.Drawing.Color.White;
+			this.SystemButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.SystemButton.ForeColor = System.Drawing.Color.White;
+			this.SystemButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_diploma_100;
+			this.SystemButton.ImageSize = new System.Drawing.Size(30, 30);
+			this.SystemButton.Location = new System.Drawing.Point(12, 387);
+			this.SystemButton.Name = "SystemButton";
+			this.SystemButton.Size = new System.Drawing.Size(72, 33);
+			this.SystemButton.TabIndex = 2;
+			this.SystemButton.UseTransparentBackground = true;
+			this.SystemButton.Click += new System.EventHandler(this.SystemButton_Click_1);
+			this.SystemButton.MouseLeave += new System.EventHandler(this.SystemButton_MouseLeave);
+			this.SystemButton.MouseHover += new System.EventHandler(this.SystemButton_MouseHover);
+			// 
+			// HomeButton
+			// 
+			this.HomeButton.Animated = true;
+			this.HomeButton.BackColor = System.Drawing.Color.Transparent;
+			this.HomeButton.BorderColor = System.Drawing.Color.Transparent;
+			this.HomeButton.BorderRadius = 10;
+			this.HomeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.HomeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.HomeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.HomeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.HomeButton.FillColor = System.Drawing.Color.White;
+			this.HomeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.HomeButton.ForeColor = System.Drawing.Color.White;
+			this.HomeButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_home_50;
+			this.HomeButton.ImageSize = new System.Drawing.Size(30, 30);
+			this.HomeButton.Location = new System.Drawing.Point(12, 133);
+			this.HomeButton.Name = "HomeButton";
+			this.HomeButton.Size = new System.Drawing.Size(72, 33);
+			this.HomeButton.TabIndex = 0;
+			this.HomeButton.UseTransparentBackground = true;
+			this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
+			this.HomeButton.MouseLeave += new System.EventHandler(this.HomeButton_MouseLeave);
+			this.HomeButton.MouseHover += new System.EventHandler(this.HomeButton_MouseHover);
 			// 
 			// panelChild
 			// 
@@ -295,6 +480,32 @@
 			this.ViewScores.Text = "View Scores";
 			this.ViewScores.UseTransparentBackground = true;
 			this.ViewScores.Click += new System.EventHandler(this.ViewScores_Click);
+			// 
+			// AchievmentsButton
+			// 
+			this.AchievmentsButton.Animated = true;
+			this.AchievmentsButton.BackColor = System.Drawing.Color.Transparent;
+			this.AchievmentsButton.BorderColor = System.Drawing.Color.Transparent;
+			this.AchievmentsButton.BorderRadius = 10;
+			this.AchievmentsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.AchievmentsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.AchievmentsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.AchievmentsButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.AchievmentsButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.AchievmentsButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+			this.AchievmentsButton.ForeColor = System.Drawing.Color.DimGray;
+			this.AchievmentsButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
+			this.AchievmentsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+			this.AchievmentsButton.ImageOffset = new System.Drawing.Point(-8, 0);
+			this.AchievmentsButton.Location = new System.Drawing.Point(529, 16);
+			this.AchievmentsButton.Name = "AchievmentsButton";
+			this.AchievmentsButton.Size = new System.Drawing.Size(136, 56);
+			this.AchievmentsButton.TabIndex = 42;
+			this.AchievmentsButton.Text = "Progress";
+			this.AchievmentsButton.UseTransparentBackground = true;
+			this.AchievmentsButton.Click += new System.EventHandler(this.SystemButton_Click_1);
+			this.AchievmentsButton.MouseLeave += new System.EventHandler(this.ProgressHoverOff);
+			this.AchievmentsButton.MouseHover += new System.EventHandler(this.ProgressHoverOn);
 			// 
 			// ProgressDropDownPanel
 			// 
@@ -432,6 +643,58 @@
 			this.FeeButton2.UseTransparentBackground = true;
 			this.FeeButton2.Click += new System.EventHandler(this.guna2Button3_Click_1);
 			// 
+			// CourseButton2
+			// 
+			this.CourseButton2.Animated = true;
+			this.CourseButton2.BackColor = System.Drawing.Color.Transparent;
+			this.CourseButton2.BorderColor = System.Drawing.Color.Transparent;
+			this.CourseButton2.BorderRadius = 10;
+			this.CourseButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.CourseButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.CourseButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.CourseButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.CourseButton2.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.CourseButton2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+			this.CourseButton2.ForeColor = System.Drawing.Color.DimGray;
+			this.CourseButton2.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
+			this.CourseButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+			this.CourseButton2.ImageOffset = new System.Drawing.Point(-10, 0);
+			this.CourseButton2.Location = new System.Drawing.Point(256, 16);
+			this.CourseButton2.Name = "CourseButton2";
+			this.CourseButton2.Size = new System.Drawing.Size(109, 56);
+			this.CourseButton2.TabIndex = 40;
+			this.CourseButton2.Text = "Course";
+			this.CourseButton2.UseTransparentBackground = true;
+			this.CourseButton2.Click += new System.EventHandler(this.CourseButton_Click);
+			this.CourseButton2.MouseLeave += new System.EventHandler(this.CourseHoverOff);
+			this.CourseButton2.MouseHover += new System.EventHandler(this.CourseHoverOn);
+			// 
+			// ProfileButton2
+			// 
+			this.ProfileButton2.Animated = true;
+			this.ProfileButton2.BackColor = System.Drawing.Color.Transparent;
+			this.ProfileButton2.BorderColor = System.Drawing.Color.Transparent;
+			this.ProfileButton2.BorderRadius = 10;
+			this.ProfileButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+			this.ProfileButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+			this.ProfileButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+			this.ProfileButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+			this.ProfileButton2.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.ProfileButton2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
+			this.ProfileButton2.ForeColor = System.Drawing.Color.DimGray;
+			this.ProfileButton2.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
+			this.ProfileButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+			this.ProfileButton2.ImageOffset = new System.Drawing.Point(-5, 0);
+			this.ProfileButton2.Location = new System.Drawing.Point(136, 16);
+			this.ProfileButton2.Name = "ProfileButton2";
+			this.ProfileButton2.Size = new System.Drawing.Size(114, 56);
+			this.ProfileButton2.TabIndex = 39;
+			this.ProfileButton2.Text = "Profile ";
+			this.ProfileButton2.UseTransparentBackground = true;
+			this.ProfileButton2.Click += new System.EventHandler(this.ProfileButton_Click);
+			this.ProfileButton2.MouseLeave += new System.EventHandler(this.ProfileHoverOff);
+			this.ProfileButton2.MouseHover += new System.EventHandler(this.ProfileHoverOn);
+			// 
 			// HomeButton2
 			// 
 			this.HomeButton2.Animated = true;
@@ -476,6 +739,19 @@
 			this.Panel_ShowUser.Name = "Panel_ShowUser";
 			this.Panel_ShowUser.Size = new System.Drawing.Size(374, 142);
 			this.Panel_ShowUser.TabIndex = 0;
+			// 
+			// guna2CirclePictureBox1
+			// 
+			this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
+			this.guna2CirclePictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icon32;
+			this.guna2CirclePictureBox1.ImageRotate = 0F;
+			this.guna2CirclePictureBox1.Location = new System.Drawing.Point(25, 29);
+			this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+			this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+			this.guna2CirclePictureBox1.Size = new System.Drawing.Size(77, 77);
+			this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.guna2CirclePictureBox1.TabIndex = 11;
+			this.guna2CirclePictureBox1.TabStop = false;
 			// 
 			// label14
 			// 
@@ -738,282 +1014,6 @@
 			this.guna2BorderlessForm2.ContainerControl = this;
 			this.guna2BorderlessForm2.DockIndicatorTransparencyValue = 0.6D;
 			this.guna2BorderlessForm2.TransparentWhileDrag = true;
-			// 
-			// MenuBtn
-			// 
-			this.MenuBtn.Animated = true;
-			this.MenuBtn.BackColor = System.Drawing.Color.Transparent;
-			this.MenuBtn.BorderColor = System.Drawing.Color.Transparent;
-			this.MenuBtn.BorderRadius = 10;
-			this.MenuBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.MenuBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.MenuBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.MenuBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.MenuBtn.FillColor = System.Drawing.Color.White;
-			this.MenuBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.MenuBtn.ForeColor = System.Drawing.Color.White;
-			this.MenuBtn.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_menu;
-			this.MenuBtn.ImageSize = new System.Drawing.Size(30, 30);
-			this.MenuBtn.Location = new System.Drawing.Point(12, 29);
-			this.MenuBtn.Name = "MenuBtn";
-			this.MenuBtn.Size = new System.Drawing.Size(72, 33);
-			this.MenuBtn.TabIndex = 19;
-			this.MenuBtn.UseTransparentBackground = true;
-			this.MenuBtn.Click += new System.EventHandler(this.MenuBtn_Click);
-			// 
-			// guna2Button5
-			// 
-			this.guna2Button5.Animated = true;
-			this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-			this.guna2Button5.BorderColor = System.Drawing.Color.Transparent;
-			this.guna2Button5.BorderRadius = 10;
-			this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.guna2Button5.FillColor = System.Drawing.Color.White;
-			this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.guna2Button5.ForeColor = System.Drawing.Color.CornflowerBlue;
-			this.guna2Button5.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_minimize_24;
-			this.guna2Button5.Location = new System.Drawing.Point(21, 664);
-			this.guna2Button5.Name = "guna2Button5";
-			this.guna2Button5.Size = new System.Drawing.Size(48, 45);
-			this.guna2Button5.TabIndex = 18;
-			this.guna2Button5.UseTransparentBackground = true;
-			this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click_1);
-			// 
-			// guna2Button3
-			// 
-			this.guna2Button3.Animated = true;
-			this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-			this.guna2Button3.BorderColor = System.Drawing.Color.Transparent;
-			this.guna2Button3.BorderRadius = 10;
-			this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.guna2Button3.FillColor = System.Drawing.Color.White;
-			this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.guna2Button3.ForeColor = System.Drawing.Color.White;
-			this.guna2Button3.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_macbook_money_50;
-			this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
-			this.guna2Button3.Location = new System.Drawing.Point(12, 322);
-			this.guna2Button3.Name = "guna2Button3";
-			this.guna2Button3.Size = new System.Drawing.Size(72, 33);
-			this.guna2Button3.TabIndex = 4;
-			this.guna2Button3.UseTransparentBackground = true;
-			this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click_1);
-			this.guna2Button3.MouseLeave += new System.EventHandler(this.guna2Button3_MouseLeave);
-			this.guna2Button3.MouseHover += new System.EventHandler(this.guna2Button3_MouseHover);
-			// 
-			// ProfileButton
-			// 
-			this.ProfileButton.Animated = true;
-			this.ProfileButton.BackColor = System.Drawing.Color.Transparent;
-			this.ProfileButton.BorderColor = System.Drawing.Color.Transparent;
-			this.ProfileButton.BorderRadius = 10;
-			this.ProfileButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.ProfileButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.ProfileButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.ProfileButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.ProfileButton.FillColor = System.Drawing.Color.White;
-			this.ProfileButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.ProfileButton.ForeColor = System.Drawing.Color.White;
-			this.ProfileButton.Image = global::The_amazing_of_numbers.Properties.Resources.icon5;
-			this.ProfileButton.ImageSize = new System.Drawing.Size(30, 30);
-			this.ProfileButton.Location = new System.Drawing.Point(12, 194);
-			this.ProfileButton.Name = "ProfileButton";
-			this.ProfileButton.Size = new System.Drawing.Size(72, 33);
-			this.ProfileButton.TabIndex = 4;
-			this.ProfileButton.UseTransparentBackground = true;
-			this.ProfileButton.Click += new System.EventHandler(this.ProfileButton_Click);
-			this.ProfileButton.MouseLeave += new System.EventHandler(this.ProfileButton_MouseLeave);
-			this.ProfileButton.MouseHover += new System.EventHandler(this.ProfileButton_MouseHover_1);
-			// 
-			// guna2Button4
-			// 
-			this.guna2Button4.Animated = true;
-			this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-			this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
-			this.guna2Button4.BorderRadius = 10;
-			this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.guna2Button4.FillColor = System.Drawing.Color.White;
-			this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.guna2Button4.ForeColor = System.Drawing.Color.CornflowerBlue;
-			this.guna2Button4.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_logout_50;
-			this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-			this.guna2Button4.Location = new System.Drawing.Point(21, 581);
-			this.guna2Button4.Name = "guna2Button4";
-			this.guna2Button4.Size = new System.Drawing.Size(48, 45);
-			this.guna2Button4.TabIndex = 3;
-			this.guna2Button4.UseTransparentBackground = true;
-			this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click_1);
-			// 
-			// CourseButton
-			// 
-			this.CourseButton.Animated = true;
-			this.CourseButton.BackColor = System.Drawing.Color.Transparent;
-			this.CourseButton.BorderColor = System.Drawing.Color.Transparent;
-			this.CourseButton.BorderRadius = 10;
-			this.CourseButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.CourseButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.CourseButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.CourseButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.CourseButton.FillColor = System.Drawing.Color.White;
-			this.CourseButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.CourseButton.ForeColor = System.Drawing.Color.White;
-			this.CourseButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_course_50;
-			this.CourseButton.ImageSize = new System.Drawing.Size(30, 30);
-			this.CourseButton.Location = new System.Drawing.Point(12, 261);
-			this.CourseButton.Name = "CourseButton";
-			this.CourseButton.Size = new System.Drawing.Size(72, 33);
-			this.CourseButton.TabIndex = 3;
-			this.CourseButton.UseTransparentBackground = true;
-			this.CourseButton.Click += new System.EventHandler(this.CourseButton_Click);
-			this.CourseButton.MouseLeave += new System.EventHandler(this.CourseButton_MouseLeave);
-			this.CourseButton.MouseHover += new System.EventHandler(this.CourseButton_MouseHover);
-			// 
-			// SystemButton
-			// 
-			this.SystemButton.Animated = true;
-			this.SystemButton.BackColor = System.Drawing.Color.Transparent;
-			this.SystemButton.BorderColor = System.Drawing.Color.Transparent;
-			this.SystemButton.BorderRadius = 10;
-			this.SystemButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.SystemButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.SystemButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.SystemButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.SystemButton.FillColor = System.Drawing.Color.White;
-			this.SystemButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.SystemButton.ForeColor = System.Drawing.Color.White;
-			this.SystemButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_diploma_100;
-			this.SystemButton.ImageSize = new System.Drawing.Size(30, 30);
-			this.SystemButton.Location = new System.Drawing.Point(12, 387);
-			this.SystemButton.Name = "SystemButton";
-			this.SystemButton.Size = new System.Drawing.Size(72, 33);
-			this.SystemButton.TabIndex = 2;
-			this.SystemButton.UseTransparentBackground = true;
-			this.SystemButton.Click += new System.EventHandler(this.SystemButton_Click_1);
-			this.SystemButton.MouseLeave += new System.EventHandler(this.SystemButton_MouseLeave);
-			this.SystemButton.MouseHover += new System.EventHandler(this.SystemButton_MouseHover);
-			// 
-			// HomeButton
-			// 
-			this.HomeButton.Animated = true;
-			this.HomeButton.BackColor = System.Drawing.Color.Transparent;
-			this.HomeButton.BorderColor = System.Drawing.Color.Transparent;
-			this.HomeButton.BorderRadius = 10;
-			this.HomeButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.HomeButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.HomeButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.HomeButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.HomeButton.FillColor = System.Drawing.Color.White;
-			this.HomeButton.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.HomeButton.ForeColor = System.Drawing.Color.White;
-			this.HomeButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_home_50;
-			this.HomeButton.ImageSize = new System.Drawing.Size(30, 30);
-			this.HomeButton.Location = new System.Drawing.Point(12, 133);
-			this.HomeButton.Name = "HomeButton";
-			this.HomeButton.Size = new System.Drawing.Size(72, 33);
-			this.HomeButton.TabIndex = 0;
-			this.HomeButton.UseTransparentBackground = true;
-			this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
-			this.HomeButton.MouseLeave += new System.EventHandler(this.HomeButton_MouseLeave);
-			this.HomeButton.MouseHover += new System.EventHandler(this.HomeButton_MouseHover);
-			// 
-			// AchievmentsButton
-			// 
-			this.AchievmentsButton.Animated = true;
-			this.AchievmentsButton.BackColor = System.Drawing.Color.Transparent;
-			this.AchievmentsButton.BorderColor = System.Drawing.Color.Transparent;
-			this.AchievmentsButton.BorderRadius = 10;
-			this.AchievmentsButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.AchievmentsButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.AchievmentsButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.AchievmentsButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.AchievmentsButton.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			this.AchievmentsButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-			this.AchievmentsButton.ForeColor = System.Drawing.Color.DimGray;
-			this.AchievmentsButton.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_2;
-			this.AchievmentsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-			this.AchievmentsButton.ImageOffset = new System.Drawing.Point(-8, 0);
-			this.AchievmentsButton.Location = new System.Drawing.Point(529, 16);
-			this.AchievmentsButton.Name = "AchievmentsButton";
-			this.AchievmentsButton.Size = new System.Drawing.Size(136, 56);
-			this.AchievmentsButton.TabIndex = 42;
-			this.AchievmentsButton.Text = "Progress";
-			this.AchievmentsButton.UseTransparentBackground = true;
-			this.AchievmentsButton.Click += new System.EventHandler(this.SystemButton_Click_1);
-			this.AchievmentsButton.MouseLeave += new System.EventHandler(this.ProgressHoverOff);
-			this.AchievmentsButton.MouseHover += new System.EventHandler(this.ProgressHoverOn);
-			// 
-			// CourseButton2
-			// 
-			this.CourseButton2.Animated = true;
-			this.CourseButton2.BackColor = System.Drawing.Color.Transparent;
-			this.CourseButton2.BorderColor = System.Drawing.Color.Transparent;
-			this.CourseButton2.BorderRadius = 10;
-			this.CourseButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.CourseButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.CourseButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.CourseButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.CourseButton2.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			this.CourseButton2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-			this.CourseButton2.ForeColor = System.Drawing.Color.DimGray;
-			this.CourseButton2.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
-			this.CourseButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-			this.CourseButton2.ImageOffset = new System.Drawing.Point(-10, 0);
-			this.CourseButton2.Location = new System.Drawing.Point(256, 16);
-			this.CourseButton2.Name = "CourseButton2";
-			this.CourseButton2.Size = new System.Drawing.Size(109, 56);
-			this.CourseButton2.TabIndex = 40;
-			this.CourseButton2.Text = "Course";
-			this.CourseButton2.UseTransparentBackground = true;
-			this.CourseButton2.Click += new System.EventHandler(this.CourseButton_Click);
-			this.CourseButton2.MouseLeave += new System.EventHandler(this.CourseHoverOff);
-			this.CourseButton2.MouseHover += new System.EventHandler(this.CourseHoverOn);
-			// 
-			// ProfileButton2
-			// 
-			this.ProfileButton2.Animated = true;
-			this.ProfileButton2.BackColor = System.Drawing.Color.Transparent;
-			this.ProfileButton2.BorderColor = System.Drawing.Color.Transparent;
-			this.ProfileButton2.BorderRadius = 10;
-			this.ProfileButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-			this.ProfileButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-			this.ProfileButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-			this.ProfileButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-			this.ProfileButton2.FillColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			this.ProfileButton2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
-			this.ProfileButton2.ForeColor = System.Drawing.Color.DimGray;
-			this.ProfileButton2.Image = global::The_amazing_of_numbers.Properties.Resources.icons8_down_24__1_1;
-			this.ProfileButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-			this.ProfileButton2.ImageOffset = new System.Drawing.Point(-5, 0);
-			this.ProfileButton2.Location = new System.Drawing.Point(136, 16);
-			this.ProfileButton2.Name = "ProfileButton2";
-			this.ProfileButton2.Size = new System.Drawing.Size(114, 56);
-			this.ProfileButton2.TabIndex = 39;
-			this.ProfileButton2.Text = "Profile ";
-			this.ProfileButton2.UseTransparentBackground = true;
-			this.ProfileButton2.Click += new System.EventHandler(this.ProfileButton_Click);
-			this.ProfileButton2.MouseLeave += new System.EventHandler(this.ProfileHoverOff);
-			this.ProfileButton2.MouseHover += new System.EventHandler(this.ProfileHoverOn);
-			// 
-			// guna2CirclePictureBox1
-			// 
-			this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
-			this.guna2CirclePictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icon32;
-			this.guna2CirclePictureBox1.ImageRotate = 0F;
-			this.guna2CirclePictureBox1.Location = new System.Drawing.Point(25, 29);
-			this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-			this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-			this.guna2CirclePictureBox1.Size = new System.Drawing.Size(77, 77);
-			this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.guna2CirclePictureBox1.TabIndex = 11;
-			this.guna2CirclePictureBox1.TabStop = false;
 			// 
 			// StudentMainForm
 			// 

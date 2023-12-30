@@ -30,6 +30,7 @@
         {
 			this.ProfileUser_Info = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
 			this.UserInfo = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+			this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
 			this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
 			this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
 			this.label10 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@
 			this.label5 = new System.Windows.Forms.Label();
 			this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
 			this.label4 = new System.Windows.Forms.Label();
-			this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
 			this.ProfileUser_Info.SuspendLayout();
 			this.UserInfo.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -108,6 +108,19 @@
 			this.UserInfo.Size = new System.Drawing.Size(1100, 790);
 			this.UserInfo.TabIndex = 0;
 			this.UserInfo.Paint += new System.Windows.Forms.PaintEventHandler(this.UserInfo_Paint);
+			// 
+			// guna2CirclePictureBox1
+			// 
+			this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
+			this.guna2CirclePictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icon32;
+			this.guna2CirclePictureBox1.ImageRotate = 0F;
+			this.guna2CirclePictureBox1.Location = new System.Drawing.Point(193, 61);
+			this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+			this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+			this.guna2CirclePictureBox1.Size = new System.Drawing.Size(302, 298);
+			this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.guna2CirclePictureBox1.TabIndex = 26;
+			this.guna2CirclePictureBox1.TabStop = false;
 			// 
 			// guna2TextBox9
 			// 
@@ -543,19 +556,6 @@
 			this.label4.Size = new System.Drawing.Size(99, 31);
 			this.label4.TabIndex = 11;
 			this.label4.Text = "Name:";
-			// 
-			// guna2CirclePictureBox1
-			// 
-			this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.White;
-			this.guna2CirclePictureBox1.Image = global::The_amazing_of_numbers.Properties.Resources.icon32;
-			this.guna2CirclePictureBox1.ImageRotate = 0F;
-			this.guna2CirclePictureBox1.Location = new System.Drawing.Point(193, 61);
-			this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-			this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-			this.guna2CirclePictureBox1.Size = new System.Drawing.Size(302, 298);
-			this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.guna2CirclePictureBox1.TabIndex = 26;
-			this.guna2CirclePictureBox1.TabStop = false;
 			// 
 			// StudentForm_StudentProfile
 			// 
