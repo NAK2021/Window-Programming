@@ -214,41 +214,41 @@
     <Compile Include="Area\AcademicAffair\View\ViewStudentProfile.Designer.cs">
       <DependentUpon>ViewStudentProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\Controllers\AdminController.cs" />
-    <Compile Include="Area\Admin\View\AdminChangePass.cs">
+    <Compile Include="Area\AdminArea\Controllers\AdminController.cs" />
+    <Compile Include="Area\AdminArea\View\AdminChangePass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\AdminChangePass.Designer.cs">
+    <Compile Include="Area\AdminArea\View\AdminChangePass.Designer.cs">
       <DependentUpon>AdminChangePass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\View\AdminChangePin.cs">
+    <Compile Include="Area\AdminArea\View\AdminChangePin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\AdminChangePin.Designer.cs">
+    <Compile Include="Area\AdminArea\View\AdminChangePin.Designer.cs">
       <DependentUpon>AdminChangePin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\View\Violate.cs">
+    <Compile Include="Area\AdminArea\View\Violates.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\Violate.Designer.cs">
-      <DependentUpon>Violate.cs</DependentUpon>
+    <Compile Include="Area\AdminArea\View\Violates.Designer.cs">
+      <DependentUpon>Violates.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\View\AdminMainForm.cs">
+    <Compile Include="Area\AdminArea\View\AdminMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\AdminMainForm.Designer.cs">
+    <Compile Include="Area\AdminArea\View\AdminMainForm.Designer.cs">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\View\AcademicsAffairsFunc.cs">
+    <Compile Include="Area\AdminArea\View\AcademicsAffairsFunc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\AcademicsAffairsFunc.Designer.cs">
+    <Compile Include="Area\AdminArea\View\AcademicsAffairsFunc.Designer.cs">
       <DependentUpon>AcademicsAffairsFunc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Admin\View\ViewProfile.cs">
+    <Compile Include="Area\AdminArea\View\ViewProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Admin\View\ViewProfile.Designer.cs">
+    <Compile Include="Area\AdminArea\View\ViewProfile.Designer.cs">
       <DependentUpon>ViewProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Area\Lecturer\Controllers\LecturerController.cs" />
@@ -336,107 +336,107 @@
     <Compile Include="Area\Lecturer\View\Teacher_TeaClas.Designer.cs">
       <DependentUpon>Teacher_TeaClas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\Controllers\StudentController.cs" />
-    <Compile Include="Area\Student\View\AlreadyhaveClass.cs">
+    <Compile Include="Area\StudentAreas\Controllers\StudentAreasController.cs" />
+    <Compile Include="Area\StudentAreas\View\AlreadyhaveClass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\AlreadyhaveClass.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\AlreadyhaveClass.Designer.cs">
       <DependentUpon>AlreadyhaveClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\ChangePassWord.cs">
+    <Compile Include="Area\StudentAreas\View\ChangePassWord.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\ChangePassWord.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\ChangePassWord.Designer.cs">
       <DependentUpon>ChangePassWord.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\DanhGiaRenLuyen.cs">
+    <Compile Include="Area\StudentAreas\View\DanhGiaRenLuyen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\DanhGiaRenLuyen.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\DanhGiaRenLuyen.Designer.cs">
       <DependentUpon>DanhGiaRenLuyen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\genaratePin.cs">
+    <Compile Include="Area\StudentAreas\View\genaratePin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\genaratePin.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\genaratePin.Designer.cs">
       <DependentUpon>genaratePin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\ProfileEdition.cs">
+    <Compile Include="Area\StudentAreas\View\ProfileEdition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\ProfileEdition.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\ProfileEdition.Designer.cs">
       <DependentUpon>ProfileEdition.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\RegisterSchedule.cs">
+    <Compile Include="Area\StudentAreas\View\RegisterSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\RegisterSchedule.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\RegisterSchedule.Designer.cs">
       <DependentUpon>RegisterSchedule.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\Score202122.cs">
+    <Compile Include="Area\StudentAreas\View\Score202122.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\Score202122.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\Score202122.Designer.cs">
       <DependentUpon>Score202122.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\Score202223.cs">
+    <Compile Include="Area\StudentAreas\View\Score202223.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\Score202223.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\Score202223.Designer.cs">
       <DependentUpon>Score202223.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\Score202425.cs">
+    <Compile Include="Area\StudentAreas\View\Score202425.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\Score202425.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\Score202425.Designer.cs">
       <DependentUpon>Score202425.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentScore.cs">
+    <Compile Include="Area\StudentAreas\View\StudentScore.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentScore.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentScore.Designer.cs">
       <DependentUpon>StudentScore.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentAchievements.cs">
+    <Compile Include="Area\StudentAreas\View\StudentAchievements.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentAchievements.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentAchievements.Designer.cs">
       <DependentUpon>StudentAchievements.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_CourseButton.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_CourseButton.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_CourseButton.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_CourseButton.Designer.cs">
       <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_Progess.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_Progess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_Progess.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_Progess.Designer.cs">
       <DependentUpon>StudentForm_Progess.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_StudentFee.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_StudentFee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_StudentFee.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_StudentFee.Designer.cs">
       <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_StudentProfile.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_StudentProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentForm_StudentProfile.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentForm_StudentProfile.Designer.cs">
       <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentMainForm.cs">
+    <Compile Include="Area\StudentAreas\View\StudentMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentMainForm.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentMainForm.Designer.cs">
       <DependentUpon>StudentMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Area\Student\View\StudentViewTheirClass.cs">
+    <Compile Include="Area\StudentAreas\View\StudentViewTheirClass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area\Student\View\StudentViewTheirClass.Designer.cs">
+    <Compile Include="Area\StudentAreas\View\StudentViewTheirClass.Designer.cs">
       <DependentUpon>StudentViewTheirClass.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\LoginController.cs" />
@@ -446,10 +446,10 @@
     <Compile Include="CustomControl\TextBox.Designer.cs">
       <DependentUpon>TextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBUniversityDataSet.Designer.cs">
+    <Compile Include="DBUniversity1DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
+      <DependentUpon>DBUniversity1DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -524,16 +524,16 @@
     <EmbeddedResource Include="Area\AcademicAffair\View\ViewStudentProfile.resx">
       <DependentUpon>ViewStudentProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Admin\View\AcademicsAffairsFunc.resx">
+    <EmbeddedResource Include="Area\AdminArea\View\AcademicsAffairsFunc.resx">
       <DependentUpon>AcademicsAffairsFunc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Admin\View\Violate.resx">
-      <DependentUpon>Violate.cs</DependentUpon>
+    <EmbeddedResource Include="Area\AdminArea\View\Violates.resx">
+      <DependentUpon>Violates.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Admin\View\AdminMainForm.resx">
+    <EmbeddedResource Include="Area\AdminArea\View\AdminMainForm.resx">
       <DependentUpon>AdminMainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Admin\View\ViewProfile.resx">
+    <EmbeddedResource Include="Area\AdminArea\View\ViewProfile.resx">
       <DependentUpon>ViewProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Area\Lecturer\View\LecturerMainForm.resx">
@@ -575,52 +575,52 @@
     <EmbeddedResource Include="Area\Lecturer\View\Teacher_TeaClas.resx">
       <DependentUpon>Teacher_TeaClas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\AlreadyhaveClass.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\AlreadyhaveClass.resx">
       <DependentUpon>AlreadyhaveClass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\ChangePassWord.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\ChangePassWord.resx">
       <DependentUpon>ChangePassWord.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\genaratePin.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\genaratePin.resx">
       <DependentUpon>genaratePin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\ProfileEdition.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\ProfileEdition.resx">
       <DependentUpon>ProfileEdition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\RegisterSchedule.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\RegisterSchedule.resx">
       <DependentUpon>RegisterSchedule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\Score202122.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\Score202122.resx">
       <DependentUpon>Score202122.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\Score202223.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\Score202223.resx">
       <DependentUpon>Score202223.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\Score202425.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\Score202425.resx">
       <DependentUpon>Score202425.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentAchievements.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentAchievements.resx">
       <DependentUpon>StudentAchievements.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentForm_CourseButton.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentForm_CourseButton.resx">
       <DependentUpon>StudentForm_CourseButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentForm_Progess.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentForm_Progess.resx">
       <DependentUpon>StudentForm_Progess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentForm_StudentFee.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentForm_StudentFee.resx">
       <DependentUpon>StudentForm_StudentFee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentForm_StudentProfile.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentForm_StudentProfile.resx">
       <DependentUpon>StudentForm_StudentProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentMainForm.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentMainForm.resx">
       <DependentUpon>StudentMainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentScore.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentScore.resx">
       <DependentUpon>StudentScore.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Area\Student\View\StudentViewTheirClass.resx">
+    <EmbeddedResource Include="Area\StudentAreas\View\StudentViewTheirClass.resx">
       <DependentUpon>StudentViewTheirClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomControl\TextBox.resx">
@@ -660,16 +660,16 @@
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DBUniversityDataSet.xsc">
-      <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
+    <None Include="DBUniversity1DataSet.xsc">
+      <DependentUpon>DBUniversity1DataSet.xsd</DependentUpon>
     </None>
-    <None Include="DBUniversityDataSet.xsd">
+    <None Include="DBUniversity1DataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DBUniversityDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>DBUniversity1DataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DBUniversityDataSet.xss">
-      <DependentUpon>DBUniversityDataSet.xsd</DependentUpon>
+    <None Include="DBUniversity1DataSet.xss">
+      <DependentUpon>DBUniversity1DataSet.xsd</DependentUpon>
     </None>
     <None Include="Model\dbUniversity.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -740,6 +740,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\icon34.png" />
+    <None Include="Resources\icon33.png" />
+    <None Include="Resources\icon32.png" />
+    <None Include="Resources\icon31.png" />
+    <None Include="Resources\icon3.png" />
     <None Include="Resources\icons8-delete-100.png" />
     <None Include="Resources\icons8-down-24 %281%293.png" />
     <None Include="Resources\icons8-people-641.png" />

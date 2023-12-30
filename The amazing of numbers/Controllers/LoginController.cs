@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using The_amazing_of_numbers.Area.AcademicAffair.Controllers;
-using The_amazing_of_numbers.Area.Admin.Controllers;
-using The_amazing_of_numbers.Area.Admin.View;
+using The_amazing_of_numbers.Area.AdminArea.Controllers;
+using The_amazing_of_numbers.Area.AdminArea.View;
 using The_amazing_of_numbers.Area.Lecturer.Controllers;
-using The_amazing_of_numbers.Area.Student.Controllers;
+using The_amazing_of_numbers.Area.StudentAreas.Controllers;
 using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Controller
@@ -129,7 +129,7 @@ namespace The_amazing_of_numbers.Controller
                     adminController.AdminHomeView(user_model);
                     break;
                 case ("student"):
-                    StudentController studentController = new StudentController();
+                    StudentAreasController studentController = new StudentAreasController();
                     studentController.StudentHomeView(user_model);
                     break;
                 case ("lecture"):

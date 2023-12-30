@@ -8,6 +8,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.Lecturer.Controllers;
+using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Area.Lecturer.View
 {
@@ -15,11 +17,9 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
     {
         public Point mouseLocation; /* Declare mouse point to moving form */
         public static int parentX, parentY;
-        /*Set border line for winForm*/
-        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
-        /*Đoạn này khai báo một phương thức static extern cho hàm CreateRoundRectRgn từ thư viện GDI32.dll. 
-         * Hàm này được sử dụng để tạo một vùng hình chữ nhật có góc bo tròn.
-         */
+        dbUniversityDataContext db = new dbUniversityDataContext();
+        LecturerController lecturerController = new LecturerController();
+        private User cur_user;
         private static extern IntPtr CreateRoundRectRgn
              (
                  int nLeftRect,     // x-coordinate of upper-left corner
@@ -29,9 +29,12 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
                  int nWidthEllipse, // height of ellipse
                  int nHeightEllipse // width of ellipse
              );
-        public LecturerMainForm()
+        public LecturerMainForm(User cur_user)
         {
             InitializeComponent();
+            this.cur_user = cur_user;
+            Lecture lt = db.Lectures.Where(s => s.id == cur_user.id).FirstOrDefault();
+            ProfileLecture();
             customizeDesign();
             /*thiết lập kiểu viền của form thành không, loại bỏ viền mặc định.*/
             this.FormBorderStyle = FormBorderStyle.None;
@@ -92,7 +95,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
 
         private void ProfileButton2_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Teacher_profile());
+            OpenChildForm(new Teacher_profile(cur_user));
         }
 
         private void CourseButton2_Click(object sender, EventArgs e)
@@ -143,7 +146,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         }
         private void EditProfile_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Profile_Edit_Lec());
+            OpenChildForm(new Profile_Edit_Lec(cur_user));
         }
 
         private void RegisterButton_Click(object sender, EventArgs e)
@@ -235,7 +238,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         //Profile
         private void ProfileButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Teacher_profile());
+            OpenChildForm(new Teacher_profile(cur_user));
 
         }
         private void ProfileButton_MouseHover(object sender, EventArgs e)
@@ -318,5 +321,13 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
         {
 
         }
+        private void ProfileLecture()
+		{
+            string lecID = cur_user.id;
+            Lecture lt = lecturerController.infoDetails(lecID);
+            UserName.Text = lt.name_;
+            label9.Text = lt.id;
+            label13.Text = lt.status_;
+		}
     }
 }

@@ -7,14 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.AcademicAffair.Controllers;
+using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Area.AcademicAffair.View
 {
     public partial class ViewInfomations : Form
     {
-        public ViewInfomations()
+        dbUniversityDataContext db = new dbUniversityDataContext();
+        AcademicAffairController academicAffairController = new AcademicAffairController();
+        private User cur_user;
+        public ViewInfomations(User user)
         {
             InitializeComponent();
+            this.cur_user = user;
+            Academic_Affair aff = db.Academic_Affairs.Where(s => s.id == user.id).FirstOrDefault();
+            ProfileAcademicAffair();
         }
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -64,6 +72,20 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         {
 
         }
-
+        private void ProfileAcademicAffair()
+        {
+            string adminID = cur_user.id;
+            Academic_Affair aff= academicAffairController.infoDetail(adminID);
+            if (aff != null)
+            {
+                label11.Text = aff.name_;
+                guna2TextBox7.Text = aff.id;
+                label13.Text = aff.sex;
+                guna2TextBox5.Text = aff.phone_num;
+                guna2TextBox2.Text = aff.department_id;
+                guna2TextBox6.Text = aff.dob;
+                guna2TextBox3.Text = aff.username;
+            }
+        }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using The_amazing_of_numbers.Area.Admin.View;
+using The_amazing_of_numbers.Area.AdminArea.View;
 using The_amazing_of_numbers.Area.Lecturer.View;
 using The_amazing_of_numbers.Model;
 
@@ -16,7 +16,12 @@ namespace The_amazing_of_numbers.Area.Lecturer.Controllers
         public void LecturerHomeView(User user_model)
         {
             cur_user = user_model;
-            new LecturerMainForm().Show();
+            new LecturerMainForm(cur_user).Show();
+        }
+        public Lecture infoDetails(string id)
+        {
+            Lecture lt = db.Lectures.Where(l => l.id == id).FirstOrDefault();
+            return lt;
         }
     }
 }

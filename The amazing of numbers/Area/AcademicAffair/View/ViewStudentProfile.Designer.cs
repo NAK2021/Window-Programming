@@ -38,8 +38,8 @@
             this.MyProfileBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label6 = new System.Windows.Forms.Label();
             this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
-            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.StudentTableAdapter();
+            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversity1DataSet();
+            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversity1DataSetTableAdapters.StudentTableAdapter();
             this.panelchild.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
@@ -235,7 +235,7 @@
         private Guna.UI2.WinForms.Guna2Button MyProfileBtn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.BindingSource studentBindingSource;
-        private DBUniversityDataSet dBUniversityDataSet;
-        private DBUniversityDataSetTableAdapters.StudentTableAdapter studentTableAdapter;
+        private DBUniversity1DataSet dBUniversityDataSet;
+        private DBUniversity1DataSetTableAdapters.StudentTableAdapter studentTableAdapter;
     }
 }

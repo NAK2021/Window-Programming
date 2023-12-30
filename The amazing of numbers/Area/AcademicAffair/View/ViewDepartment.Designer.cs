@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.StudentTableAdapter();
+            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversity1DataSetTableAdapters.StudentTableAdapter();
             this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dbUniversityDataSet2 = new The_amazing_of_numbers.DBUniversityDataSet();
-            this.lectureTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.LectureTableAdapter();
-            this.dbUniversityDataSet1 = new The_amazing_of_numbers.DBUniversityDataSet();
+            this.dbUniversityDataSet2 = new The_amazing_of_numbers.DBUniversity1DataSet();
+            this.lectureTableAdapter = new The_amazing_of_numbers.DBUniversity1DataSetTableAdapters.LectureTableAdapter();
+            this.dbUniversityDataSet1 = new The_amazing_of_numbers.DBUniversity1DataSet();
             this.lectureBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label16 = new System.Windows.Forms.Label();
             this.ClassesBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -46,8 +46,8 @@
             this.MyProfileBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label6 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.departmentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.DepartmentTableAdapter();
-            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
+            this.departmentTableAdapter = new The_amazing_of_numbers.DBUniversity1DataSetTableAdapters.DepartmentTableAdapter();
+            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversity1DataSet();
             this.departmentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dbUniversityDataSet2)).BeginInit();
@@ -302,11 +302,11 @@
 
         #endregion
 
-        private DBUniversityDataSetTableAdapters.StudentTableAdapter studentTableAdapter;
+        private DBUniversity1DataSetTableAdapters.StudentTableAdapter studentTableAdapter;
         private System.Windows.Forms.BindingSource studentBindingSource;
-        private DBUniversityDataSet dbUniversityDataSet2;
-        private DBUniversityDataSetTableAdapters.LectureTableAdapter lectureTableAdapter;
-        private DBUniversityDataSet dbUniversityDataSet1;
+        private DBUniversity1DataSet dbUniversityDataSet2;
+        private DBUniversity1DataSetTableAdapters.LectureTableAdapter lectureTableAdapter;
+        private DBUniversity1DataSet dbUniversityDataSet1;
         private System.Windows.Forms.BindingSource lectureBindingSource;
         private System.Windows.Forms.Label label16;
         private Guna.UI2.WinForms.Guna2Button ClassesBtn;
@@ -319,8 +319,8 @@
         private Guna.UI2.WinForms.Guna2Button MyProfileBtn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private DBUniversityDataSetTableAdapters.DepartmentTableAdapter departmentTableAdapter;
-        private DBUniversityDataSet dBUniversityDataSet;
+        private DBUniversity1DataSetTableAdapters.DepartmentTableAdapter departmentTableAdapter;
+        private DBUniversity1DataSet dBUniversityDataSet;
         private System.Windows.Forms.BindingSource departmentBindingSource;
     }
 }

@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Area.AcademicAffair.View
 {
     public partial class ViewClassRegistered : Form
     {
+        private User cur_user;
         public ViewClassRegistered()
         {
             InitializeComponent();
@@ -33,7 +35,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         }
         private void ProfileBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewInfomations());
+            OpenChildForm(new ViewInfomations(cur_user));
 
         }
         private void StudentProfile_Click(object sender, EventArgs e)

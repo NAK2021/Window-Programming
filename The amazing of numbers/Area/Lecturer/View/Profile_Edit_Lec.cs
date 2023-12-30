@@ -8,15 +8,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using The_amazing_of_numbers.Area.Lecturer.Controllers;
+using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Area.Lecturer.View
 {
     public partial class Profile_Edit_Lec : Form
     {
         public static int parentX, parentY;
-        public Profile_Edit_Lec()
+        dbUniversityDataContext db = new dbUniversityDataContext();
+        LecturerController lectureController = new LecturerController();
+        private User cur_user;
+        public Profile_Edit_Lec(User cur_user)
         {
             InitializeComponent();
+            this.cur_user = cur_user;
+            Lecture lt = db.Lectures.Where(s => s.id == cur_user.id).FirstOrDefault();
+            ProfileEdit();
         }
         /*Setting multi panel child content*/
         //Panel child content 
@@ -48,7 +56,7 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Teacher_profile());  
+            OpenChildForm(new Teacher_profile(cur_user));  
         }
         //ChangePass button
         private void ChangPassBtn_Click(object sender, EventArgs e)
@@ -118,5 +126,27 @@ namespace The_amazing_of_numbers.Area.Lecturer.View
                 }
             }
         }
+
+		private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void ProfileEdit()
+		{
+            string lecID = cur_user.id;
+            Lecture lt = lectureController.infoDetails(lecID);
+            IDnum.Text = lt.id;
+            guna2TextBox2.Text = lt.status_;
+            guna2TextBox5.Text = lt.department_id;
+            guna2TextBox8.Text = Convert.ToString(lt.Teaching_Experience);
+            label12.Text = lt.Academic_rank;
+            guna2TextBox1.Text = lt.name_;
+            guna2TextBox4.Text = lt.phone;
+            guna2TextBox6.Text = lt.email;
+            guna2TextBox7.Text = lt.sex;
+            guna2TextBox9.Text = lt.dob;
+
+		}
     }
 }

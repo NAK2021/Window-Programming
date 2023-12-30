@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using The_amazing_of_numbers.Area.Lecturer.View;
+using The_amazing_of_numbers.Model;
 
 namespace The_amazing_of_numbers.Area.AcademicAffair.View
 {
@@ -15,9 +16,14 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
     {
         public Point mouseLocation; /* Declare mouse point to moving form */
         public static int parentX, parentY;
-        public AcademicAffairMainForm()
+        dbUniversityDataContext db = new dbUniversityDataContext();
+        private User cur_user;
+        
+        public AcademicAffairMainForm(User cur_user)
         {
             InitializeComponent();
+            this.cur_user = cur_user;
+            Academic_Affair aff = db.Academic_Affairs.Where(s => s.id == cur_user.id).FirstOrDefault();
         }
 
         private void AcademicAffairMainForm_Load(object sender, EventArgs e)
@@ -121,7 +127,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         //View Button --> ViewProfile
         private void ViewProfile_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewInfomations());
+            OpenChildForm(new ViewInfomations(cur_user));
         }
         //View Button --> ViewStudent
         private void ViewStudent_Click(object sender, EventArgs e)
@@ -154,7 +160,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         //View Button
         private void ViewButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewInfomations());   
+            OpenChildForm(new ViewInfomations(cur_user));   
         }
         //Statistic Button
         private void StatisticButton_Click(object sender, EventArgs e)
@@ -211,7 +217,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         }
         private void ProfileButton_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewInfomations());
+            OpenChildForm(new ViewInfomations(cur_user));
         }
         private void AddingBtn_Click(object sender, EventArgs e)
         {
@@ -223,7 +229,7 @@ namespace The_amazing_of_numbers.Area.AcademicAffair.View
         }
         private void ViewBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ViewInfomations());   
+            OpenChildForm(new ViewInfomations(cur_user));   
         }
         private void DivineBtn_Click(object sender, EventArgs e)
         {

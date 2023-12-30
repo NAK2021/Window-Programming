@@ -38,12 +38,12 @@
             this.MyProfileBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label6 = new System.Windows.Forms.Label();
             this.lectureBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversityDataSet();
-            this.lectureTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.LectureTableAdapter();
+            this.dBUniversityDataSet = new The_amazing_of_numbers.DBUniversity1DataSet();
+            this.lectureTableAdapter = new The_amazing_of_numbers.DBUniversity1DataSetTableAdapters.LectureTableAdapter();
             this.panelchild = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dbUniversityDataSet1 = new The_amazing_of_numbers.DBUniversityDataSet();
-            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversityDataSetTableAdapters.StudentTableAdapter();
+            this.dbUniversityDataSet1 = new The_amazing_of_numbers.DBUniversity1DataSet();
+            this.studentTableAdapter = new The_amazing_of_numbers.DBUniversity1DataSetTableAdapters.StudentTableAdapter();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lectureBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBUniversityDataSet)).BeginInit();
@@ -273,11 +273,11 @@
         private Guna.UI2.WinForms.Guna2Button MyProfileBtn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.BindingSource lectureBindingSource;
-        private DBUniversityDataSet dBUniversityDataSet;
-        private DBUniversityDataSetTableAdapters.LectureTableAdapter lectureTableAdapter;
+        private DBUniversity1DataSet dBUniversityDataSet;
+        private DBUniversity1DataSetTableAdapters.LectureTableAdapter lectureTableAdapter;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel panelchild;
         private System.Windows.Forms.BindingSource studentBindingSource;
-        private DBUniversityDataSet dbUniversityDataSet1;
-        private DBUniversityDataSetTableAdapters.StudentTableAdapter studentTableAdapter;
+        private DBUniversity1DataSet dbUniversityDataSet1;
+        private DBUniversity1DataSetTableAdapters.StudentTableAdapter studentTableAdapter;
     }
 }

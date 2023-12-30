@@ -76,5 +76,16 @@ namespace The_amazing_of_numbers.Properties {
                 return ((string)(this["DBUniversityConnectionString2"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MSI\\MSSQLSERVER01;Initial Catalog=DBUniversity1;Integrated Security=T" +
+            "rue")]
+        public string DBUniversity1ConnectionString {
+            get {
+                return ((string)(this["DBUniversity1ConnectionString"]));
+            }
+        }
     }
 }
