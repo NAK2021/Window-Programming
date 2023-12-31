@@ -9,7 +9,8 @@ Lưu ý:</br>
 
 
 
-How to setup EXE file
+How to setup EXE file:
+
 1. If you don't have the Microsoft Visual Installer Projects 2022 then go to Extensions --> Manage Extensions</br>
    ![image](https://github.com/NAK2021/Window-Programming/assets/94731256/901df579-e705-49f0-9f73-b8a0c3ed35c3)
 2. Click Online And Download the Project like the image below</br>
